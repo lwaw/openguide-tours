@@ -1,0 +1,57 @@
+{
+  "tours": [
+    {
+      "id": "rijksmuseum-highlights",
+      "name": {
+        "en": "Rijksmuseum Highlights",
+        "nl": "Rijksmuseum Hoogtepunten"
+      },
+      "type": "museum",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "thumbnail": "rijksmuseum-highlights/thumbnail.jpg",
+      "duration": 60,
+      "stopCount": 3
+    },
+    {
+      "id": "van-gogh-masterpieces",
+      "name": {
+        "en": "Van Gogh Masterpieces",
+        "nl": "Van Gogh Meesterwerken"
+      },
+      "type": "museum",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "thumbnail": "van-gogh-masterpieces/thumbnail.jpg",
+      "duration": 45,
+      "stopCount": 3
+    },
+    {
+      "id": "louvre-must-see",
+      "name": {
+        "en": "Louvre Must-See",
+        "nl": "Louvre Hoogtepunten",
+        "fr": "Incontournables du Louvre"
+      },
+      "type": "museum",
+      "city": "Paris",
+      "country": "France",
+      "thumbnail": "louvre-must-see/thumbnail.jpg",
+      "duration": 90,
+      "stopCount": 3
+    },
+    {
+      "id": "amsterdam-canal-walk",
+      "name": {
+        "en": "Amsterdam Canal Walk",
+        "nl": "Amsterdam Grachtenwandeling"
+      },
+      "type": "city",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "thumbnail": "amsterdam-canal-walk/thumbnail.jpg",
+      "duration": 90,
+      "stopCount": 3
+    }
+  ]
+}

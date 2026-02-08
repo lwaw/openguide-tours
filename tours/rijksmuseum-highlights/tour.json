@@ -1,0 +1,143 @@
+{
+  "id": "rijksmuseum-highlights",
+  "name": {
+    "en": "Rijksmuseum Highlights",
+    "nl": "Rijksmuseum Hoogtepunten",
+    "de": "Rijksmuseum Highlights"
+  },
+  "description": {
+    "en": "The Rijksmuseum is a Dutch national museum dedicated to arts and history in Amsterdam. It is the largest art museum in the Netherlands, housing over 8,000 objects of art and history from the years 1200 to 2000.",
+    "nl": "Het Rijksmuseum is een Nederlands nationaal museum gewijd aan kunst en geschiedenis in Amsterdam. Het is het grootste kunstmuseum van Nederland, met meer dan 8.000 kunstvoorwerpen en historische objecten uit de periode 1200 tot 2000.",
+    "de": "Das Rijksmuseum ist ein niederländisches Nationalmuseum für Kunst und Geschichte in Amsterdam. Es ist das größte Kunstmuseum der Niederlande und beherbergt über 8.000 Kunst- und Geschichtsobjekte aus den Jahren 1200 bis 2000."
+  },
+  "type": "museum",
+  "duration": 60,
+  "distance": null,
+
+  "venue": {
+    "name": {
+      "en": "Rijksmuseum",
+      "nl": "Rijksmuseum",
+      "de": "Rijksmuseum"
+    },
+    "address": "Museumstraat 1, 1071 XX Amsterdam",
+    "location": {
+      "latitude": 52.3600,
+      "longitude": 4.8852
+    }
+  },
+
+  "supportedLanguages": ["en", "nl", "de", "fr"],
+  "defaultLanguage": "en",
+
+  "stops": [
+    {
+      "id": "night-watch",
+      "order": 1,
+      "name": {
+        "en": "The Night Watch",
+        "nl": "De Nachtwacht",
+        "de": "Die Nachtwache"
+      },
+      "subtitle": {
+        "en": "Rembrandt van Rijn, 1642",
+        "nl": "Rembrandt van Rijn, 1642",
+        "de": "Rembrandt van Rijn, 1642"
+      },
+      "location": {
+        "latitude": 52.359945,
+        "longitude": 4.885321,
+        "indoor": {
+          "floor": 2,
+          "room": "Gallery of Honour"
+        },
+        "directions": {
+          "en": "Located at the end of the Gallery of Honour on the second floor. Walk straight through the main hall and you will see it at the far end.",
+          "nl": "Aan het einde van de Eregalerij op de tweede verdieping. Loop rechtdoor door de grote zaal en u ziet het aan het einde.",
+          "de": "Am Ende der Ehrengalerie im zweiten Stock. Gehen Sie geradeaus durch die Haupthalle und Sie sehen es am Ende."
+        }
+      },
+      "description": {
+        "en": "The Night Watch is one of the most famous Dutch Golden Age paintings. Painted by Rembrandt van Rijn in 1642, it depicts a group portrait of a militia company led by Captain Frans Banninck Cocq and his lieutenant Willem van Ruytenburch. The painting is renowned for its colossal size, measuring over three and a half meters tall, its dramatic use of light and shadow, and the sense of motion in what would traditionally be a static portrait. Rembrandt chose to capture the moment the company is setting out on a march, with the captain giving orders and the men preparing their weapons. The title Night Watch is actually a misnomer, as the scene takes place during the day. Centuries of dirt and varnish had darkened the painting so much that viewers believed it depicted a night scene.",
+        "nl": "De Nachtwacht is een van de beroemdste schilderijen uit de Nederlandse Gouden Eeuw. Geschilderd door Rembrandt van Rijn in 1642, toont het een groepsportret van een schutterscompagnie onder leiding van kapitein Frans Banninck Cocq en zijn luitenant Willem van Ruytenburch. Het schilderij staat bekend om zijn kolossale formaat van meer dan drieënhalve meter hoog, het dramatische gebruik van licht en schaduw, en het gevoel van beweging in wat traditioneel een statisch portret zou zijn. Rembrandt koos ervoor om het moment vast te leggen waarop de compagnie op mars gaat. De titel Nachtwacht is eigenlijk een verkeerde benaming, want de scène speelt zich overdag af.",
+        "de": "Die Nachtwache ist eines der berühmtesten Gemälde des Goldenen Zeitalters der Niederlande. Von Rembrandt van Rijn im Jahr 1642 gemalt, zeigt es ein Gruppenporträt einer Schützenkompanie unter der Führung von Kapitän Frans Banninck Cocq. Das Gemälde ist bekannt für seine kolossale Größe von über dreieinhalb Metern Höhe, seinen dramatischen Einsatz von Licht und Schatten und das Gefühl von Bewegung."
+      },
+      "images": [
+        "rijksmuseum-highlights/night-watch-main.jpg"
+      ],
+      "tags": ["painting", "dutch-masters", "17th-century", "group-portrait"]
+    },
+    {
+      "id": "milkmaid",
+      "order": 2,
+      "name": {
+        "en": "The Milkmaid",
+        "nl": "Het Melkmeisje",
+        "de": "Die Milchmagd"
+      },
+      "subtitle": {
+        "en": "Johannes Vermeer, 1658",
+        "nl": "Johannes Vermeer, 1658",
+        "de": "Johannes Vermeer, 1658"
+      },
+      "location": {
+        "latitude": 52.359912,
+        "longitude": 4.885298,
+        "indoor": {
+          "floor": 2,
+          "room": "Gallery of Honour"
+        },
+        "directions": {
+          "en": "In the Gallery of Honour on the second floor, in a side room to your left before reaching The Night Watch.",
+          "nl": "In de Eregalerij op de tweede verdieping, in een zijkamer links voordat u De Nachtwacht bereikt.",
+          "de": "In der Ehrengalerie im zweiten Stock, in einem Seitenraum zu Ihrer Linken bevor Sie die Nachtwache erreichen."
+        }
+      },
+      "description": {
+        "en": "The Milkmaid is a masterpiece by Johannes Vermeer, painted around 1658. This intimate scene shows a kitchen maid carefully pouring milk into an earthenware container. Vermeer captures an ordinary moment with extraordinary attention to detail and light. Notice how the morning light streams through the window, illuminating the bread, the blue of her apron, and the rough texture of the walls. The painting is remarkably small, only about 45 centimeters tall, yet it creates an immersive world. Vermeer used a technique called pointillé, applying small dots of paint to create the illusion of light reflecting off surfaces. The milk appears to actually flow from the pitcher, a testament to Vermeer's mastery. This humble subject, elevated through artistic genius, has become one of the most beloved images in Western art.",
+        "nl": "Het Melkmeisje is een meesterwerk van Johannes Vermeer, geschilderd rond 1658. Dit intieme tafereel toont een keukenmeid die zorgvuldig melk in een aardewerken pot giet. Vermeer vangt een alledaags moment met buitengewone aandacht voor detail en licht. Let op hoe het ochtendlicht door het raam stroomt en het brood, het blauw van haar schort en de ruwe textuur van de muren verlicht. Het schilderij is opmerkelijk klein, slechts ongeveer 45 centimeter hoog, maar creëert een meeslepende wereld.",
+        "de": "Die Milchmagd ist ein Meisterwerk von Johannes Vermeer aus dem Jahr 1658. Diese intime Szene zeigt eine Küchenmagd, die sorgfältig Milch in einen Tonbehälter gießt. Vermeer erfasst einen gewöhnlichen Moment mit außergewöhnlicher Aufmerksamkeit für Details und Licht. Beachten Sie, wie das Morgenlicht durch das Fenster strömt und das Brot, das Blau ihrer Schürze und die raue Textur der Wände beleuchtet."
+      },
+      "images": [
+        "rijksmuseum-highlights/milkmaid-main.jpg"
+      ],
+      "tags": ["painting", "dutch-masters", "17th-century", "genre-painting"]
+    },
+    {
+      "id": "jewish-bride",
+      "order": 3,
+      "name": {
+        "en": "The Jewish Bride",
+        "nl": "Het Joodse Bruidje",
+        "de": "Die Judenbraut"
+      },
+      "subtitle": {
+        "en": "Rembrandt van Rijn, 1667",
+        "nl": "Rembrandt van Rijn, 1667",
+        "de": "Rembrandt van Rijn, 1667"
+      },
+      "location": {
+        "latitude": 52.359938,
+        "longitude": 4.885315,
+        "indoor": {
+          "floor": 2,
+          "room": "Gallery of Honour"
+        },
+        "directions": {
+          "en": "In the Gallery of Honour on the second floor, near The Night Watch.",
+          "nl": "In de Eregalerij op de tweede verdieping, in de buurt van De Nachtwacht.",
+          "de": "In der Ehrengalerie im zweiten Stock, in der Nähe der Nachtwache."
+        }
+      },
+      "description": {
+        "en": "The Jewish Bride, painted by Rembrandt around 1667, is considered one of his most moving works. The painting shows a couple in an intimate embrace, the man's hand resting gently on the woman's chest while she touches his hand with hers. The title was given in the 19th century and the true identity of the couple remains unknown. What makes this painting extraordinary is the emotional depth Rembrandt achieved through his loose, expressive brushwork and warm golden tones. Vincent van Gogh once said he would give ten years of his life to sit before this painting for two weeks with only a crust of bread to eat. The thick impasto technique, where paint is applied in heavy layers, creates an almost tactile quality, as if you could feel the richness of the fabrics.",
+        "nl": "Het Joodse Bruidje, geschilderd door Rembrandt rond 1667, wordt beschouwd als een van zijn meest ontroerende werken. Het schilderij toont een paar in een intieme omhelzing. De titel werd in de 19e eeuw gegeven en de ware identiteit van het paar blijft onbekend. Wat dit schilderij buitengewoon maakt, is de emotionele diepte die Rembrandt bereikte door zijn losse, expressieve penseelvoering en warme gouden tinten. Vincent van Gogh zei ooit dat hij tien jaar van zijn leven zou geven om twee weken voor dit schilderij te zitten.",
+        "de": "Die Judenbraut, um 1667 von Rembrandt gemalt, gilt als eines seiner bewegendsten Werke. Das Gemälde zeigt ein Paar in inniger Umarmung. Der Titel wurde im 19. Jahrhundert vergeben und die wahre Identität des Paares bleibt unbekannt. Was dieses Gemälde außergewöhnlich macht, ist die emotionale Tiefe, die Rembrandt durch seinen lockeren, expressiven Pinselstrich und warme Goldtöne erreichte."
+      },
+      "images": [
+        "rijksmuseum-highlights/jewish-bride-main.jpg"
+      ],
+      "tags": ["painting", "dutch-masters", "17th-century", "portrait"]
+    }
+  ]
+}
