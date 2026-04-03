@@ -41,6 +41,21 @@
       "stopCount": 3
     },
     {
+      "id": "stedelijk-museum-breda",
+      "name": {
+        "nl": "Stedelijk Museum Breda",
+        "en": "Stedelijk Museum Breda",
+        "de": "Stedelijk Museum Breda",
+        "fr": "Musée Municipal de Breda"
+      },
+      "type": "museum",
+      "city": "Breda",
+      "country": "Netherlands",
+      "thumbnail": "stedelijk-museum-breda/thumbnail.jpg",
+      "duration": 75,
+      "stopCount": 10
+    },
+    {
       "id": "amsterdam-canal-walk",
       "name": {
         "en": "Amsterdam Canal Walk",
