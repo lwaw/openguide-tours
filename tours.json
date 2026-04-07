@@ -72,6 +72,21 @@
       "duration": 90,
       "stopCount": 3,
       "startLocation": { "latitude": 52.3731, "longitude": 4.8932 }
+    },
+    {
+      "id": "utrecht-city-walk",
+      "name": {
+        "en": "Utrecht City Walk",
+        "nl": "Utrecht Stadswandeling",
+        "de": "Utrecht Stadtrundgang"
+      },
+      "type": "city",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "thumbnail": "utrecht-city-walk/thumbnail.jpg",
+      "duration": 180,
+      "stopCount": 17,
+      "startLocation": { "latitude": 52.0892, "longitude": 5.1038 }
     }
   ]
 }

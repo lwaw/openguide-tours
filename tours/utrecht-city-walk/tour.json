@@ -1,0 +1,579 @@
+{
+  "id": "utrecht-city-walk",
+  "name": {
+    "en": "Utrecht City Walk",
+    "nl": "Utrecht Stadswandeling",
+    "de": "Utrecht Stadtrundgang"
+  },
+  "description": {
+    "en": "Discover Utrecht on foot — from the iconic Bollendak at the train station, through medieval cloisters, along the ancient Oudegracht canal, past the soaring Dom Tower, and back again. This walk weaves together seven centuries of history, surprising architecture, and the birthplace of Miffy.",
+    "nl": "Ontdek Utrecht te voet — van het iconische Bollendak bij het station, door middeleeuwse pandgangen, langs de historische Oudegracht, voorbij de imposante Domtoren en terug. Deze wandeling verbindt zeven eeuwen geschiedenis, verrassende architectuur en de geboorteplaats van Nijntje.",
+    "de": "Entdecken Sie Utrecht zu Fuß — vom ikonischen Bollendak am Bahnhof durch mittelalterliche Kreuzgänge, entlang des historischen Oudegracht-Kanals, am imposanten Domturm vorbei und zurück. Dieser Spaziergang verbindet sieben Jahrhunderte Geschichte, überraschende Architektur und den Geburtsort von Miffy."
+  },
+  "type": "city",
+  "duration": 180,
+  "distance": 5.0,
+
+  "startPoint": {
+    "name": {
+      "en": "Bollendak, Utrecht Centraal",
+      "nl": "Bollendak, Utrecht Centraal",
+      "de": "Bollendak, Utrecht Centraal"
+    },
+    "address": "Stationsplein, 3511 CE Utrecht",
+    "location": {
+      "latitude": 52.0892,
+      "longitude": 5.1038
+    }
+  },
+
+  "supportedLanguages": ["en", "nl", "de"],
+  "defaultLanguage": "en",
+
+  "stops": [
+    {
+      "id": "bollendak",
+      "order": 1,
+      "name": {
+        "en": "Utrecht Centraal & the Bollendak",
+        "nl": "Utrecht Centraal & het Bollendak",
+        "de": "Utrecht Centraal & das Bollendak"
+      },
+      "subtitle": {
+        "en": "Your starting point — gateway to the city",
+        "nl": "Uw startpunt — poort naar de stad",
+        "de": "Ihr Ausgangspunkt — Tor zur Stadt"
+      },
+      "location": {
+        "latitude": 52.0892,
+        "longitude": 5.1038,
+        "directions": {
+          "en": "Stand in the open plaza in front of Utrecht Centraal Station, facing the distinctive curved Bollendak roof structure.",
+          "nl": "Sta op het open plein voor Utrecht Centraal Station, met het kenmerkende gebogen Bollendak voor u.",
+          "de": "Stehen Sie auf dem offenen Platz vor dem Bahnhof Utrecht Centraal, das markante geschwungene Bollendak-Dach vor sich."
+        }
+      },
+      "description": {
+        "en": "Welcome to Utrecht — and what a beginning! The sweeping curved structure above you is the Bollendak, literally the 'bowl roof', the defining architectural symbol of Utrecht's main train station. The station complex was completed in 1921 and has been the gateway to the city for over a century. Today more than 130,000 passengers pass through here daily, making it one of the busiest stations in the Netherlands.\n\nThe Stationsplein square beneath your feet was completely reimagined and reopened in 2019, featuring a new tram and bus terminal on the city side. Beneath the plaza lies one of the world's largest bicycle parking garages — with space for over 33,000 bikes — a fitting statement for a city often called the cycling capital of the Netherlands.\n\nAs you stand here, take a moment to absorb the scale of this place. Behind you, trains arrive from every corner of the country. Ahead of you, the medieval city of Utrecht stretches out, waiting to be discovered. This walk will take you through seven centuries of history, remarkable architecture, and the stories of the remarkable people who shaped this city. Let's begin.",
+        "nl": "Welkom in Utrecht — wat een prachtig begin! De sierlijke gebogen constructie boven u is het Bollendak, het bepalende architectonische symbool van Utrecht Centraal. Het stationscomplex werd voltooid in 1921 en is sindsdien de poort tot de stad. Dagelijks passeren hier meer dan 130.000 reizigers, waarmee het een van de drukste stations van Nederland is.\n\nHet Stationsplein onder uw voeten werd volledig vernieuwd en heropend in 2019, met een nieuw tram- en busstation aan de stadszijde. Onder het plein bevindt zich een van de grootste fietsenstallingen ter wereld — met ruimte voor meer dan 33.000 fietsen — een passend statement voor een stad die vaak de fietshoofstad van Nederland wordt genoemd.\n\nNeem even de tijd om de omgeving in u op te nemen. Achter u arriveren treinen uit alle hoeken van het land. Voor u strekt de middeleeuwse stad Utrecht zich uit, klaar om ontdekt te worden. Deze wandeling neemt u mee door zeven eeuwen geschiedenis, bijzondere architectuur en de verhalen van opmerkelijke mensen die deze stad hebben gevormd. Laten we beginnen.",
+        "de": "Willkommen in Utrecht — was für ein Auftakt! Die geschwungene Konstruktion über Ihnen ist das Bollendak, wörtlich das 'Schüsseldach', das prägende architektonische Symbol des Utrechter Hauptbahnhofs. Der Bahnhofskomplex wurde 1921 fertiggestellt und ist seit über einem Jahrhundert das Tor zur Stadt. Täglich passieren hier mehr als 130.000 Fahrgäste, was ihn zu einem der verkehrsreichsten Bahnhöfe der Niederlande macht.\n\nDer Stationsplein unter Ihren Füßen wurde 2019 komplett neugestaltet und wiedereröffnet. Unter dem Platz befindet sich eine der größten Fahrradparkhäuser der Welt — mit Platz für über 33.000 Fahrräder — eine passende Aussage für eine Stadt, die oft als Fahrradhauptstadt der Niederlande bezeichnet wird.\n\nNehmen Sie sich einen Moment, um die Umgebung aufzunehmen. Hinter Ihnen kommen Züge aus allen Ecken des Landes an. Vor Ihnen erstreckt sich die mittelalterliche Stadt Utrecht, bereit entdeckt zu werden. Dieser Spaziergang führt Sie durch sieben Jahrhunderte Geschichte, bemerkenswerte Architektur und die Geschichten der außergewöhnlichen Menschen, die diese Stadt geprägt haben. Lasst uns beginnen."
+      },
+      "images": [
+        "utrecht-city-walk/bollendak.jpg"
+      ],
+      "tags": ["architecture", "transport", "landmark", "start"]
+    },
+    {
+      "id": "inktpot",
+      "order": 2,
+      "name": {
+        "en": "De Inktpot",
+        "nl": "De Inktpot",
+        "de": "De Inktpot"
+      },
+      "subtitle": {
+        "en": "1919–1921 · 22 million bricks · the largest brick building in the Netherlands",
+        "nl": "1919–1921 · 22 miljoen stenen · het grootste bakstenen gebouw van Nederland",
+        "de": "1919–1921 · 22 Millionen Ziegel · das größte Backsteingebäude der Niederlande"
+      },
+      "location": {
+        "latitude": 52.0874,
+        "longitude": 5.1075,
+        "directions": {
+          "en": "From the Bollendak, walk south through Moreelsepark. De Inktpot will come into view on your right — you cannot miss it.",
+          "nl": "Wandel vanaf het Bollendak naar het zuiden door het Moreelsepark. De Inktpot is rechts van u zichtbaar — u kunt het niet missen.",
+          "de": "Gehen Sie vom Bollendak nach Süden durch den Moreelsepark. De Inktpot ist rechts von Ihnen sichtbar — Sie können es nicht verfehlen."
+        }
+      },
+      "description": {
+        "en": "Look to your right. That extraordinary rounded building that resembles a giant inkwell is De Inktpot — and the name is entirely deliberate. Architect George van Heukelom designed this 1920 railway administration building to evoke the image of an ink bottle, reflecting its original purpose as the bureaucratic heart of the Dutch railways.\n\nThe scale is almost incomprehensible. Constructed between 1919 and 1921, De Inktpot contains over 22 million red bricks, making it the largest brick building in the Netherlands. To supply materials for this colossal project, the Dutch state railways had to purchase two entire brick factories, a timber company, and even a forest in Limburg. For the foundation alone, 21 kilometres of old railway rails were repurposed underground.\n\nThe architectural style blends Cubism with German Expressionism — very modern for its time. Look for the intricate glazed brick finishes and Art Deco details that reward a careful eye. On the roof you may spot a 12-metre sculpture of a UFO, the last remaining artwork from Utrecht's 2000 Panorama art exhibition. Since 1995, the building has housed the headquarters of ProRail, the organisation that manages the Dutch railway network. A fitting tenant for a building born from the railways.",
+        "nl": "Kijk naar rechts. Dat buitengewone ronde gebouw dat lijkt op een reusachtige inktpot is De Inktpot — en de naam is volledig opzettelijk. Architect George van Heukelom ontwierp dit spoorwegkantoor uit 1920 als een verwijzing naar een inktfles, passend bij de oorspronkelijke functie als bureaucratisch hart van de Nederlandse spoorwegen.\n\nDe omvang is bijna onvoorstelbaar. Gebouwd tussen 1919 en 1921 bevat De Inktpot meer dan 22 miljoen rode bakstenen, waarmee het het grootste bakstenen gebouw van Nederland is. Om materialen voor dit kolossale project te leveren moest de Nederlandse Spoorwegen twee complete steenfabrieken, een timmerbedrijf en zelfs een bos in Limburg kopen. Voor de fundering alleen werden 21 kilometer oude spoorstaven hergebruikt.\n\nDe architectuurstijl combineert kubisme met Duits expressionisme — zeer modern voor die tijd. Let op de ingewikkelde geglazuurde baksteenafwerkingen en art-deco details. Op het dak ziet u mogelijk een 12 meter hoog ufo-sculptuur, het laatste overblijfsel van de Utrechtse Panorama-kunsttentoonstelling van 2000. Sinds 1995 huisvest het gebouw het hoofdkantoor van ProRail — een passende huurder voor een gebouw dat uit de spoorwegen is geboren.",
+        "de": "Schauen Sie nach rechts. Das außergewöhnliche runde Gebäude, das einem riesigen Tintenfass ähnelt, ist De Inktpot — und der Name ist völlig absichtlich. Architekt George van Heukelom entwarf dieses Eisenbahnverwaltungsgebäude von 1920 als Anspielung auf ein Tintenfläschchen, passend zu seiner ursprünglichen Funktion als bürokratisches Herz der niederländischen Eisenbahnen.\n\nDas Ausmaß ist kaum zu fassen. Zwischen 1919 und 1921 erbaut, enthält De Inktpot über 22 Millionen rote Ziegel und ist damit das größte Backsteingebäude der Niederlande. Für das Fundament allein wurden 21 Kilometer alter Eisenbahnschienen wiederverwendet. Der architektonische Stil verbindet Kubismus mit deutschem Expressionismus — für seine Zeit sehr modern. Seit 1995 beherbergt das Gebäude den Hauptsitz von ProRail — ein passender Mieter für ein Gebäude, das aus den Eisenbahnen geboren wurde."
+      },
+      "images": [
+        "utrecht-city-walk/inktpot.jpg"
+      ],
+      "tags": ["architecture", "industrial", "railway", "landmark"]
+    },
+    {
+      "id": "truus-van-lier",
+      "order": 3,
+      "name": {
+        "en": "Statue of Truus van Lier",
+        "nl": "Standbeeld Truus van Lier",
+        "de": "Denkmal Truus van Lier"
+      },
+      "subtitle": {
+        "en": "Resistance fighter · 1921–1943 · unveiled 22 April 2022",
+        "nl": "Verzetsstrijdster · 1921–1943 · onthuld 22 april 2022",
+        "de": "Widerstandskämpferin · 1921–1943 · enthüllt am 22. April 2022"
+      },
+      "location": {
+        "latitude": 52.0870,
+        "longitude": 5.1150,
+        "directions": {
+          "en": "Continue south through the park. The statue of Truus van Lier stands in the Zocherpark area, near the corner of Willemsplantsoen.",
+          "nl": "Loop verder naar het zuiden door het park. Het standbeeld van Truus van Lier staat in het Zocherpark, bij de hoek van het Willemsplantsoen.",
+          "de": "Gehen Sie weiter südlich durch den Park. Das Denkmal von Truus van Lier steht im Zocherpark, in der Nähe der Ecke Willemsplantsoen."
+        }
+      },
+      "description": {
+        "en": "This bronze statue honours Truus van Lier, one of Utrecht's bravest resistance fighters during World War II. Born in Utrecht on 22 April 1921, van Lier was just 22 years old when she shot and killed Gerardus Kerlen, the NSB police chief — an act of defiance that defined her legacy and ultimately cost her her life.\n\nBut her resistance work went far beyond this single act of courage. As a member of the underground cell CS-6, she served as a courier, smuggled weapons and illegal literature throughout the city, and arranged hiding places for Jewish families fleeing persecution — all while studying law at Utrecht University, demonstrating remarkable composure alongside extraordinary bravery.\n\nArrested and deported to the concentration camp at Sachsenhausen, van Lier was executed in October 1943 at just 22 years old. This statue, created by sculptor Joyce Overheul and unveiled on van Lier's 101st birthday in 2022, uses a striking technique: the upper body features expressive sculptural strokes that transition into a detailed cast below. Overheul used a current Utrecht law student as a model — deliberately connecting past and present, and honouring the young woman's courage through a student of the same age and faculty today.",
+        "nl": "Dit bronzen standbeeld eert Truus van Lier, een van Utrechts dapperste verzetsstrijders tijdens de Tweede Wereldoorlog. Geboren in Utrecht op 22 april 1921 was van Lier slechts 22 jaar oud toen zij NSB-politiechef Gerardus Kerlen neerschoot — een daad van verzet die haar erfenis bepaalde en haar uiteindelijk haar leven kostte.\n\nMaar haar verzetswerk ging veel verder dan dit ene moment van moed. Als lid van de ondergrondse cel CS-6 werkte zij als koerier, smokkelde wapens en illegale literatuur door de stad en regelde onderduikadressen voor Joodse families op de vlucht — dit alles terwijl zij rechten studeerde aan de Universiteit Utrecht.\n\nGearresteerd en gedeporteerd naar concentratiekamp Sachsenhausen werd van Lier in oktober 1943 geëxecuteerd, slechts 22 jaar oud. Dit standbeeld van beeldhouwer Joyce Overheul, onthuld op van Liers 101e verjaardag in 2022, gebruikt een bijzondere techniek: de bovenste helft bestaat uit expressieve beeldhouwkundige streken die overgaan in een gedetailleerd afgietsel. Overheul gebruikte een huidige rechtenstudente als model — een bewuste verbinding tussen verleden en heden.",
+        "de": "Diese Bronzestatue ehrt Truus van Lier, eine der mutigsten Widerstandskämpferinnen Utrechts im Zweiten Weltkrieg. Geboren in Utrecht am 22. April 1921, war van Lier gerade 22 Jahre alt, als sie den NSB-Polizeichef Gerardus Kerlen erschoss — eine mutige Tat, die ihr Erbe prägte und ihr letztendlich das Leben kostete.\n\nAls Mitglied der Untergrundgruppe CS-6 arbeitete sie als Kurierin, schmuggelte Waffen und illegale Literatur durch die Stadt und organisierte Verstecke für jüdische Familien auf der Flucht — alles während ihres Jurastudiums an der Universität Utrecht.\n\nNach ihrer Verhaftung und Deportation ins Konzentrationslager Sachsenhausen wurde van Lier im Oktober 1943 im Alter von nur 22 Jahren hingerichtet. Diese Statue, geschaffen von der Bildhauerin Joyce Overheul und enthüllt an van Liers 101. Geburtstag 2022, verwendet einen aktuellen Jurastudenten als Modell — eine bewusste Verbindung zwischen Vergangenheit und Gegenwart."
+      },
+      "images": [
+        "utrecht-city-walk/truus-van-lier.jpg"
+      ],
+      "tags": ["memorial", "world-war-ii", "resistance", "history"]
+    },
+    {
+      "id": "smeebrug",
+      "order": 4,
+      "name": {
+        "en": "Smeebrug — De Letters van Utrecht",
+        "nl": "Smeebrug — De Letters van Utrecht",
+        "de": "Smeebrug — De Letters van Utrecht"
+      },
+      "subtitle": {
+        "en": "An infinite poem carved into the street, one letter every Saturday since 2012",
+        "nl": "Een eindeloos gedicht in de straat gebeiteld, elke zaterdag één letter sinds 2012",
+        "de": "Ein endloses Gedicht, das seit 2012 jeden Samstag um einen Buchstaben wächst"
+      },
+      "location": {
+        "latitude": 52.0885,
+        "longitude": 5.1213,
+        "directions": {
+          "en": "Head east toward the Oudegracht canal. Cross the Smeebrug — the blacksmith's bridge. Look down at the cobblestones.",
+          "nl": "Loop naar het oosten richting de Oudegracht. Steek de Smeebrug over — de smidsbrug. Kijk omlaag naar de klinkers.",
+          "de": "Gehen Sie ostwärts zur Oudegracht. Überqueren Sie die Smeebrug — die Schmiedebrücke. Schauen Sie auf das Kopfsteinpflaster hinunter."
+        }
+      },
+      "description": {
+        "en": "Look down at your feet. You are walking on a poem.\n\nDe Letters van Utrecht is an endless poem carved into the cobblestones of this medieval street, initiated in 2012 by a group of Utrecht poets. The concept is beautifully simple: every Saturday at 1 PM, a stonemason chisels the next letter of the poem into a new stone. One character per stone, one stone per week. Over months, words form; over years, sentences grow. By design, the poem has no end — it will continue for as long as there are Saturdays.\n\nWhen the project officially launched on 2 June 2012, Mayor Aleid Wolfsen unveiled the first 648 letters — representing every Saturday from 1 January 2000, already carved into the street to give the poem its head start. Every few years a new poet takes over, keeping the verse fresh and alive. The growing text extends about five metres every year.\n\nThe bridge itself has deep roots in Utrecht's past. The Smeebrug takes its name from the guild of blacksmiths who lived and worked here in the Middle Ages. Medieval markets were held on this very bridge. Standing here today, you are at the intersection of Utrecht's ancient past and its ongoing artistic present. See if you can read a few words of the poem beneath your feet — and look around for any fresh chisel marks from a recent Saturday.",
+        "nl": "Kijk omlaag naar uw voeten. U loopt op een gedicht.\n\nDe Letters van Utrecht is een eindeloos gedicht, gebeiteld in de klinkers van deze middeleeuwse straat, in 2012 geïnitieerd door een groep Utrechtse dichters. Het concept is prachtig eenvoudig: elke zaterdag om 13.00 uur beitelt een steenhouwer de volgende letter van het gedicht in een nieuwe steen. Eén letter per steen, één steen per week. Over maanden vormen zich woorden; over jaren groeien zinnen. Het gedicht heeft geen einde — het gaat door zolang er zaterdagen zijn.\n\nToen het project op 2 juni 2012 officieel werd gelanceerd, onthulde burgemeester Aleid Wolfsen de eerste 648 letters — elke zaterdag van 1 januari 2000 al gebeiteld, om het gedicht een vliegende start te geven. Elke paar jaar neemt een nieuwe dichter het stokje over. De groeiende tekst breidt jaarlijks met ongeveer vijf meter uit.\n\nDe brug zelf heeft diepe wortels in Utrechts verleden. De Smeebrug dankt zijn naam aan het gilde van smeden dat hier in de middeleeuwen leefde en werkte. Op deze brug werden middeleeuwse markten gehouden. Kijk of u een paar woorden van het gedicht onder uw voeten kunt lezen.",
+        "de": "Schauen Sie zu Ihren Füßen hinunter. Sie gehen auf einem Gedicht.\n\nDe Letters van Utrecht ist ein endloses Gedicht, das in das Kopfsteinpflaster dieser mittelalterlichen Straße gemeißelt wurde, 2012 von einer Gruppe Utrechter Dichter initiiert. Das Konzept ist wunderschön einfach: Jeden Samstag um 13 Uhr meißelt ein Steinmetz den nächsten Buchstaben des Gedichts in einen neuen Stein. Ein Buchstabe pro Stein, ein Stein pro Woche. Über Monate bilden sich Wörter; über Jahre wachsen Sätze. Das Gedicht hat kein Ende — es wird weitergehen, solange es Samstage gibt.\n\nDie Brücke selbst hat tiefe Wurzeln in Utrechts Vergangenheit. Die Smeebrug verdankt ihren Namen der Zunft der Schmiede, die hier im Mittelalter lebten und arbeiteten. Auf dieser Brücke wurden mittelalterliche Märkte abgehalten. Schauen Sie, ob Sie ein paar Wörter des Gedichts unter Ihren Füßen lesen können."
+      },
+      "images": [
+        "utrecht-city-walk/smeebrug.jpg"
+      ],
+      "tags": ["art", "poetry", "history", "canal", "landmark"]
+    },
+    {
+      "id": "louis-hartlooper",
+      "order": 5,
+      "name": {
+        "en": "Louis Hartlooper Complex",
+        "nl": "Louis Hartlooper Complex",
+        "de": "Louis Hartlooper Complex"
+      },
+      "subtitle": {
+        "en": "1928 Amsterdam School police station · arthouse cinema since 2004",
+        "nl": "1928 Amsterdamse School politiebureau · arthousebioscoop sinds 2004",
+        "de": "1928 Amsterdamer Schule Polizeigebäude · Arthouse-Kino seit 2004"
+      },
+      "location": {
+        "latitude": 52.0818,
+        "longitude": 5.1242,
+        "directions": {
+          "en": "Walk south along the Oudegracht. The Louis Hartlooper Complex is at Tolsteegbrug 1, at the point where the canal meets the Singel. Look for the distinctive 1920s façade.",
+          "nl": "Loop naar het zuiden langs de Oudegracht. Het Louis Hartlooper Complex bevindt zich op Tolsteegbrug 1, waar het kanaal de Singel ontmoet. Zoek de kenmerkende gevel uit de jaren 1920.",
+          "de": "Gehen Sie nach Süden entlang der Oudegracht. Der Louis Hartlooper Complex befindet sich am Tolsteegbrug 1, wo der Kanal die Singel trifft. Achten Sie auf die markante Fassade aus den 1920er Jahren."
+        }
+      },
+      "description": {
+        "en": "The elegant building before you holds a surprising secret: it was built as a police station. Completed in 1928, this is the only structure in Utrecht designed in the Amsterdam School architectural style — a movement known for combining functional design with expressive artistic decoration. Look closely at the façade and you'll see the characteristic brickwork, sculpted details, and ornamental touches that earned this building its protected monument status in 2001.\n\nAfter decades as a police station, the building stood vacant from 1999. Rather than fall into disrepair, it was imaginatively reborn as an arthouse cinema. The Louis Hartlooper Complex opened on 5 September 2004, with 84-year-old Louis Hartlooper Jr. cutting the ribbon at his own name's sake venue. Within its first year, the cinema was already crowned the best in the Netherlands.\n\nToday the complex houses four screens dedicated to arthouse and independent film, a restaurant and café emphasising organic and seasonal ingredients, and serves as a venue for events including the prestigious Netherlands Film Festival. The beautiful interiors reveal the building's layered history — police cells and offices transformed into cinemas and dining spaces. A remarkable second life for a building that once represented law and order.",
+        "nl": "Het elegante gebouw voor u verbergt een verrassend geheim: het werd gebouwd als politiebureau. Voltooid in 1928, is dit het enige gebouw in Utrecht dat is ontworpen in de Amsterdamse Schoolstijl — een beweging die functioneel ontwerp combineert met expressieve artistieke decoratie. Kijk goed naar de gevel en u ziet het kenmerkende metselwerk, gebeeldhouwde details en ornamentele accenten die dit gebouw in 2001 zijn monumentenstatus opleverden.\n\nNa decennia als politiebureau stond het gebouw vanaf 1999 leeg. In plaats van te vervallen werd het op inventieve wijze herboren als arthousebioscoop. Het Louis Hartlooper Complex opende op 5 september 2004, met de 84-jarige Louis Hartlooper jr. die het lint doorknipte bij het naar hem vernoemde complex. Binnen een jaar werd de bioscoop al uitgeroepen tot beste van Nederland.\n\nVandaag huisvest het complex vier zalen voor arthousefilm, een restaurant en café met biologische en seizoensgebonden producten, en dient als locatie voor onder meer het Nederlands Filmfestival.",
+        "de": "Das elegante Gebäude vor Ihnen verbirgt ein überraschendes Geheimnis: Es wurde als Polizeigebäude gebaut. Fertiggestellt 1928, ist dies das einzige Gebäude in Utrecht, das im Stil der Amsterdamer Schule entworfen wurde — eine Bewegung, die funktionales Design mit expressiver künstlerischer Dekoration verbindet. Das charakteristische Mauerwerk und ornamentale Details sorgten 2001 für den Denkmalschutzstatus.\n\nNach Jahrzehnten als Polizeistation stand das Gebäude ab 1999 leer. Statt zu verfallen wurde es als Arthouse-Kino wiedergeboren. Der Louis Hartlooper Complex eröffnete am 5. September 2004. Innerhalb seines ersten Jahres wurde das Kino bereits zum besten der Niederlande gekürt.\n\nHeute beherbergt der Komplex vier Säle für Arthouse-Film, ein Restaurant und Café mit biologischen und saisonalen Zutaten sowie als Veranstaltungsort unter anderem für das Niederländische Filmfestival."
+      },
+      "images": [
+        "utrecht-city-walk/louis-hartlooper.jpg"
+      ],
+      "tags": ["architecture", "cinema", "culture", "amsterdam-school"]
+    },
+    {
+      "id": "catharinakathedraal",
+      "order": 6,
+      "name": {
+        "en": "St. Catharina Cathedral",
+        "nl": "St. Catharinakathedraal",
+        "de": "St.-Katharinen-Kathedrale"
+      },
+      "subtitle": {
+        "en": "Founded 1456 · cathedral since 1853 · the Roman Catholic metropolitan church of the Netherlands",
+        "nl": "Gesticht 1456 · kathedraal sinds 1853 · de rooms-katholieke metropolitane kerk van Nederland",
+        "de": "Gegründet 1456 · Kathedrale seit 1853 · die römisch-katholische Metropolitankirche der Niederlande"
+      },
+      "location": {
+        "latitude": 52.0886,
+        "longitude": 5.1247,
+        "directions": {
+          "en": "Head north along Lange Nieuwstraat. The cathedral's impressive façade and tower are visible from a distance.",
+          "nl": "Loop naar het noorden langs de Lange Nieuwstraat. De indrukwekkende gevel en toren van de kathedraal zijn van verre zichtbaar.",
+          "de": "Gehen Sie nach Norden entlang der Lange Nieuwstraat. Die beeindruckende Fassade und der Turm der Kathedrale sind aus der Ferne sichtbar."
+        }
+      },
+      "description": {
+        "en": "This magnificent Gothic cathedral holds a unique position in Dutch religious history. St. Catherine's is the seat of the Roman Catholic Archbishop of Utrecht and the metropolitan church of all the Netherlands — a distinction it has held since 1853. Its journey through five centuries of religious upheaval makes it one of the most historically layered buildings in the country.\n\nThe cathedral's origins trace back to 1456, when it was built as part of a Carmelite friary. The large Gothic church, featuring Brabantine Gothic influences with elegant rounded columns and soaring arches, was not completed until the mid-16th century. But the Reformation of 1580 forced a dramatic transformation: for 235 years the church served as a Protestant congregation. Catholics only regained the building in 1815.\n\nThe 19th century brought sweeping architectural additions. Between 1859 and 1901, the cathedral was enriched with neo-Gothic embellishments under Friedrich Wilhelm Mengelberg. Architect Alfred Tepe extended the nave westward in 1900 and added the distinctive 53-metre tower, inspired by the town hall of Kampen. This tower, visible across much of the city, is now one of Utrecht's most recognisable silhouettes. Standing before this cathedral, you are witnessing the full drama of the Reformation and Counter-Reformation made stone.",
+        "nl": "Deze prachtige gotische kathedraal bekleedt een unieke positie in de Nederlandse kerkgeschiedenis. De Catharinakathedraal is de zetel van de rooms-katholieke aartsbisschop van Utrecht en de metropolitane kerk van heel Nederland — een onderscheiding die zij heeft since 1853. De reis door vijf eeuwen religieuze omwentelingen maakt haar tot een van de meest gelaagde gebouwen van het land.\n\nDe oorsprong van de kathedraal gaat terug tot 1456, toen ze werd gebouwd als onderdeel van een karmelietenklooster. De grote gotische kerk, met Brabantse gotische invloeden met elegante ronde pilaren en sierlijke bogen, werd pas medio 16e eeuw voltooid. Maar de Reformatie van 1580 bracht een dramatische verandering: 235 jaar lang diende de kerk als protestantse gemeente. Katholieken kregen het gebouw pas in 1815 terug.\n\nDe 19e eeuw bracht ingrijpende architectonische toevoegingen. Tussen 1859 en 1901 werd de kathedraal verrijkt met neogotische verfraaiingen. Architect Alfred Tepe verlengde het schip in 1900 en voegde de kenmerkende 53 meter hoge toren toe, geïnspireerd op het stadhuis van Kampen.",
+        "de": "Diese prächtige gotische Kathedrale nimmt eine einzigartige Position in der niederländischen Kirchengeschichte ein. Die St.-Katharinen-Kathedrale ist der Sitz des römisch-katholischen Erzbischofs von Utrecht und die Metropolitankirche der gesamten Niederlande — eine Auszeichnung, die sie seit 1853 innehat.\n\nDie Ursprünge der Kathedrale reichen bis 1456 zurück, als sie als Teil eines Karmeliterklosters erbaut wurde. Die Reformation von 1580 erzwang eine dramatische Transformation: 235 Jahre lang diente die Kirche als protestantische Gemeinde. Erst 1815 erhielten die Katholiken das Gebäude zurück.\n\nDas 19. Jahrhundert brachte umfangreiche architektonische Ergänzungen. Zwischen 1859 und 1901 wurde die Kathedrale mit neugotischen Verschönerungen bereichert. Architekt Alfred Tepe verlängerte das Schiff 1900 und fügte den charakteristischen 53 Meter hohen Turm hinzu, inspiriert vom Rathaus in Kampen."
+      },
+      "images": [
+        "utrecht-city-walk/catharinakathedraal.jpg"
+      ],
+      "tags": ["church", "gothic", "religion", "historic", "architecture"]
+    },
+    {
+      "id": "fundatie-van-renswoude",
+      "order": 7,
+      "name": {
+        "en": "Fundatie van Renswoude",
+        "nl": "Fundatie van Renswoude",
+        "de": "Fundatie van Renswoude"
+      },
+      "subtitle": {
+        "en": "Founded 1752 · Louis XIV style orphan school · educational philanthropy since the Enlightenment",
+        "nl": "Gesticht 1752 · Lodewijk XIV-stijl weeshuis · onderwijsfilantropic since de Verlichting",
+        "de": "Gegründet 1752 · Louis-XIV-Stil Waisenschule · Bildungsphilanthropie seit der Aufklärung"
+      },
+      "location": {
+        "latitude": 52.0912,
+        "longitude": 5.1193,
+        "directions": {
+          "en": "Walk north along Lange Nieuwstraat, then turn right onto Agnietenstraat. The Fundatie building is visible on the left.",
+          "nl": "Loop naar het noorden langs de Lange Nieuwstraat, dan rechtsaf de Agnietenstraat in. Het Fundatiegebouw is links zichtbaar.",
+          "de": "Gehen Sie nach Norden entlang der Lange Nieuwstraat, dann rechts in die Agnietenstraat. Das Fundatiegebäude ist links sichtbar."
+        }
+      },
+      "description": {
+        "en": "This elegant building on Agnietenstraat embodies the enlightened philanthropic ideals of the 18th century. The Fundatie van Renswoude was established in 1752 by Maria Duyst van Voorhout, Countess of Renswoude, as a remarkable educational institution. Her vision: to provide talented boys from the city's handicraft orphanage with training in art and technical skills — offering genuine opportunity at a time when most orphans faced grim futures.\n\nThe building, designed by architect Jan Verkerk and completed in 1761, is an architectural statement in itself. The lavishly ornamented façade in Louis XIV style sits perfectly on the axis of Lange Nieuwstraat, making it a visual centrepiece of this part of the city. Every detail speaks to the ambition of its patron: this was not merely a charitable institution but a monument to the city's Enlightenment values.\n\nFor nearly 175 years the foundation housed and educated its pupils under one roof. This arrangement continued until 1923, when students no longer lived in the building. After nearly 275 years of operation, the foundation announced plans in 2025 to sell this monumental building — a poignant moment for an institution that has educated generations of Utrecht youth. As you look at the façade, you're witnessing a piece of Dutch Enlightenment philosophy made tangible in stone and brick.",
+        "nl": "Dit elegante gebouw aan de Agnietenstraat belichaamt de verlichte filantropische idealen van de 18e eeuw. De Fundatie van Renswoude werd in 1752 gesticht door Maria Duyst van Voorhout, Vrijvrouwe van Renswoude, als een opmerkelijke onderwijsinstelling. Haar visie: getalenteerde jongens uit het stedelijke weeshuis opleiden in kunst en technische vaardigheden.\n\nHet gebouw, ontworpen door architect Jan Verkerk en voltooid in 1761, is een architectonische statement op zichzelf. De rijkelijk versierde gevel in Lodewijk XIV-stijl staat perfect op de as van de Lange Nieuwstraat. Bijna 175 jaar lang huisvestte en onderwees de stichting haar leerlingen onder één dak — dit duurde voort tot 1923. Na bijna 275 jaar kondigde de stichting in 2025 aan het monumentale pand te willen verkopen.",
+        "de": "Dieses elegante Gebäude in der Agnietenstraat verkörpert die aufgeklärten philanthropischen Ideale des 18. Jahrhunderts. Die Fundatie van Renswoude wurde 1752 von Maria Duyst van Voorhout, Gräfin von Renswoude, als bemerkenswerte Bildungseinrichtung gegründet. Ihre Vision: begabten Jungen aus dem städtischen Waisenhaus Ausbildung in Kunst und handwerklichen Fähigkeiten anzubieten.\n\nDas Gebäude, entworfen von Architekt Jan Verkerk und 1761 fertiggestellt, ist ein architektonisches Statement. Die reich verzierte Fassade im Louis-XIV-Stil liegt perfekt auf der Achse der Lange Nieuwstraat. Nach fast 275 Jahren Betrieb kündigte die Stiftung 2025 an, das monumentale Gebäude verkaufen zu wollen."
+      },
+      "images": [
+        "utrecht-city-walk/fundatie-van-renswoude.jpg"
+      ],
+      "tags": ["history", "architecture", "education", "enlightenment"]
+    },
+    {
+      "id": "leeuwenbergh",
+      "order": 8,
+      "name": {
+        "en": "Leeuwenbergh",
+        "nl": "Leeuwenbergh",
+        "de": "Leeuwenbergh"
+      },
+      "subtitle": {
+        "en": "Historic cultural venue at the city's southern canal belt",
+        "nl": "Historische culturele locatie aan de zuidelijke grachtengordel",
+        "de": "Historische Kulturstätte am südlichen Kanalgürtel der Stadt"
+      },
+      "location": {
+        "latitude": 52.0879,
+        "longitude": 5.1277,
+        "directions": {
+          "en": "Continue east to Servaasbolwerk 1a, just inside the southern canal ring.",
+          "nl": "Loop verder naar het oosten naar Servaasbolwerk 1a, net binnen de zuidelijke singelgracht.",
+          "de": "Gehen Sie weiter ostwärts zum Servaasbolwerk 1a, direkt innerhalb des südlichen Kanalgürtels."
+        }
+      },
+      "description": {
+        "en": "Leeuwenbergh sits within Utrecht's historic southern canal belt, at the point where the medieval city walls once met the water. This building has served the city's cultural life for many decades, functioning as a concert venue, events space, and community gathering point where music, performance, and artistic expression come together.\n\nThe location at Servaasbolwerk is historically significant — 'bolwerk' means bulwark or bastion, reminding us that this area was once part of Utrecht's fortification system. As the city grew beyond its medieval walls in the 19th and 20th centuries, these former defensive zones were gradually repurposed for parks, housing, and cultural life.\n\nToday Leeuwenbergh is known for its intimate atmosphere and diverse programming, from classical concerts to festivals and community events. Its position at the edge of the Museum Quarter places it alongside other significant cultural institutions, contributing to the concentration of artistic activity in this southern part of the city. It's a quiet but vital thread in Utrecht's cultural fabric.",
+        "nl": "Leeuwenbergh ligt in Utrechts historische zuidelijke grachtengordel, op het punt waar de middeleeuwse stadsmuren vroeger het water ontmoetten. Dit gebouw heeft decennialang het culturele leven van de stad gediend als concertlocatie, evenementenruimte en ontmoetingsplek voor muziek en performance.\n\nDe locatie aan het Servaasbolwerk is historisch betekenisvol — 'bolwerk' herinnert eraan dat dit gebied ooit deel uitmaakte van Utrechts vestingsysteem. Naarmate de stad in de 19e en 20e eeuw buiten haar middeleeuwse muren groeide, werden deze voormalige verdedigingszones geleidelijk omgevormd tot parken, woningen en cultureel leven.\n\nVandaag staat Leeuwenbergh bekend om zijn intieme sfeer en gevarieerde programmering, van klassieke concerten tot festivals en community-evenementen.",
+        "de": "Leeuwenbergh liegt im historischen südlichen Kanalgürtel Utrechts, an der Stelle, wo einst die mittelalterlichen Stadtmauern das Wasser trafen. Dieses Gebäude hat das Kulturleben der Stadt über viele Jahrzehnte als Konzertort, Veranstaltungsraum und Gemeinschaftstreffpunkt geprägt.\n\nDer Standort am Servaasbolwerk ist historisch bedeutsam — 'Bolwerk' erinnert daran, dass dieser Bereich einst Teil von Utrechts Befestigungsanlage war. Als die Stadt im 19. und 20. Jahrhundert über ihre mittelalterlichen Mauern hinauswuchs, wurden diese ehemaligen Verteidigungszonen nach und nach für Parks, Wohnraum und Kulturleben umgestaltet."
+      },
+      "images": [
+        "utrecht-city-walk/leeuwenbergh.jpg"
+      ],
+      "tags": ["culture", "music", "historic", "canal"]
+    },
+    {
+      "id": "dirk-bruna-studio",
+      "order": 9,
+      "name": {
+        "en": "Dick Bruna's First Studio",
+        "nl": "Dick Bruna's eerste atelier",
+        "de": "Dick Brunas erstes Atelier"
+      },
+      "subtitle": {
+        "en": "Jeruzalemstraat 3 · 1981–2011 · where Miffy came to life",
+        "nl": "Jeruzalemstraat 3 · 1981–2011 · waar Nijntje tot leven kwam",
+        "de": "Jeruzalemstraat 3 · 1981–2011 · wo Miffy zum Leben erwachte"
+      },
+      "location": {
+        "latitude": 52.0908,
+        "longitude": 5.1228,
+        "directions": {
+          "en": "Walk north toward the Dom. Turn onto Jeruzalemstraat. Look for the small Miffy mosaic at number 3.",
+          "nl": "Loop naar het noorden richting de Dom. Sla de Jeruzalemstraat in. Zoek het kleine Nijntje-mozaïek bij nummer 3.",
+          "de": "Gehen Sie nach Norden in Richtung Dom. Biegen Sie in die Jeruzalemstraat ein. Suchen Sie das kleine Miffy-Mosaik bei Nummer 3."
+        }
+      },
+      "description": {
+        "en": "A small Miffy mosaic marks the entrance to what was once the creative sanctuary of Dick Bruna — the Utrecht-born artist who gave the world Nijntje, known internationally as Miffy. In 1981, Bruna moved into a studio on the top floor above Van Rossum Printing at this address, just steps from the Dom Cathedral. For thirty years, this modest space was where one of the world's most beloved children's characters continued to evolve.\n\nBruna's artistic approach was revolutionary in its simplicity. His distinctive style — bold outlines, primary colours, minimalist forms — made Miffy instantly recognisable to children everywhere. He first drew Miffy in 1955 while on holiday in Egmond aan Zee, inspired by a rabbit he saw in the dunes. That simple rabbit with two dots for eyes and a straight line for a mouth would eventually appear in over 250 books, translated into virtually every language on Earth.\n\nBruna retired as an artist in 2011, ending thirty years of work in this Jeruzalemstraat studio. In 2018, the studio was converted into a private residence. But his original atelier — complete with furniture, drawing boards, personal effects, and his famous bicycle — has been preserved and reconstructed at the Centraal Museum, where you can visit it today. Here at Jeruzalemstraat 3, a small mosaic is all that marks the spot where a small rabbit changed the world.",
+        "nl": "Een klein Nijntje-mozaïek markeert de ingang van wat ooit het creatieve toevluchtsoord was van Dick Bruna — de Utrechtse kunstenaar die de wereld Nijntje gaf. In 1981 betrok Bruna een atelier op de bovenste etage boven drukkerij Van Rossum op dit adres, op steenworp afstand van de Dom. Dertig jaar lang was deze bescheiden ruimte de plek waar een van de meest geliefde kinderfiguren ter wereld zich bleef ontwikkelen.\n\nBruna tekende Nijntje voor het eerst in 1955 tijdens een vakantie in Egmond aan Zee, geïnspireerd door een konijn in de duinen. Dat eenvoudige konijntje met twee stippen als ogen en een streepje als mond zou uiteindelijk verschijnen in meer dan 250 boeken, vertaald in vrijwel elke taal ter wereld.\n\nBruna ging in 2011 met pensioen als kunstenaar, na dertig jaar werken in dit atelier. Zijn originele studio — compleet met meubels, tekentafels en zijn beroemde fiets — is bewaard en nagegebouwd in het Centraal Museum. Hier op Jeruzalemstraat 3 markeert een klein mozaïek de plek waar een klein konijntje de wereld veranderde.",
+        "de": "Ein kleines Miffy-Mosaik markiert den Eingang zu dem, was einst das kreative Refugium von Dick Bruna war — dem Utrechter Künstler, der der Welt Nijntje, international bekannt als Miffy, schenkte. 1981 bezog Bruna ein Atelier im obersten Stockwerk über der Druckerei Van Rossum in dieser Adresse, nur wenige Schritte vom Dom entfernt. Dreißig Jahre lang war dieser bescheidene Raum der Ort, an dem eine der beliebtesten Kinderfiguren der Welt sich weiterentwickelte.\n\nBruna zeichnete Miffy erstmals 1955 während eines Urlaubs in Egmond aan Zee. Dieser einfache Hase mit zwei Punkten als Augen und einem Strich als Mund würde schließlich in über 250 Büchern erscheinen, die in praktisch jede Sprache der Welt übersetzt wurden.\n\nBruna trat 2011 als Künstler in den Ruhestand. Sein originales Atelier — komplett mit Möbeln, Zeichentischen und seinem berühmten Fahrrad — ist im Centraal Museum bewahrt und rekonstruiert worden. Hier an der Jeruzalemstraat 3 markiert ein kleines Mosaik die Stelle, wo ein kleiner Hase die Welt veränderte."
+      },
+      "images": [
+        "utrecht-city-walk/dick-bruna-studio.jpg"
+      ],
+      "tags": ["art", "miffy", "dick-bruna", "culture", "landmark"]
+    },
+    {
+      "id": "pandhof",
+      "order": 10,
+      "name": {
+        "en": "Pandhof van de Dom",
+        "nl": "Pandhof van de Dom",
+        "de": "Pandhof van de Dom"
+      },
+      "subtitle": {
+        "en": "Medieval cloister garden · 1390–1440 · 140+ herbs and plants",
+        "nl": "Middeleeuws kloostertuin · 1390–1440 · meer dan 140 kruiden en planten",
+        "de": "Mittelalterlicher Klostergarten · 1390–1440 · über 140 Kräuter und Pflanzen"
+      },
+      "location": {
+        "latitude": 52.0905,
+        "longitude": 5.1226,
+        "directions": {
+          "en": "Enter through the gate on Domplein, between the Dom Church and Utrecht University Hall. The garden is open daily 10:00–16:00, free of charge.",
+          "nl": "Ga naar binnen via de poort op het Domplein, tussen de Domkerk en het Academiegebouw. De tuin is dagelijks open van 10.00 tot 16.00 uur, gratis toegankelijk.",
+          "de": "Betreten Sie durch das Tor am Domplein, zwischen der Domkirche und dem Akademiegebäude. Der Garten ist täglich von 10:00 bis 16:00 Uhr geöffnet, kostenlos."
+        }
+      },
+      "description": {
+        "en": "Step through this gate and time slows down. The Pandhof van de Dom is a medieval monastery garden enclosed by 15th-century cloisters, sandwiched between the Dom Church and Utrecht University Hall — a hidden oasis in the heart of the city that has offered sanctuary for over six centuries.\n\nThe garden dates from 1390 to 1440, when it served the practical and spiritual needs of the Dom's canons. Medieval gardeners here weren't growing ornamental plants for beauty alone: they were cultivating a living pharmacy. Medicinal herbs, plants for cooking, vegetation for dyes — the garden was essential for survival in a world without modern medicine. In the late 19th century, the garden was carefully restored, and today it contains over 140 different plants and herbs, many of them varieties grown here in medieval times.\n\nAt the garden's centre stands a fountain featuring a statue of Hugo Wstinc, a 14th-century canon depicted seated and writing — a beautiful representation of the scholarly life that flourished within these cloisters. Artists, students, and pilgrims still come here for a moment of medieval calm. In springtime the garden overflows with blooms; in autumn it offers quiet contemplation. This is where Utrecht's medieval residents found not just medicine and food, but peace — and where you can find a moment of it too.",
+        "nl": "Stap door deze poort en de tijd vertraagt. De Pandhof van de Dom is een middeleeuwse kloostertuin omgeven door 15e-eeuwse pandgangen, ingeklemd tussen de Domkerk en het Academiegebouw — een verborgen oase in het hart van de stad die al meer dan zes eeuwen asiel biedt.\n\nDe tuin dateert van 1390 tot 1440, toen hij de praktische en spirituele behoeften van de Dom-kanunniken diende. Middeleeuwse tuiniers hier verbouwden geen sierplanten alleen voor de schoonheid: ze cultiveerden een levende apotheek. Medicinale kruiden, kookplanten, gewassen voor verfstoffen — de tuin was essentieel voor het overleven. Vandaag bevat hij meer dan 140 verschillende planten en kruiden, waarvan velen variëteiten die hier in de middeleeuwen werden geteeld.\n\nIn het midden van de tuin staat een fontein met een beeld van Hugo Wstinc, een 14e-eeuwse kanunnik afgebeeld zittend en schrijvend — een prachtige weergave van het geleerde leven dat hier bloeide. Kunstenaars, studenten en pelgrims komen hier nog steeds voor een moment van middeleeuws kalmte.",
+        "de": "Treten Sie durch dieses Tor und die Zeit verlangsamt sich. Der Pandhof van de Dom ist ein mittelalterlicher Klostergarten, umgeben von Kreuzgängen aus dem 15. Jahrhundert, eingeklemmt zwischen der Domkirche und dem Akademiegebäude — eine versteckte Oase im Herzen der Stadt, die seit über sechs Jahrhunderten Zuflucht bietet.\n\nDer Garten datiert aus dem Zeitraum 1390 bis 1440, als er den praktischen und spirituellen Bedürfnissen der Domkanoniker diente. Mittelalterliche Gärtner kultivierten hier keine Zierpflanzen nur für die Schönheit: Sie bauten eine lebende Apotheke an. Medizinische Kräuter, Kochpflanzen, Pflanzen für Farbstoffe — der Garten war überlebensnotwendig. Heute enthält er über 140 verschiedene Pflanzen und Kräuter, viele davon Sorten, die hier im Mittelalter angebaut wurden."
+      },
+      "images": [
+        "utrecht-city-walk/pandhof.jpg"
+      ],
+      "tags": ["garden", "medieval", "cloister", "historic", "peaceful"]
+    },
+    {
+      "id": "runensteen",
+      "order": 11,
+      "name": {
+        "en": "Runensteen van Jelling",
+        "nl": "Runensteen van Jelling",
+        "de": "Runenstein von Jelling"
+      },
+      "subtitle": {
+        "en": "1936 gift from Denmark · replica of a 10th-century Viking memorial stone",
+        "nl": "Geschenk van Denemarken in 1936 · replica van een 10e-eeuwse Vikingstèle",
+        "de": "Geschenk aus Dänemark 1936 · Replik eines wikingerzeitlichen Gedenksteins aus dem 10. Jh."
+      },
+      "location": {
+        "latitude": 52.0907,
+        "longitude": 5.1218,
+        "directions": {
+          "en": "The runestone stands on Domplein, just north of Korte Minrebroederstraat. Look for the large carved stone near the Dom Church.",
+          "nl": "De runensteen staat op het Domplein, net ten noorden van de Korte Minrebroederstraat. Zoek de grote gebeeldhouwde steen bij de Domkerk.",
+          "de": "Der Runenstein steht auf dem Domplein, nördlich der Korte Minrebroederstraat. Suchen Sie den großen geschnitzten Stein bei der Domkirche."
+        }
+      },
+      "description": {
+        "en": "This massive stone carved with ancient runes is a replica of one of the most significant monuments in Scandinavian history. It was presented to Utrecht in 1936 by Danish friends of the Netherlands, to commemorate the 300th anniversary of Utrecht University — a gift connecting two northern European nations through their shared cultural heritage.\n\nThe original Jelling runestones stand in the small Danish town of Jelling in Jutland, dating from the 10th century. They represent a pivotal moment in European history: the conversion of Denmark to Christianity and the consolidation of the Danish kingdom under King Harald Bluetooth. The inscription reads, 'King Harald ordered this monument made in memory of Gorm his father and in memory of Thyre his mother — that Harald who won for himself all of Denmark and Norway and made the Danes Christian.'\n\nStanding before these ancient runes in the shadow of the Dom Tower, you're connecting with events from a thousand years ago, when the map of Europe was still being drawn. Similar replicas of the Jelling stones exist in Paris, London, Tokyo, and San Francisco — each a bridge between Denmark and the wider world. The fact that Denmark chose to send this gift to Utrecht for its university anniversary speaks to the deep educational and cultural ties between our nations.",
+        "nl": "Deze grote steen met oude runen is een replica van een van de belangrijkste monumenten uit de Scandinavische geschiedenis. Hij werd in 1936 aan Utrecht geschonken door Deense vrienden van Nederland, ter gelegenheid van het 300-jarig jubileum van de Universiteit Utrecht — een geschenk dat twee Noord-Europese naties verbindt via hun gedeeld cultureel erfgoed.\n\nDe originele Jellingstenen staan in het kleine Deense stadje Jelling in Jutland en dateren uit de 10e eeuw. Ze vertegenwoordigen een cruciaal moment in de Europese geschiedenis: de bekering van Denemarken tot het christendom en de consolidatie van het Deense koninkrijk onder koning Harald Blauwand. De inscriptie luidt: 'Koning Harald liet dit monument maken ter nagedachtenis aan Gorm zijn vader en Thyre zijn moeder — die Harald die heel Denemarken en Noorwegen voor zichzelf won en de Denen tot Christen maakte.'\n\nVoor deze runen in de schaduw van de Domtoren verbindt u zich met gebeurtenissen van duizend jaar geleden.",
+        "de": "Dieser massive Stein mit alten Runen ist eine Replik eines der bedeutendsten Denkmäler der skandinavischen Geschichte. Er wurde 1936 von dänischen Freunden der Niederlande an Utrecht geschenkt, anlässlich des 300. Jahrestages der Universität Utrecht — ein Geschenk, das zwei nordeuropäische Nationen durch ihr gemeinsames kulturelles Erbe verbindet.\n\nDie originalen Jelling-Runensteine stehen im kleinen dänischen Städtchen Jelling in Jütland und datieren aus dem 10. Jahrhundert. Sie repräsentieren einen Wendepunkt in der europäischen Geschichte: die Christianisierung Dänemarks und die Konsolidierung des dänischen Königreichs unter König Harald Blauzahn. Die Inschrift lautet: 'König Harald ließ dieses Denkmal zum Gedächtnis an Gorm seinen Vater und Thyre seine Mutter errichten — jener Harald, der ganz Dänemark und Norwegen für sich gewann und die Dänen zu Christen machte.'"
+      },
+      "images": [
+        "utrecht-city-walk/runensteen.jpg"
+      ],
+      "tags": ["history", "viking", "denmark", "landmark", "rune"]
+    },
+    {
+      "id": "domtoren-domkerk",
+      "order": 12,
+      "name": {
+        "en": "Dom Tower & Dom Church",
+        "nl": "Domtoren & Domkerk",
+        "de": "Domturm & Domkirche"
+      },
+      "subtitle": {
+        "en": "Tower built 1321–1382 · 112.3 m tall · tallest church tower in the Netherlands",
+        "nl": "Toren gebouwd 1321–1382 · 112,3 m hoog · hoogste kerktoren van Nederland",
+        "de": "Turm gebaut 1321–1382 · 112,3 m hoch · höchster Kirchturm der Niederlande"
+      },
+      "location": {
+        "latitude": 52.0907,
+        "longitude": 5.1214,
+        "directions": {
+          "en": "You are on Domplein. The Dom Tower rises directly in front of you. The Dom Church stands to its right.",
+          "nl": "U bevindt zich op het Domplein. De Domtoren rijst direct voor u op. De Domkerk staat rechts ervan.",
+          "de": "Sie befinden sich auf dem Domplein. Der Domturm erhebt sich direkt vor Ihnen. Die Domkirche steht rechts davon."
+        }
+      },
+      "description": {
+        "en": "You are now standing before the most iconic symbol of Utrecht — the Dom Tower, the tallest church tower in the Netherlands at 112.32 metres. Designed by John of Hainaut and built between 1321 and 1382, this soaring Gothic structure has defined Utrecht's skyline for over six centuries and remains visible for miles across the Dutch countryside. The climb of 465 steps to the top rewards you with a panoramic view that stretches as far as Amsterdam on clear days.\n\nBeside the tower stands the Dom Church — St. Martin's Cathedral — one of the Netherlands' most historically fascinating buildings. Construction began in 1254, closely following the French Gothic model. But disaster struck in 1674: a catastrophic windstorm brought down the nave of the church, and it has never been rebuilt. The collapsed space became Domplein — the open square where you now stand. This is why the tower and the church stand separated, a unique configuration found nowhere else in the Netherlands.\n\nIn 2024, after five years of major restoration, the Dom Tower was reopened with spectacular new lighting that transforms it into an illuminated beacon visible throughout the city at night. Standing here, you're at the very heart of Utrecht's history — on the site of a Roman fort that preceded the cathedral, beneath a tower that has watched over this city for seven hundred years.",
+        "nl": "U staat nu voor het meest iconische symbool van Utrecht — de Domtoren, de hoogste kerktoren van Nederland met 112,32 meter. Ontworpen door Jan van Henegouwen en gebouwd tussen 1321 en 1382 heeft deze imposante gotische constructie Utrechts skyline meer dan zes eeuwen lang bepaald. De beklimming van 465 treden naar de top beloont u met een panoramisch uitzicht dat op heldere dagen tot Amsterdam reikt.\n\nNaast de toren staat de Domkerk — de St. Martinuskathedraal. De bouw begon in 1254 en volgde het Franse gotische model. Maar in 1674 sloeg het noodlot toe: een verwoestende storm vernielde het schip van de kerk, en het is nooit herbouwd. De ingestorte ruimte werd het Domplein — het open plein waar u nu staat. Daarom staan de toren en de kerk los van elkaar — een unieke configuratie die nergens anders in Nederland voorkomt.\n\nIn 2024, na vijf jaar ingrijpende restauratie, werd de Domtoren heropend met spectaculaire nieuwe verlichting die hem 's nachts omtovert tot een verlicht baken.",
+        "de": "Sie stehen jetzt vor dem ikonischsten Symbol Utrechts — dem Domturm, dem höchsten Kirchturm der Niederlande mit 112,32 Metern. Entworfen von Jan van Henegouwen und zwischen 1321 und 1382 erbaut, hat diese gotische Struktur Utrechts Skyline über sechs Jahrhunderte geprägt. Der Aufstieg mit 465 Stufen zum Gipfel belohnt mit einem Panoramablick, der an klaren Tagen bis Amsterdam reicht.\n\nNeben dem Turm steht die Domkirche — die St.-Martins-Kathedrale. Der Bau begann 1254. Doch 1674 schlug das Schicksal zu: Ein verheerender Sturm zerstörte das Kirchenschiff, das nie wieder aufgebaut wurde. Der eingestürzte Raum wurde zum Domplein — dem offenen Platz, auf dem Sie jetzt stehen. Deshalb stehen Turm und Kirche getrennt — eine einzigartige Konfiguration, die es nirgendwo sonst in den Niederlanden gibt.\n\n2024, nach fünf Jahren umfangreicher Restaurierung, wurde der Domturm mit spektakulärer neuer Beleuchtung wiedereröffnet."
+      },
+      "images": [
+        "utrecht-city-walk/domtoren.jpg"
+      ],
+      "tags": ["landmark", "gothic", "church", "history", "architecture"]
+    },
+    {
+      "id": "sluijmer-van-leeuwen",
+      "order": 13,
+      "name": {
+        "en": "Huisje van Sluijmer",
+        "nl": "Huisje van Sluijmer",
+        "de": "Huisje van Sluijmer"
+      },
+      "subtitle": {
+        "en": "Built 2002 · 7 floors on 13 m² · the narrowest house in Utrecht",
+        "nl": "Gebouwd 2002 · 7 verdiepingen op 13 m² · het smalste huis van Utrecht",
+        "de": "Gebaut 2002 · 7 Stockwerke auf 13 m² · das schmalste Haus in Utrecht"
+      },
+      "location": {
+        "latitude": 52.0927,
+        "longitude": 5.1232,
+        "directions": {
+          "en": "Walk north from Domplein, turn onto Drift, then left onto Kromme Nieuwegracht. The striking narrow building is at number 2, on the corner.",
+          "nl": "Loop naar het noorden van het Domplein, sla de Drift in, dan links de Kromme Nieuwegracht op. Het opvallende smalle gebouw staat op nummer 2, op de hoek.",
+          "de": "Gehen Sie vom Domplein nach Norden, biegen Sie in den Drift ein, dann links in die Kromme Nieuwegracht. Das auffällige schmale Gebäude steht auf Nummer 2, an der Ecke."
+        }
+      },
+      "description": {
+        "en": "Turn your attention to this remarkable corner building — a study in architectural ingenuity and the art of making the most of very little. The Huisje van Sluijmer is an ultra-modern construction of glass and steel that creates a stunning contrast with the historical buildings surrounding it on the corner of Kromme Nieuwegracht and Drift. Designed in 2001 by the architecture firm Sluijmer en Van Leeuwen and constructed in 2002, this building is a remarkable answer to an almost impossibly small brief.\n\nThe site measures just 13 square metres — roughly 3 by 5 metres. Yet the architects created a residential building that rises seven storeys high. Spread across those seven floors are 123 square metres of living space, made possible only through creative vertical planning. At basement level, two 14th-century warehouse cellars bring medieval Utrecht directly into conversation with 21st-century design.\n\nThe lot remained undeveloped for over 60 years after its previous building was demolished in 1940 — another quiet echo of the war's impact on the city's fabric. In 1993, the architectural firm began the painstaking design process. The result is not merely a dwelling but a statement: that creativity, vision, and respect for historical context can transform even the most constrained site into something extraordinary. Look carefully at how the glass and steel interact with the surrounding brick and stone — this building earns its place on the street.",
+        "nl": "Let op dit bijzondere hoekgebouw — een studie in architectonische vindingrijkheid. Het Huisje van Sluijmer is een ultramodern bouwwerk van glas en staal dat een frappant contrast vormt met de historische gebouwen op de hoek van de Kromme Nieuwegracht en de Drift. Ontworpen in 2001 door het architectenbureau Sluijmer en Van Leeuwen en gebouwd in 2002, is dit gebouw een opmerkelijk antwoord op een bijna onmogelijk kleine opgave.\n\nHet perceel meet slechts 13 vierkante meter — ruwweg 3 bij 5 meter. Toch creëerden de architecten een woongebouw van zeven verdiepingen. Verspreid over die zeven verdiepingen is er 123 vierkante meter woonruimte, alleen mogelijk door creatieve verticale planning. Op kelderniveau brengen twee 14e-eeuwse pakhuiskelders het middeleeuws Utrecht direct in gesprek met 21e-eeuws ontwerp.\n\nHet perceel bleef meer dan 60 jaar onbebouwd nadat het vorige gebouw in 1940 was gesloopt — een stille echo van de oorlogsinvloed op het stedelijk weefsel. Het resultaat is niet alleen een woning maar een statement over wat mogelijk is als creativiteit en historisch respect samenkomen.",
+        "de": "Beachten Sie dieses bemerkenswerte Eckgebäude — eine Studie in architektonischem Einfallsreichtum. Das Huisje van Sluijmer ist ein ultramodernes Glas-und-Stahl-Bauwerk, das einen verblüffenden Kontrast zu den historischen Gebäuden an der Ecke Kromme Nieuwegracht und Drift bildet. 2001 vom Architekturbüro Sluijmer en Van Leeuwen entworfen und 2002 gebaut, ist dieses Gebäude eine bemerkenswerte Antwort auf ein fast unmöglich kleines Grundstück.\n\nDas Grundstück misst nur 13 Quadratmeter — etwa 3 mal 5 Meter. Dennoch schufen die Architekten ein siebenstöckiges Wohngebäude mit 123 Quadratmetern Wohnfläche. Im Keller bringen zwei Lagerkeller aus dem 14. Jahrhundert das mittelalterliche Utrecht in direkten Dialog mit zeitgenössischem Design.\n\nDas Grundstück blieb über 60 Jahre unbebaut, nachdem das vorherige Gebäude 1940 abgerissen wurde — ein stilles Echo des Krieges. Das Ergebnis ist nicht nur ein Wohnhaus, sondern ein Statement darüber, was möglich ist, wenn Kreativität und historisches Bewusstsein zusammentreffen."
+      },
+      "images": [
+        "utrecht-city-walk/sluijmer.jpg"
+      ],
+      "tags": ["architecture", "modern", "landmark", "design"]
+    },
+    {
+      "id": "janskerk",
+      "order": 14,
+      "name": {
+        "en": "Janskerk",
+        "nl": "Janskerk",
+        "de": "Janskerk"
+      },
+      "subtitle": {
+        "en": "Founded around 1040 · one of Utrecht's five medieval collegiate churches",
+        "nl": "Gesticht rond 1040 · een van Utrechts vijf middeleeuwse collegiale kerken",
+        "de": "Um 1040 gegründet · eine der fünf mittelalterlichen Kollegiatkirchen Utrechts"
+      },
+      "location": {
+        "latitude": 52.0933,
+        "longitude": 5.1215,
+        "directions": {
+          "en": "Walk north to Janskerkhof 26. The Janskerk faces the peaceful Janskerkhof square.",
+          "nl": "Loop naar het noorden naar Janskerkhof 26. De Janskerk staat aan het rustige Janskerkhof-plein.",
+          "de": "Gehen Sie nach Norden zum Janskerkhof 26. Die Janskerk steht am ruhigen Janskerkhof-Platz."
+        }
+      },
+      "description": {
+        "en": "You're standing before one of Utrecht's oldest churches — the Janskerk, founded shortly after 1040 by Bishop Bernold of Utrecht. This Romanesque basilica, dedicated to John the Baptist, was one of five collegiate churches that formed Utrecht's ecclesiastical heart in the Middle Ages. These five churches — the Dom, the Janskerk, the Salvatorkerk, the Pieterskerk, and the Mariakerk — were arranged in a symbolic cross pattern across the city, creating the spiritual geography of medieval Utrecht.\n\nThe Janskerkhof square surrounding the church was once a walled ecclesiastical immunity — a protected precinct with special legal privileges where the church canons lived and worked, somewhat apart from the city beyond. This created a sanctuary within the city, a sacred enclosure dedicated to religious learning and contemplation. The Romanesque architecture, with its solid arches and thick walls, speaks to the enduring traditions of the medieval church.\n\nThe Janskerk's history mirrors the turbulence of the Reformation. When Utrecht embraced Protestantism in 1580, the collegiate structure dissolved. The city library — kept in St. John's Church — became the first library of Utrecht University when the university was founded in 1636. A storm later caused significant damage, leading to a long period of neglect. Not until 1977–1981 did the church receive the thorough restoration it needed. Today the Janskerk hosts classical concerts and occasional services — a sacred space continuing its centuries-long role in the city's cultural and spiritual life.",
+        "nl": "U staat voor een van de oudste kerken van Utrecht — de Janskerk, gesticht kort na 1040 door bisschop Bernold van Utrecht. Deze Romaanse basiliek, gewijd aan Johannes de Doper, was een van de vijf stadskerken die het kerkelijk hart van het middeleeuwse Utrecht vormden. Deze vijf kerken — de Dom, de Janskerk, de Salvatorkerk, de Pieterskerk en de Mariakerk — waren in een symbolisch kruispatroon over de stad gerangschikt.\n\nHet Janskerkhof rondom de kerk was ooit een ommuurde kerkelijke immuniteit — een beschermd domein met speciale rechtsprivileges waar de kanunniken leefden en werkten. De Janskerk weerspiegelt de turbulentie van de Reformatie. Toen Utrecht in 1580 protestant werd, hield de collegiale structuur op te bestaan. De stadsbibliotheek — die in de St.-Janskerk werd bewaard — werd de eerste bibliotheek van de Universiteit Utrecht toen die in 1636 werd gesticht.\n\nVandaag organiseert de Janskerk klassieke concerten en incidentele diensten — een heilige ruimte die haar eeuwenoude rol in het culturele en spirituele leven van de stad voortzet.",
+        "de": "Sie stehen vor einer der ältesten Kirchen Utrechts — der Janskerk, kurz nach 1040 von Bischof Bernold von Utrecht gegründet. Diese romanische Basilika, Johannes dem Täufer geweiht, war eine der fünf Kollegiatkirchen, die das kirchliche Herz des mittelalterlichen Utrechts bildeten. Diese fünf Kirchen waren in einem symbolischen Kreuzmuuster über die Stadt verteilt.\n\nDer Janskerkhof war einst eine ummauerte kirchliche Immunität — ein geschützter Bezirk mit besonderen Rechtsprivilegien, in dem die Kanoniker lebten und arbeiteten. Die Geschichte der Janskerk spiegelt die Turbulenzen der Reformation wider. Als Utrecht 1580 protestantisch wurde, löste sich die Kollegiatstruktur auf. Die Stadtbibliothek wurde zur ersten Bibliothek der Universität Utrecht, als diese 1636 gegründet wurde.\n\nHeute veranstaltet die Janskerk Klassikkonzerte und gelegentliche Gottesdienste — ein heiliger Raum, der seine jahrhundertealte Rolle im kulturellen und spirituellen Leben der Stadt fortsetzt."
+      },
+      "images": [
+        "utrecht-city-walk/janskerk.jpg"
+      ],
+      "tags": ["church", "romanesque", "historic", "medieval", "architecture"]
+    },
+    {
+      "id": "bibliotheek-neude",
+      "order": 15,
+      "name": {
+        "en": "Bibliotheek Utrecht — Neude",
+        "nl": "Bibliotheek Utrecht — Neude",
+        "de": "Bibliothek Utrecht — Neude"
+      },
+      "subtitle": {
+        "en": "Built 1924 as the main post office · library since May 2020",
+        "nl": "Gebouwd 1924 als hoofdpostkantoor · bibliotheek since mei 2020",
+        "de": "1924 als Hauptpostamt gebaut · Bibliothek seit Mai 2020"
+      },
+      "location": {
+        "latitude": 52.0931,
+        "longitude": 5.1182,
+        "directions": {
+          "en": "Walk west toward Neude square. The library building dominates the eastern side of the square at number 11.",
+          "nl": "Loop naar het westen richting het Neude-plein. Het bibliotheekgebouw domineert de oostzijde van het plein op nummer 11.",
+          "de": "Gehen Sie westwärts zum Neude-Platz. Das Bibliotheksgebäude dominiert die Ostseite des Platzes auf Nummer 11."
+        }
+      },
+      "description": {
+        "en": "The striking building before you on Neude Square represents one of Utrecht's most successful cultural transformations. Designed in 1924 by architect Joseph Crouwel in the Amsterdam School style, this was the main post office for the central Netherlands — a hub of communication and connection for nearly nine decades. The building's characteristic Amsterdam School elements are visible in the sculptural details, gargoyles on the upper levels, and ornate ornamentation: a belief that even utilitarian buildings deserved artistic care.\n\nThe building earned a nickname that still survives: 'The Temple of Post and Telegraph'. The grand central hall features impressive statues representing the continents — a global vision from an era of confident European ambition. Archaeological excavations beneath the building revealed an even deeper history: this site once housed St. Cecilia's Convent, founded 1397, and later the Royal Dutch Mint. You are standing on five centuries of layered history.\n\nIn 2011 the postal service departed, leaving the building's future uncertain. Then came a brilliant reimagining. The Bibliotheek Utrecht Neude opened in May 2020 (delayed from 2019 by renovation complexities) as the city's central library. Nearly a thousand bookshelves, over 300 study spaces, a film hall, theatre, and café now fill the former postal halls. Above the entrance, artist Maarten Baas's colourful neon installation 'Intellectual Heritage' celebrates the transformation from postal hub to knowledge hub. This is Utrecht making the very best of its past.",
+        "nl": "Het opvallende gebouw voor u op het Neude-plein vertegenwoordigt een van Utrechts meest geslaagde culturele transformaties. Ontworpen in 1924 door architect Joseph Crouwel in de Amsterdamse Schoolstijl, was dit het hoofdpostkantoor voor midden-Nederland — een knooppunt van communicatie en verbinding bijna negentig jaar lang. De kenmerkende Amsterdamse Schoolelementen zijn zichtbaar in de sculpturale details, gargouilles op de bovenste verdiepingen en siervol ornament.\n\nHet gebouw verwierf een bijnaam die vandaag nog leeft: 'de Tempel van Post en Telegraaf'. De grote centrale hal heeft indrukwekkende standbeelden die de continenten vertegenwoordigen. Archeologische opgravingen onthulden een nog dieper verleden: deze locatie huisvestte ooit het St.-Ceciliaconvent (gesticht 1397) en later de Koninklijke Nederlandse Munt.\n\nIn 2011 vertrok PostNL, waarna het gebouw een onzekere toekomst tegemoet ging. Vervolgens volgde een briljante herinvulling. Bibliotheek Utrecht Neude opende in mei 2020 als de centrale bibliotheek van de stad — met bijna duizend boekenrekken, meer dan 300 studeerplekken, een filmzaal, theater en café. Boven de ingang viert kunstenaar Maarten Baas' neoninstallatie 'Intellectual Heritage' de transformatie van posthub naar kennisgemeenschap.",
+        "de": "Das markante Gebäude vor Ihnen am Neude-Platz steht für eine der erfolgreichsten kulturellen Transformationen Utrechts. 1924 von Architekt Joseph Crouwel im Amsterdamer Schulstil entworfen, war dies das Hauptpostamt für Mittel-Utrecht — ein Kommunikationsknotenpunkt für fast neun Jahrzehnte. Die charakteristischen Amsterdam-Schulelemente sind in den skulpturalen Details, Wasserspeiern und ornamentalen Verzierungen sichtbar.\n\nDas Gebäude erwarb den Spitznamen 'Tempel der Post und des Telegraphen'. Archäologische Ausgrabungen enthüllten eine noch tiefere Geschichte: Auf diesem Gelände befand sich einst das St.-Cäcilien-Kloster (gegründet 1397) und später die Königlich Niederländische Münze.\n\n2011 verließ der Postdienst das Gebäude. Dann folgte eine brillante Neunutzung. Die Bibliotheek Utrecht Neude öffnete im Mai 2020 als zentrale Stadtbibliothek — mit fast tausend Bücherregalen, über 300 Lernplätzen, einem Filmsaal, Theater und Café. Über dem Eingang feiert Künstler Maarten Baas' Neoninstallation 'Intellectual Heritage' die Transformation vom Post- zum Wissenszentrum."
+      },
+      "images": [
+        "utrecht-city-walk/bibliotheek-neude.jpg"
+      ],
+      "tags": ["architecture", "library", "culture", "amsterdam-school", "history"]
+    },
+    {
+      "id": "miffy-traffic-light",
+      "order": 16,
+      "name": {
+        "en": "Miffy's Traffic Light",
+        "nl": "Nijntje Verkeerslicht",
+        "de": "Miffys Ampel"
+      },
+      "subtitle": {
+        "en": "The world's only Miffy-themed pedestrian crossing",
+        "nl": "De enige Nijntje-voetgangerslichten ter wereld",
+        "de": "Die einzige Miffy-Fußgängerampel der Welt"
+      },
+      "location": {
+        "latitude": 52.0893,
+        "longitude": 5.1063,
+        "directions": {
+          "en": "Head west toward the station. The Miffy traffic light is at the Vredenburgviaduct intersection, near the Bijenkorf department store. Look for the rainbow crosswalk.",
+          "nl": "Loop naar het westen richting het station. Het Nijntje-verkeerslicht staat op de kruising bij het Vredenburgviaduct, bij de Bijenkorf. Zoek het regenboogzebrapad.",
+          "de": "Gehen Sie westwärts Richtung Bahnhof. Die Miffy-Ampel befindet sich an der Kreuzung Vredenburgviaduct, in der Nähe des Kaufhauses Bijenkorf. Suchen Sie den Regenbogenzebrastreifen."
+        }
+      },
+      "description": {
+        "en": "You're about to experience something uniquely Utrecht — the world's only traffic light featuring Miffy. At this intersection on Vredenburgviaduct, the usual red and green pedestrian symbols have been replaced by the iconic silhouette of Nijntje. When the light turns green, Miffy gives you permission to cross; when red, you wait. It's a small detail with an outsized sense of delight.\n\nThis is far more than a charming quirk. The intersection is part of one of the busiest cycling crossings in the world — thousands of cyclists and pedestrians pass through here every day. Miffy's presence transforms a purely functional traffic system into a moment of joy and civic pride. The surrounding rainbow-painted crosswalk adds further colour, reflecting Utrecht's values of openness and inclusion. Together they make an ordinary urban intersection into one of the city's most photographed spots.\n\nThe choice of Miffy for this location is no accident. Dick Bruna was born and lived and worked in Utrecht his entire life. His simple rabbit has become as much a symbol of this city as the Dom Tower. If you want a quieter encounter with Nijntje, seek out the Nijntje Pleintje (Miffy Square) at 1e Achterstraat 1, just a short walk away, where a bronze statue of Miffy created by Dick Bruna's son Marc stands in a peaceful residential courtyard.",
+        "nl": "U staat op het punt iets typisch Utrechts te ervaren — het enige verkeerslicht ter wereld met Nijntje. Op deze kruising bij het Vredenburgviaduct zijn de gewone rode en groene voetgangerssymbolen vervangen door het iconische silhouet van Nijntje. Als het licht op groen springt, geeft Nijntje u toestemming over te steken; bij rood wacht u. Een klein detail met een grote lading vreugde.\n\nDit is meer dan een charmante eigenaardigheid. De kruising maakt deel uit van een van de drukste fietsoversteken ter wereld — dagelijks passeren hier duizenden fietsers en voetgangers. Nijntjes aanwezigheid transformeert een puur functioneel verkeerssysteem in een moment van vreugde en stedelijke trots. Het omringende regenboogzebrapad voegt nog meer kleur toe.\n\nDe keuze voor Nijntje op deze locatie is geen toeval. Dick Bruna werd geboren, leefde en werkte zijn hele leven in Utrecht. Zijn eenvoudige konijntje is net zo'n symbool van deze stad geworden als de Domtoren. Als u Nijntje op een rustiger plek wil ontmoeten, zoek dan het Nijntje Pleintje op bij de 1e Achterstraat 1, waar een bronzen beeld van Nijntje staat, gemaakt door Dicks zoon Marc Bruna.",
+        "de": "Sie sind dabei, etwas typisch Utrechtisches zu erleben — die einzige Ampel der Welt mit Miffy. An dieser Kreuzung am Vredenburgviaduct wurden die üblichen roten und grünen Fußgängersymbole durch die ikonische Silhouette von Nijntje ersetzt. Wenn die Ampel grün wird, gibt Miffy Ihnen die Erlaubnis zu überqueren; bei Rot warten Sie. Ein kleines Detail mit großer Freude.\n\nDies ist mehr als eine charmante Kuriosität. Die Kreuzung ist Teil einer der verkehrsreichsten Fahrradkreuzungen der Welt — täglich passieren hier Tausende von Radfahrern und Fußgängern. Der umgebende Regenbogenzebrastreifen fügt weitere Farbe hinzu und spiegelt Utrechts Werte der Offenheit und Inklusion wider.\n\nDie Wahl von Miffy für diesen Ort ist kein Zufall. Dick Bruna wurde in Utrecht geboren, lebte und arbeitete sein ganzes Leben hier. Sein einfacher Hase ist genauso ein Symbol dieser Stadt geworden wie der Domturm."
+      },
+      "images": [
+        "utrecht-city-walk/miffy-traffic-light.jpg"
+      ],
+      "tags": ["miffy", "dick-bruna", "fun", "landmark", "art"]
+    },
+    {
+      "id": "bollendak-einde",
+      "order": 17,
+      "name": {
+        "en": "Return to the Bollendak — End of Walk",
+        "nl": "Terug naar het Bollendak — Einde wandeling",
+        "de": "Zurück zum Bollendak — Ende des Spaziergangs"
+      },
+      "subtitle": {
+        "en": "Walk complete · you've covered 5 km of Utrecht's finest",
+        "nl": "Wandeling voltooid · u heeft 5 km van het beste Utrecht gelopen",
+        "de": "Spaziergang abgeschlossen · Sie haben 5 km durch Utrechts Glanzlichter zurückgelegt"
+      },
+      "location": {
+        "latitude": 52.0892,
+        "longitude": 5.1038,
+        "directions": {
+          "en": "A short walk from the Miffy traffic light brings you back to Stationsplein and the Bollendak — your starting point and the end of this walk.",
+          "nl": "Een korte wandeling van het Nijntje-verkeerslicht brengt u terug naar het Stationsplein en het Bollendak — uw startpunt en het einde van deze wandeling.",
+          "de": "Ein kurzer Spaziergang von der Miffy-Ampel bringt Sie zurück zum Stationsplein und zum Bollendak — Ihrem Ausgangspunkt und dem Ende dieses Spaziergangs."
+        }
+      },
+      "description": {
+        "en": "Welcome back. You've walked through over seven centuries of Utrecht's history — from medieval cloisters and collegiate churches to cutting-edge architecture, an infinite street poem, and a rabbit who conquered the world with just two dots and a line.\n\nAs you stand once more beneath the Bollendak, consider what you've seen. The same city that preserved a 14th-century cloister garden also built a seven-storey house on a 13-square-metre lot. A city that lost the nave of its cathedral in a 1674 storm turned the empty space into its main square. A city that remembers its wartime dead with bronze, and celebrates its greatest artistic export with traffic lights.\n\nUtrecht is not one thing but many: medieval and modern, solemn and playful, sacred and secular. It's a city that keeps making things: poems in cobblestones, light in towers, stories in stone. Thank you for walking with us. The trains are waiting — but Utrecht will be here when you return.",
+        "nl": "Welkom terug. U heeft meer dan zeven eeuwen Utrechtse geschiedenis doorlopen — van middeleeuwse pandgangen en stadskerken tot avontuurlijke architectuur, een eindeloos straatgedicht en een konijntje dat de wereld veroverde met slechts twee stippen en een streepje.\n\nAls u opnieuw onder het Bollendak staat, overdenk dan wat u gezien heeft. Dezelfde stad die een 14e-eeuwse kloostertuin bewaarde, bouwde ook een zevenverdiepin gebouw op een perceel van 13 vierkante meter. Een stad die het schip van haar kathedraal verloor in een storm van 1674 en de lege ruimte omtoverde tot haar centrale plein. Een stad die haar oorlogsslachtoffers herdenkt in brons en haar grootste artistieke export viert met verkeerslichten.\n\nUtrecht is niet één ding maar vele: middeleeuws en modern, plechtig en speels, heilig en wereldlijk. Het is een stad die blijft scheppen: gedichten in klinkers, licht in torens, verhalen in steen. Bedankt voor uw deelname. De treinen staan klaar — maar Utrecht is er als u terugkeert.",
+        "de": "Willkommen zurück. Sie haben über sieben Jahrhunderte Utrechter Geschichte durchquert — von mittelalterlichen Kreuzgängen und Kollegiatkirchen bis zu avantgardistischer Architektur, einem endlosen Straßengedicht und einem Hasen, der die Welt mit nur zwei Punkten und einem Strich eroberte.\n\nAls Sie erneut unter dem Bollendak stehen, bedenken Sie, was Sie gesehen haben. Dieselbe Stadt, die einen Klostergarten aus dem 14. Jahrhundert bewahrte, baute auch ein siebenstöckiges Haus auf einem 13-Quadratmeter-Grundstück. Eine Stadt, die das Kirchenschiff ihrer Kathedrale in einem Sturm von 1674 verlor und den leeren Raum in ihren zentralen Platz verwandelte. Eine Stadt, die ihre Kriegstoten in Bronze ehrt und ihren größten künstlerischen Export mit Ampeln feiert.\n\nUtrecht ist nicht eine Sache, sondern viele: mittelalterlich und modern, feierlich und verspielt, heilig und weltlich. Danke, dass Sie mitgegangen sind. Die Züge warten — aber Utrecht ist da, wenn Sie zurückkehren."
+      },
+      "images": [
+        "utrecht-city-walk/bollendak-end.jpg"
+      ],
+      "tags": ["end", "landmark", "transport"]
+    }
+  ]
+}
