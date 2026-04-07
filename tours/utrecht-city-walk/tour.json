@@ -22,8 +22,8 @@
     },
     "address": "Stationsplein, 3511 CE Utrecht",
     "location": {
-      "latitude": 52.0892,
-      "longitude": 5.1038
+      "latitude": 52.09053558400775,
+      "longitude": 5.111050943375483
     }
   },
 
@@ -45,8 +45,8 @@
         "de": "Ihr Ausgangspunkt — Tor zur Stadt"
       },
       "location": {
-        "latitude": 52.0892,
-        "longitude": 5.1038,
+        "latitude": 52.09053558400775,
+        "longitude": 5.111050943375483,
         "directions": {
           "en": "Stand in the open plaza in front of Utrecht Centraal Station, facing the distinctive curved Bollendak roof structure.",
           "nl": "Sta op het open plein voor Utrecht Centraal Station, met het kenmerkende gebogen Bollendak voor u.",
@@ -77,8 +77,8 @@
         "de": "1919–1921 · 22 Millionen Ziegel · das größte Backsteingebäude der Niederlande"
       },
       "location": {
-        "latitude": 52.0874,
-        "longitude": 5.1075,
+        "latitude": 52.08752194550258,
+        "longitude": 5.116027299510701,
         "directions": {
           "en": "From the Bollendak, walk south through Moreelsepark. De Inktpot will come into view on your right — you cannot miss it.",
           "nl": "Wandel vanaf het Bollendak naar het zuiden door het Moreelsepark. De Inktpot is rechts van u zichtbaar — u kunt het niet missen.",
@@ -141,8 +141,8 @@
         "de": "Ein endloses Gedicht, das seit 2012 jeden Samstag um einen Buchstaben wächst"
       },
       "location": {
-        "latitude": 52.0885,
-        "longitude": 5.1213,
+        "latitude": 52.086294756246026,
+        "longitude": 5.121962750085161,
         "directions": {
           "en": "Head east toward the Oudegracht canal. Cross the Smeebrug — the blacksmith's bridge. Look down at the cobblestones.",
           "nl": "Loop naar het oosten richting de Oudegracht. Steek de Smeebrug over — de smidsbrug. Kijk omlaag naar de klinkers.",
@@ -192,40 +192,8 @@
       "tags": ["architecture", "cinema", "culture", "amsterdam-school"]
     },
     {
-      "id": "catharinakathedraal",
-      "order": 6,
-      "name": {
-        "en": "St. Catharina Cathedral",
-        "nl": "St. Catharinakathedraal",
-        "de": "St.-Katharinen-Kathedrale"
-      },
-      "subtitle": {
-        "en": "Founded 1456 · cathedral since 1853 · the Roman Catholic metropolitan church of the Netherlands",
-        "nl": "Gesticht 1456 · kathedraal sinds 1853 · de rooms-katholieke metropolitane kerk van Nederland",
-        "de": "Gegründet 1456 · Kathedrale seit 1853 · die römisch-katholische Metropolitankirche der Niederlande"
-      },
-      "location": {
-        "latitude": 52.0886,
-        "longitude": 5.1247,
-        "directions": {
-          "en": "Head north along Lange Nieuwstraat. The cathedral's impressive façade and tower are visible from a distance.",
-          "nl": "Loop naar het noorden langs de Lange Nieuwstraat. De indrukwekkende gevel en toren van de kathedraal zijn van verre zichtbaar.",
-          "de": "Gehen Sie nach Norden entlang der Lange Nieuwstraat. Die beeindruckende Fassade und der Turm der Kathedrale sind aus der Ferne sichtbar."
-        }
-      },
-      "description": {
-        "en": "This magnificent Gothic cathedral holds a unique position in Dutch religious history. St. Catherine's is the seat of the Roman Catholic Archbishop of Utrecht and the metropolitan church of all the Netherlands — a distinction it has held since 1853. Its journey through five centuries of religious upheaval makes it one of the most historically layered buildings in the country.\n\nThe cathedral's origins trace back to 1456, when it was built as part of a Carmelite friary. The large Gothic church, featuring Brabantine Gothic influences with elegant rounded columns and soaring arches, was not completed until the mid-16th century. But the Reformation of 1580 forced a dramatic transformation: for 235 years the church served as a Protestant congregation. Catholics only regained the building in 1815.\n\nThe 19th century brought sweeping architectural additions. Between 1859 and 1901, the cathedral was enriched with neo-Gothic embellishments under Friedrich Wilhelm Mengelberg. Architect Alfred Tepe extended the nave westward in 1900 and added the distinctive 53-metre tower, inspired by the town hall of Kampen. This tower, visible across much of the city, is now one of Utrecht's most recognisable silhouettes. Standing before this cathedral, you are witnessing the full drama of the Reformation and Counter-Reformation made stone.",
-        "nl": "Deze prachtige gotische kathedraal bekleedt een unieke positie in de Nederlandse kerkgeschiedenis. De Catharinakathedraal is de zetel van de rooms-katholieke aartsbisschop van Utrecht en de metropolitane kerk van heel Nederland — een onderscheiding die zij heeft since 1853. De reis door vijf eeuwen religieuze omwentelingen maakt haar tot een van de meest gelaagde gebouwen van het land.\n\nDe oorsprong van de kathedraal gaat terug tot 1456, toen ze werd gebouwd als onderdeel van een karmelietenklooster. De grote gotische kerk, met Brabantse gotische invloeden met elegante ronde pilaren en sierlijke bogen, werd pas medio 16e eeuw voltooid. Maar de Reformatie van 1580 bracht een dramatische verandering: 235 jaar lang diende de kerk als protestantse gemeente. Katholieken kregen het gebouw pas in 1815 terug.\n\nDe 19e eeuw bracht ingrijpende architectonische toevoegingen. Tussen 1859 en 1901 werd de kathedraal verrijkt met neogotische verfraaiingen. Architect Alfred Tepe verlengde het schip in 1900 en voegde de kenmerkende 53 meter hoge toren toe, geïnspireerd op het stadhuis van Kampen.",
-        "de": "Diese prächtige gotische Kathedrale nimmt eine einzigartige Position in der niederländischen Kirchengeschichte ein. Die St.-Katharinen-Kathedrale ist der Sitz des römisch-katholischen Erzbischofs von Utrecht und die Metropolitankirche der gesamten Niederlande — eine Auszeichnung, die sie seit 1853 innehat.\n\nDie Ursprünge der Kathedrale reichen bis 1456 zurück, als sie als Teil eines Karmeliterklosters erbaut wurde. Die Reformation von 1580 erzwang eine dramatische Transformation: 235 Jahre lang diente die Kirche als protestantische Gemeinde. Erst 1815 erhielten die Katholiken das Gebäude zurück.\n\nDas 19. Jahrhundert brachte umfangreiche architektonische Ergänzungen. Zwischen 1859 und 1901 wurde die Kathedrale mit neugotischen Verschönerungen bereichert. Architekt Alfred Tepe verlängerte das Schiff 1900 und fügte den charakteristischen 53 Meter hohen Turm hinzu, inspiriert vom Rathaus in Kampen."
-      },
-      "images": [
-        "utrecht-city-walk/catharinakathedraal.jpg"
-      ],
-      "tags": ["church", "gothic", "religion", "historic", "architecture"]
-    },
-    {
       "id": "fundatie-van-renswoude",
-      "order": 7,
+      "order": 6,
       "name": {
         "en": "Fundatie van Renswoude",
         "nl": "Fundatie van Renswoude",
@@ -237,8 +205,8 @@
         "de": "Gegründet 1752 · Louis-XIV-Stil Waisenschule · Bildungsphilanthropie seit der Aufklärung"
       },
       "location": {
-        "latitude": 52.0912,
-        "longitude": 5.1193,
+        "latitude": 52.08406257903087,
+        "longitude": 5.126458497348392,
         "directions": {
           "en": "Walk north along Lange Nieuwstraat, then turn right onto Agnietenstraat. The Fundatie building is visible on the left.",
           "nl": "Loop naar het noorden langs de Lange Nieuwstraat, dan rechtsaf de Agnietenstraat in. Het Fundatiegebouw is links zichtbaar.",
@@ -257,7 +225,7 @@
     },
     {
       "id": "leeuwenbergh",
-      "order": 8,
+      "order": 7,
       "name": {
         "en": "Leeuwenbergh",
         "nl": "Leeuwenbergh",
@@ -288,6 +256,38 @@
       "tags": ["culture", "music", "historic", "canal"]
     },
     {
+      "id": "catharinakathedraal",
+      "order": 8,
+      "name": {
+        "en": "St. Catharina Cathedral",
+        "nl": "St. Catharinakathedraal",
+        "de": "St.-Katharinen-Kathedrale"
+      },
+      "subtitle": {
+        "en": "Founded 1456 · cathedral since 1853 · the Roman Catholic metropolitan church of the Netherlands",
+        "nl": "Gesticht 1456 · kathedraal sinds 1853 · de rooms-katholieke metropolitane kerk van Nederland",
+        "de": "Gegründet 1456 · Kathedrale seit 1853 · die römisch-katholische Metropolitankirche der Niederlande"
+      },
+      "location": {
+        "latitude": 52.08766893386313,
+        "longitude": 5.124232626272611,
+        "directions": {
+          "en": "Head north along Lange Nieuwstraat. The cathedral's impressive façade and tower are visible from a distance.",
+          "nl": "Loop naar het noorden langs de Lange Nieuwstraat. De indrukwekkende gevel en toren van de kathedraal zijn van verre zichtbaar.",
+          "de": "Gehen Sie nach Norden entlang der Lange Nieuwstraat. Die beeindruckende Fassade und der Turm der Kathedrale sind aus der Ferne sichtbar."
+        }
+      },
+      "description": {
+        "en": "This magnificent Gothic cathedral holds a unique position in Dutch religious history. St. Catherine's is the seat of the Roman Catholic Archbishop of Utrecht and the metropolitan church of all the Netherlands — a distinction it has held since 1853. Its journey through five centuries of religious upheaval makes it one of the most historically layered buildings in the country.\n\nThe cathedral's origins trace back to 1456, when it was built as part of a Carmelite friary. The large Gothic church, featuring Brabantine Gothic influences with elegant rounded columns and soaring arches, was not completed until the mid-16th century. But the Reformation of 1580 forced a dramatic transformation: for 235 years the church served as a Protestant congregation. Catholics only regained the building in 1815.\n\nThe 19th century brought sweeping architectural additions. Between 1859 and 1901, the cathedral was enriched with neo-Gothic embellishments under Friedrich Wilhelm Mengelberg. Architect Alfred Tepe extended the nave westward in 1900 and added the distinctive 53-metre tower, inspired by the town hall of Kampen. This tower, visible across much of the city, is now one of Utrecht's most recognisable silhouettes. Standing before this cathedral, you are witnessing the full drama of the Reformation and Counter-Reformation made stone.",
+        "nl": "Deze prachtige gotische kathedraal bekleedt een unieke positie in de Nederlandse kerkgeschiedenis. De Catharinakathedraal is de zetel van de rooms-katholieke aartsbisschop van Utrecht en de metropolitane kerk van heel Nederland — een onderscheiding die zij heeft since 1853. De reis door vijf eeuwen religieuze omwentelingen maakt haar tot een van de meest gelaagde gebouwen van het land.\n\nDe oorsprong van de kathedraal gaat terug tot 1456, toen ze werd gebouwd als onderdeel van een karmelietenklooster. De grote gotische kerk, met Brabantse gotische invloeden met elegante ronde pilaren en sierlijke bogen, werd pas medio 16e eeuw voltooid. Maar de Reformatie van 1580 bracht een dramatische verandering: 235 jaar lang diende de kerk als protestantse gemeente. Katholieken kregen het gebouw pas in 1815 terug.\n\nDe 19e eeuw bracht ingrijpende architectonische toevoegingen. Tussen 1859 en 1901 werd de kathedraal verrijkt met neogotische verfraaiingen. Architect Alfred Tepe verlengde het schip in 1900 en voegde de kenmerkende 53 meter hoge toren toe, geïnspireerd op het stadhuis van Kampen.",
+        "de": "Diese prächtige gotische Kathedrale nimmt eine einzigartige Position in der niederländischen Kirchengeschichte ein. Die St.-Katharinen-Kathedrale ist der Sitz des römisch-katholischen Erzbischofs von Utrecht und die Metropolitankirche der gesamten Niederlande — eine Auszeichnung, die sie seit 1853 innehat.\n\nDie Ursprünge der Kathedrale reichen bis 1456 zurück, als sie als Teil eines Karmeliterklosters erbaut wurde. Die Reformation von 1580 erzwang eine dramatische Transformation: 235 Jahre lang diente die Kirche als protestantische Gemeinde. Erst 1815 erhielten die Katholiken das Gebäude zurück.\n\nDas 19. Jahrhundert brachte umfangreiche architektonische Ergänzungen. Zwischen 1859 und 1901 wurde die Kathedrale mit neugotischen Verschönerungen bereichert. Architekt Alfred Tepe verlängerte das Schiff 1900 und fügte den charakteristischen 53 Meter hohen Turm hinzu, inspiriert vom Rathaus in Kampen."
+      },
+      "images": [
+        "utrecht-city-walk/catharinakathedraal.jpg"
+      ],
+      "tags": ["church", "gothic", "religion", "historic", "architecture"]
+    },
+    {
       "id": "dirk-bruna-studio",
       "order": 9,
       "name": {
@@ -301,8 +301,8 @@
         "de": "Jeruzalemstraat 3 · 1981–2011 · wo Miffy zum Leben erwachte"
       },
       "location": {
-        "latitude": 52.0908,
-        "longitude": 5.1228,
+        "latitude": 52.09026265599748,
+        "longitude": 5.125572056778778,
         "directions": {
           "en": "Walk north toward the Dom. Turn onto Jeruzalemstraat. Look for the small Miffy mosaic at number 3.",
           "nl": "Loop naar het noorden richting de Dom. Sla de Jeruzalemstraat in. Zoek het kleine Nijntje-mozaïek bij nummer 3.",
@@ -525,8 +525,8 @@
         "de": "Die einzige Miffy-Fußgängerampel der Welt"
       },
       "location": {
-        "latitude": 52.0893,
-        "longitude": 5.1063,
+        "latitude": 52.0930944080492,
+        "longitude": 5.1149437894828225,
         "directions": {
           "en": "Head west toward the station. The Miffy traffic light is at the Vredenburgviaduct intersection, near the Bijenkorf department store. Look for the rainbow crosswalk.",
           "nl": "Loop naar het westen richting het station. Het Nijntje-verkeerslicht staat op de kruising bij het Vredenburgviaduct, bij de Bijenkorf. Zoek het regenboogzebrapad.",
@@ -557,8 +557,8 @@
         "de": "Spaziergang abgeschlossen · Sie haben 5 km durch Utrechts Glanzlichter zurückgelegt"
       },
       "location": {
-        "latitude": 52.0892,
-        "longitude": 5.1038,
+        "latitude": 52.09053558400775,
+        "longitude": 5.111050943375483,
         "directions": {
           "en": "A short walk from the Miffy traffic light brings you back to Stationsplein and the Bollendak — your starting point and the end of this walk.",
           "nl": "Een korte wandeling van het Nijntje-verkeerslicht brengt u terug naar het Stationsplein en het Bollendak — uw startpunt en het einde van deze wandeling.",
