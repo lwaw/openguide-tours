@@ -1,0 +1,419 @@
+{
+  "id": "amsterdam-city-walk",
+  "name": {
+    "en": "Amsterdam City Walk",
+    "nl": "Amsterdam Stadswandeling",
+    "de": "Amsterdam Stadtrundgang"
+  },
+  "description": {
+    "en": "Explore Amsterdam on foot — from the grand Belle Époque Hirschgebouw on Leidseplein, through the architectural curiosity of the Zevenlandenhuizen, past the green expanse of Vondelpark, through the lively De Pijp neighbourhood, along the Amstel river, out to the historic Muiderpoort city gate, into the Jewish Quarter, and back through the hidden Begijnhof and the charming Negen Straatjes. Twelve stops, four centuries of history, one unforgettable city.",
+    "nl": "Ontdek Amsterdam te voet — van het grandioze Belle Époque Hirschgebouw op het Leidseplein, langs de architectonische curiositeit van de Zevenlandenhuizen, voorbij het groene Vondelpark, door de levendige Pijp, langs de Amstel, naar de historische stadspoort de Muiderpoort, door de Joodse buurt en terug via het verborgen Begijnhof en de schilderachtige Negen Straatjes. Twaalf stops, vier eeuwen geschiedenis, één onvergetelijke stad.",
+    "de": "Entdecken Sie Amsterdam zu Fuß — vom prächtigen Belle-Époque-Hirschgebouw am Leidseplein über die architektonische Besonderheit der Zevenlandenhuizen, vorbei am grünen Vondelpark, durch das lebhafte De-Pijp-Viertel, entlang der Amstel bis zum historischen Stadttor Muiderpoort, durch das jüdische Viertel und zurück durch den verborgenen Begijnhof und die charmanten Neun Straßen. Zwölf Stopps, vier Jahrhunderte Geschichte, eine unvergessliche Stadt."
+  },
+  "type": "city",
+  "duration": 180,
+  "distance": 6.5,
+
+  "startPoint": {
+    "name": {
+      "en": "Leidseplein — Hirschgebouw",
+      "nl": "Leidseplein — Hirschgebouw",
+      "de": "Leidseplein — Hirschgebouw"
+    },
+    "address": "Leidseplein 29, 1017 PS Amsterdam",
+    "location": {
+      "latitude": 52.36412863610362,
+      "longitude": 4.883057400497297
+    }
+  },
+
+  "supportedLanguages": ["en", "nl", "de"],
+  "defaultLanguage": "en",
+
+  "stops": [
+    {
+      "id": "hirschgebouw",
+      "order": 1,
+      "name": {
+        "en": "Hirschgebouw, Leidseplein",
+        "nl": "Hirschgebouw, Leidseplein",
+        "de": "Hirschgebouw, Leidseplein"
+      },
+      "subtitle": {
+        "en": "1912 · Belle Époque · National Monument",
+        "nl": "1912 · Belle Époque · Rijksmonument",
+        "de": "1912 · Belle Époque · Nationales Denkmal"
+      },
+      "location": {
+        "latitude": 52.36412863610362,
+        "longitude": 4.883057400497297,
+        "directions": {
+          "en": "Stand on Leidseplein and look at the building on the corner with the rounded facade, copper dome, and grey stone — that is the Hirschgebouw.",
+          "nl": "Sta op het Leidseplein en kijk naar het hoekgebouw met de afgeronde gevel, koperen koepel en grijze steen — dat is het Hirschgebouw.",
+          "de": "Stehen Sie auf dem Leidseplein und schauen Sie auf das Eckgebäude mit der abgerundeten Fassade, der Kupferkuppel und dem grauen Stein — das ist das Hirschgebouw."
+        }
+      },
+      "description": {
+        "en": "Welcome to Leidseplein — one of Amsterdam's most vibrant squares. The building commanding the corner to your left is the Hirschgebouw, built in 1912 and designed by the architect A. Jacot. Its imposing grey sandstone facade was imported from the Arzviller region in France, giving it a distinctly Continental grandeur.\n\nThe building was originally the Amsterdam branch of Hirsch & Cie, a prestigious fashion house founded by the Jewish entrepreneur Leo Hirsch in the nineteenth century. Its rounded corner, ornate detailing, and copper-covered dome made it an instant landmark — and it has been a protected national monument ever since.\n\nToday the building houses an Apple Store, but its exterior is as commanding as ever. Take a moment to admire the craftsmanship before we head into the city.",
+        "nl": "Welkom op het Leidseplein — een van Amsterdam's meest levendige pleinen. Het gebouw dat de hoek domineert is het Hirschgebouw, gebouwd in 1912 en ontworpen door architect A. Jacot. De imposante grijze zandstenen gevel werd geïmporteerd uit de Franse regio Arzviller, wat het een uitgesproken Continentale grandeur geeft.\n\nHet gebouw was oorspronkelijk de Amsterdamse vestiging van Hirsch & Cie, een prestigieus modehuis gesticht door de joodse ondernemer Leo Hirsch in de negentiende eeuw. De afgeronde hoek, rijke detaillering en met koper bedekte koepel maakten het meteen tot een landmark — en het is sindsdien een beschermd rijksmonument.\n\nTegenwoordig herbergt het gebouw een Apple Store, maar de buitenkant is even imposant als altijd. Neem even de tijd om het vakmanschap te bewonderen voordat we de stad in trekken.",
+        "de": "Willkommen auf dem Leidseplein — einem der lebhaftesten Plätze Amsterdams. Das Gebäude, das die Ecke beherrscht, ist das Hirschgebouw, das 1912 nach Plänen des Architekten A. Jacot erbaut wurde. Die imposante graue Sandsteinfassade wurde aus der französischen Region Arzviller importiert und verleiht dem Gebäude eine ausgesprochen kontinentale Grandeur.\n\nDas Gebäude war ursprünglich die Amsterdamer Filiale von Hirsch & Cie, einem renommierten Modehaus, das der jüdische Unternehmer Leo Hirsch im neunzehnten Jahrhundert gründete. Die abgerundete Ecke, aufwendige Details und die kupfergedeckte Kuppel machten es sofort zu einem Wahrzeichen — und es steht seitdem unter nationalem Denkmalschutz.\n\nHeute beherbergt das Gebäude einen Apple Store, doch sein Äußeres ist so beeindruckend wie je zuvor. Nehmen Sie sich einen Moment, um die Handwerkskunst zu bewundern, bevor wir in die Stadt aufbrechen."
+      },
+      "images": [
+        "amsterdam-city-walk/hirschgebouw.jpg"
+      ],
+      "tags": ["architecture", "history", "belle-epoque", "landmark", "start"]
+    },
+    {
+      "id": "zevenlandenhuizen",
+      "order": 2,
+      "name": {
+        "en": "Zevenlandenhuizen",
+        "nl": "Zevenlandenhuizen",
+        "de": "Zevenlandenhuizen"
+      },
+      "subtitle": {
+        "en": "1894 · Seven houses, seven countries, one street",
+        "nl": "1894 · Zeven huizen, zeven landen, één straat",
+        "de": "1894 · Sieben Häuser, sieben Länder, eine Straße"
+      },
+      "location": {
+        "latitude": 52.361465675390654,
+        "longitude": 4.877431633591931,
+        "directions": {
+          "en": "Walk west along Stadhouderskade and turn right onto Roemer Visscherstraat. The row of seven architecturally diverse houses is on your right.",
+          "nl": "Loop westelijk langs de Stadhouderskade en sla rechts af de Roemer Visscherstraat in. De rij van zeven architectonisch diverse huizen staat rechts van u.",
+          "de": "Gehen Sie westlich entlang der Stadhouderskade und biegen Sie rechts in die Roemer Visscherstraat ein. Die Reihe der sieben architektonisch vielfältigen Häuser befindet sich auf Ihrer rechten Seite."
+        }
+      },
+      "description": {
+        "en": "Look at the row of houses in front of you and you will notice something unusual — no two look alike. These are the Zevenlandenhuizen, or Seven Countries Houses, built in 1894 by architect Tjeerd Kuipers and commissioned by the philanthropist Sam van Eeghen.\n\nEach house was designed to reflect the architectural style of a different European country: Germany, France, Spain, Italy, Russia, the Netherlands, and England. The French house evokes a Loire Valley chateau; the Spanish one features Mudéjar tilework; the Italian house is modelled on a palace facade.\n\nThis row is a product of nineteenth-century romanticism — a time when wealthy Europeans were fascinated by distant cultures and collected architectural styles the way others collected art. Walk slowly along the street and see how many national styles you can identify.",
+        "nl": "Kijk naar de huizenrij voor u en u zult iets opvallends zien — geen twee zijn hetzelfde. Dit zijn de Zevenlandenhuizen, gebouwd in 1894 door architect Tjeerd Kuipers in opdracht van filantroop Sam van Eeghen.\n\nElk huis is ontworpen in de bouwstijl van een ander Europees land: Duitsland, Frankrijk, Spanje, Italië, Rusland, Nederland en Engeland. Het Franse huis roept een Loire-kasteel op; het Spaanse huis heeft Mudéjar-tegelwerk; het Italiaanse huis is gemodelleerd naar een paleisfaçade.\n\nDeze rij is een product van de negentiende-eeuwse romantiek — een tijd waarin welgestelde Europeanen gefascineerd waren door verre culturen en architectuurstijlen verzamelden zoals anderen kunst verzamelen. Loop langzaam langs de straat en kijk hoeveel nationale stijlen u kunt herkennen.",
+        "de": "Schauen Sie sich die Häuserreihe vor Ihnen an und Sie werden etwas Ungewöhnliches bemerken — keine zwei sehen gleich aus. Dies sind die Zevenlandenhuizen, oder Sieben-Länder-Häuser, erbaut 1894 vom Architekten Tjeerd Kuipers im Auftrag des Philanthropen Sam van Eeghen.\n\nJedes Haus wurde im Architekturstil eines anderen europäischen Landes entworfen: Deutschland, Frankreich, Spanien, Italien, Russland, die Niederlande und England. Das französische Haus erinnert an ein Schloss im Loiretal; das spanische zeigt maurisches Kachelwerk; das italienische ist an eine Palastfassade angelehnt.\n\nDiese Häuserreihe ist ein Produkt der romantischen Begeisterung des neunzehnten Jahrhunderts — einer Zeit, in der wohlhabende Europäer fasziniert von fernen Kulturen waren und Architekturstile sammelten wie andere Kunst. Schlendern Sie langsam die Straße entlang und sehen Sie, wie viele Nationalstile Sie erkennen können."
+      },
+      "images": [
+        "amsterdam-city-walk/zevenlandenhuizen.jpg"
+      ],
+      "tags": ["architecture", "history", "19th-century", "curiosity"]
+    },
+    {
+      "id": "vondelpark",
+      "order": 3,
+      "name": {
+        "en": "Vondelpark",
+        "nl": "Vondelpark",
+        "de": "Vondelpark"
+      },
+      "subtitle": {
+        "en": "1865 · 47 hectares · Amsterdam's green heart",
+        "nl": "1865 · 47 hectare · het groene hart van Amsterdam",
+        "de": "1865 · 47 Hektar · Amsterdams grünes Herz"
+      },
+      "location": {
+        "latitude": 52.3579423888246,
+        "longitude": 4.871672094122636,
+        "directions": {
+          "en": "Continue south on Roemer Visscherstraat and enter Vondelpark through the main entrance at the north end of the park.",
+          "nl": "Ga verder naar het zuiden via de Roemer Visscherstraat en het Vondelpark via de hoofdingang aan de noordzijde van het park.",
+          "de": "Gehen Sie weiter südlich auf der Roemer Visscherstraat und betreten Sie den Vondelpark durch den Haupteingang am nördlichen Ende des Parks."
+        }
+      },
+      "description": {
+        "en": "You have arrived at Amsterdam's most beloved park — the Vondelpark. It was founded in 1864 by a committee of prominent citizens who wanted a space for horseback riding and leisurely strolling, and opened to the public in 1865. At the time it covered just eight hectares; today it stretches across forty-seven.\n\nThe park was designed by Jan David Zocher in the English landscape style — meaning it was shaped to look like natural wilderness, with winding paths, open meadows, and ponds arranged for beauty rather than symmetry. In 1880, the park was officially named after Joost van den Vondel, the great Dutch poet of the Golden Age, whose statue stands near the main entrance.\n\nEach year, around ten million visitors come here — to picnic, cycle, attend concerts, or simply to breathe.",
+        "nl": "U bent aangekomen bij Amsterdam's meest geliefde park — het Vondelpark. Het werd in 1864 opgericht door een comité van vooraanstaande burgers die een plek wilden voor paardrijden en wandelen, en in 1865 opengesteld voor het publiek. Toen besloeg het slechts acht hectare; vandaag strekt het zich uit over zevenenveertig.\n\nHet park is ontworpen door Jan David Zocher in de Engelse landschapsstijl — wat betekent dat het was ingericht om op een natuurlijk landschap te lijken, met kronkelende paden, open weiden en vijvers die voor schoonheid zijn gerangschikt, niet voor symmetrie. In 1880 werd het park officieel vernoemd naar Joost van den Vondel, de grote Nederlandse dichter van de Gouden Eeuw, wiens standbeeld bij de hoofdingang staat.\n\nElk jaar komen er zo'n tien miljoen bezoekers — om te picknicken, te fietsen, concerten bij te wonen of gewoon even adem te halen.",
+        "de": "Sie sind an Amsterdams beliebtestem Park angelangt — dem Vondelpark. Er wurde 1864 von einem Komitee prominenter Bürger gegründet, die einen Ort zum Reiten und Spazierengehen wollten, und 1865 für die Öffentlichkeit geöffnet. Damals umfasste er nur acht Hektar; heute erstreckt er sich über siebenundvierzig.\n\nDer Park wurde von Jan David Zocher im englischen Landschaftsstil gestaltet — das bedeutet, er wurde so angelegt, dass er wie eine natürliche Wildnis aussieht, mit gewundenen Wegen, offenen Wiesen und Teichen, die nach Schönheit und nicht nach Symmetrie angeordnet sind. Im Jahr 1880 wurde der Park offiziell nach Joost van den Vondel benannt, dem großen niederländischen Dichter des Goldenen Zeitalters, dessen Statue in der Nähe des Haupteingangs steht.\n\nJedes Jahr kommen rund zehn Millionen Besucher hierher — zum Picknicken, Radfahren, Konzertbesuchen oder einfach zum Durchatmen."
+      },
+      "images": [
+        "amsterdam-city-walk/vondelpark.jpg"
+      ],
+      "tags": ["park", "nature", "history", "culture"]
+    },
+    {
+      "id": "descartes-beeld",
+      "order": 4,
+      "name": {
+        "en": "Johannes Vermeerplein — Descartes Statue",
+        "nl": "Johannes Vermeerplein — Beeld van Descartes",
+        "de": "Johannes-Vermeerplein — Descartes-Statue"
+      },
+      "subtitle": {
+        "en": "1628–1649 · Descartes lived here · 'I think, therefore I am'",
+        "nl": "1628–1649 · Descartes woonde hier · 'Ik denk, dus ik ben'",
+        "de": "1628–1649 · Descartes lebte hier · 'Ich denke, also bin ich'"
+      },
+      "location": {
+        "latitude": 52.355449487502646,
+        "longitude": 4.88356224313315,
+        "directions": {
+          "en": "Exit Vondelpark at the south and walk east through De Pijp. The square is at the intersection of Johannes Vermeerstraat and Frans Halsstraat.",
+          "nl": "Verlaat het Vondelpark aan de zuidkant en loop oostwaarts door de Pijp. Het plein bevindt zich op het kruispunt van de Johannes Vermeerstraat en de Frans Halsstraat.",
+          "de": "Verlassen Sie den Vondelpark an der Südseite und gehen Sie östlich durch De Pijp. Der Platz befindet sich an der Kreuzung der Johannes Vermeerstraat und der Frans Halsstraat."
+        }
+      },
+      "description": {
+        "en": "The bronze figure seated in quiet contemplation is René Descartes — the French mathematician and philosopher who gave the world the phrase 'I think, therefore I am.' But what is he doing in Amsterdam?\n\nBetween 1628 and 1649, Descartes made Amsterdam his home. He was drawn by the city's remarkable intellectual freedom — in an age when original thinkers risked persecution elsewhere in Europe, Amsterdam offered a rare tolerance for unorthodox ideas. He spent his most productive years here, developing the foundations of modern philosophy and mathematics.\n\nThe statue was created by the French sculptor Jean Puiforcat for the 1937 Paris World Exposition and was gifted to the city of Amsterdam by the French ambassador in 1948. It stands as a reminder that Amsterdam has always been a city where free thought was welcome.",
+        "nl": "De bronzen figuur die rustig zit na te denken is René Descartes — de Franse wiskundige en filosoof die de wereld de uitspraak 'ik denk, dus ik ben' schonk. Maar wat doet hij in Amsterdam?\n\nTussen 1628 en 1649 maakte Descartes Amsterdam zijn thuis. Hij werd aangetrokken door de opmerkelijke intellectuele vrijheid van de stad — in een tijd dat originele denkers elders in Europa vervolgd konden worden, bood Amsterdam een zeldzame tolerantie voor onorthodoxe ideeën. Hij bracht hier zijn meest productieve jaren door en legde de grondslag voor de moderne filosofie en wiskunde.\n\nHet beeld werd gemaakt door de Franse beeldhouwer Jean Puiforcat voor de Wereldtentoonstelling van Parijs in 1937 en werd in 1948 door de Franse ambassadeur aan de stad Amsterdam geschonken. Het herinnert eraan dat Amsterdam altijd een stad is geweest waar vrij denken welkom was.",
+        "de": "Die bronzene Figur, die in stiller Kontemplation sitzt, ist René Descartes — der französische Mathematiker und Philosoph, der der Welt den Satz 'Ich denke, also bin ich' schenkte. Aber was macht er in Amsterdam?\n\nZwischen 1628 und 1649 machte Descartes Amsterdam zu seiner Heimat. Er wurde von der bemerkenswerten intellektuellen Freiheit der Stadt angezogen — in einer Zeit, in der originelle Denker anderswo in Europa Verfolgung riskierten, bot Amsterdam eine seltene Toleranz für unorthodoxe Ideen. Hier verbrachte er seine produktivsten Jahre und legte die Grundlagen der modernen Philosophie und Mathematik.\n\nDie Statue wurde vom französischen Bildhauer Jean Puiforcat für die Pariser Weltausstellung 1937 geschaffen und 1948 vom französischen Botschafter der Stadt Amsterdam geschenkt. Sie erinnert daran, dass Amsterdam schon immer eine Stadt war, in der freies Denken willkommen war."
+      },
+      "images": [
+        "amsterdam-city-walk/descartes.jpg"
+      ],
+      "tags": ["philosophy", "history", "art", "monument"]
+    },
+    {
+      "id": "albert-cuypmarkt",
+      "order": 5,
+      "name": {
+        "en": "Albert Cuypmarkt",
+        "nl": "Albert Cuypmarkt",
+        "de": "Albert Cuypmarkt"
+      },
+      "subtitle": {
+        "en": "1905 · The biggest street market in the Netherlands",
+        "nl": "1905 · De grootste straatmarkt van Nederland",
+        "de": "1905 · Der größte Straßenmarkt der Niederlande"
+      },
+      "location": {
+        "latitude": 52.355231256284036,
+        "longitude": 4.891721606283466,
+        "directions": {
+          "en": "Walk east from Johannes Vermeerplein to Albert Cuypstraat. The market runs along the full length of the street.",
+          "nl": "Loop oostwaarts van het Johannes Vermeerplein naar de Albert Cuypstraat. De markt loopt over de volledige lengte van de straat.",
+          "de": "Gehen Sie östlich vom Johannes-Vermeerplein zur Albert Cuypstraat. Der Markt erstreckt sich über die gesamte Länge der Straße."
+        }
+      },
+      "description": {
+        "en": "The street ahead of you is one of the most democratic places in Amsterdam. The Albert Cuypmarkt has been running since 1905, making it one of the oldest markets in the city — and with around two hundred and sixty stalls, it is the largest outdoor market in the Netherlands.\n\nThe market began chaotically: pushcart vendors were regularly moved on by police, struggling to find space in the narrow streets of De Pijp. Eventually the city government accepted the inevitable and officially designated this wider street as the market's home — turning a persistent problem into a permanent institution.\n\nOn a busy Saturday, more than fifty thousand people pass through here. The stalls sell everything from fresh herring and Dutch cheese to Indonesian spices and West African fabrics. Walk through, take in the noise and colour, and perhaps try a stroopwafel warm off the iron.",
+        "nl": "De straat voor u is een van de meest democratische plekken in Amsterdam. De Albert Cuypmarkt bestaat al sinds 1905, waarmee het een van de oudste markten van de stad is — en met zo'n tweehonderdenzestig kramen is het de grootste straatmarkt van Nederland.\n\nDe markt begon chaotisch: handkarren werden regelmatig door de politie weggestuurd en vonden moeilijk een plek in de smalle straatjes van de Pijp. Uiteindelijk accepteerde de gemeente het onvermijdelijke en wees deze bredere straat officieel aan als de thuisbasis van de markt — een hardnekkig probleem werd zo een permanente instelling.\n\nOp een drukke zaterdag komen hier meer dan vijftigduizend mensen. De kramen verkopen alles van verse haring en Hollandse kaas tot Indonesische kruiden en West-Afrikaanse stoffen. Loop erdoorheen, laat u meenemen door het lawaai en de kleuren, en probeer misschien een stroopwafel warm van het ijzer.",
+        "de": "Die Straße vor Ihnen ist einer der demokratischsten Orte Amsterdams. Der Albert Cuypmarkt existiert seit 1905 und ist damit einer der ältesten Märkte der Stadt — mit rund zweihundertsechzig Ständen ist er der größte Freiluftmarkt der Niederlande.\n\nDer Markt begann chaotisch: Karrenverkäufer wurden regelmäßig von der Polizei vertrieben und fanden in den engen Gassen von De Pijp nur schwer Platz. Schließlich akzeptierte die Stadtverwaltung das Unvermeidliche und bezeichnete diese breitere Straße offiziell als Heimat des Marktes — aus einem hartnäckigen Problem wurde eine dauerhafte Institution.\n\nAn einem belebten Samstag passieren hier mehr als fünfzigtausend Menschen. Die Stände verkaufen alles von frischem Hering und niederländischem Käse bis hin zu indonesischen Gewürzen und westafrikanischen Stoffen. Schlendern Sie hindurch, nehmen Sie den Lärm und die Farben in sich auf, und probieren Sie vielleicht einen Stroopwafel frisch vom Eisen."
+      },
+      "images": [
+        "amsterdam-city-walk/albert-cuypmarkt.jpg"
+      ],
+      "tags": ["market", "food", "culture", "de-pijp", "daily-life"]
+    },
+    {
+      "id": "walraven-van-hall",
+      "order": 6,
+      "name": {
+        "en": "Monument Walraven van Hall",
+        "nl": "Monument Walraven van Hall",
+        "de": "Denkmal Walraven van Hall"
+      },
+      "subtitle": {
+        "en": "1906–1945 · Resistance banker · Executed three months before liberation",
+        "nl": "1906–1945 · Verzetsbankier · Gefusilleerd drie maanden voor de bevrijding",
+        "de": "1906–1945 · Widerstandsbankier · Drei Monate vor der Befreiung erschossen"
+      },
+      "location": {
+        "latitude": 52.359918377984656,
+        "longitude": 4.899582690038139,
+        "directions": {
+          "en": "Walk north from Albert Cuypstraat to Frederiksplein, near the Dutch Central Bank. The monument — a large fallen bronze tree — is on the square.",
+          "nl": "Loop naar het noorden van de Albert Cuypstraat naar het Frederiksplein, bij De Nederlandsche Bank. Het monument — een grote gevallen bronzen boom — staat op het plein.",
+          "de": "Gehen Sie nördlich von der Albert Cuypstraat zum Frederiksplein, in der Nähe der Niederländischen Zentralbank. Das Denkmal — ein großer umgestürzter Bronzebaum — steht auf dem Platz."
+        }
+      },
+      "description": {
+        "en": "The large fallen bronze tree at your feet is a monument to Walraven van Hall — a man who used his position as a banker to fund the Dutch resistance during the Second World War.\n\nVan Hall worked at a private bank and, together with colleagues, found a way to forge official treasury documents and siphon funds from the Dutch Central Bank — money that was used to hide Jewish families, support resistance fighters, and finance the devastating railway strike of 1944. He is estimated to have channelled millions of guilders into the resistance.\n\nHe was arrested, and on the twelfth of February 1945, he was executed by firing squad at the age of thirty-eight — just three months before the Netherlands was liberated. The fallen tree, created by Spanish sculptor Fernando Sánchez Castillo and unveiled in 2010, represents a life cut violently short.",
+        "nl": "De grote gevallen bronzen boom aan uw voeten is een monument voor Walraven van Hall — een man die zijn positie als bankier gebruikte om het Nederlandse verzet te financieren tijdens de Tweede Wereldoorlog.\n\nVan Hall werkte bij een particuliere bank en slaagde er samen met collega's in om officiële schatkistdocumenten te vervalsen en geld weg te sluizen van De Nederlandsche Bank — geld dat werd gebruikt om joodse families te verbergen, verzetsstrijders te ondersteunen en de verwoestende spoorwegstaking van 1944 te financieren. Naar schatting sluisde hij miljoenen guldens door naar het verzet.\n\nHij werd gearresteerd en op twaalf februari 1945 gefusilleerd op achtendertigjarige leeftijd — slechts drie maanden voor de bevrijding van Nederland. De gevallen boom, gemaakt door de Spaanse beeldhouwer Fernando Sánchez Castillo en onthuld in 2010, symboliseert een leven dat gewelddadig werd afgebroken.",
+        "de": "Der große umgestürzte Bronzebaum zu Ihren Füßen ist ein Denkmal für Walraven van Hall — einen Mann, der seine Position als Banker nutzte, um den niederländischen Widerstand während des Zweiten Weltkriegs zu finanzieren.\n\nVan Hall arbeitete bei einer Privatbank und schaffte es zusammen mit Kollegen, offizielle Schatzamtsdokumente zu fälschen und Gelder von der Niederländischen Zentralbank abzuzweigen — Geld, das verwendet wurde, um jüdische Familien zu verstecken, Widerstandskämpfer zu unterstützen und den verheerenden Eisenbahnstreik von 1944 zu finanzieren. Schätzungsweise leitete er Millionen von Gulden in den Widerstand.\n\nEr wurde verhaftet und am zwölften Februar 1945 im Alter von achtunddreißig Jahren erschossen — nur drei Monate vor der Befreiung der Niederlande. Der umgestürzte Baum, geschaffen vom spanischen Bildhauer Fernando Sánchez Castillo und 2010 enthüllt, symbolisiert ein Leben, das gewaltsam abgebrochen wurde."
+      },
+      "images": [
+        "amsterdam-city-walk/walraven-van-hall.jpg"
+      ],
+      "tags": ["war", "resistance", "monument", "history", "wwii"]
+    },
+    {
+      "id": "magere-brug",
+      "order": 7,
+      "name": {
+        "en": "Magere Brug",
+        "nl": "Magere Brug",
+        "de": "Magere Brug"
+      },
+      "subtitle": {
+        "en": "1691 · The Skinny Bridge · 1,200 lights on the Amstel",
+        "nl": "1691 · De Magere Brug · 1.200 lichtjes aan de Amstel",
+        "de": "1691 · Die Schmale Brücke · 1.200 Lichter an der Amstel"
+      },
+      "location": {
+        "latitude": 52.36358349895851,
+        "longitude": 4.902333493856707,
+        "directions": {
+          "en": "Walk north along the Amstel river. The Magere Brug is the distinctive white wooden drawbridge crossing the Amstel between Kerkstraat and Nieuwe Kerkstraat.",
+          "nl": "Loop noordwaarts langs de Amstel. De Magere Brug is de opvallende witte houten ophaalbrug die de Amstel kruist tussen de Kerkstraat en de Nieuwe Kerkstraat.",
+          "de": "Gehen Sie nördlich entlang der Amstel. Die Magere Brug ist die markante weiße hölzerne Zugbrücke, die die Amstel zwischen der Kerkstraat und der Nieuwe Kerkstraat überquert."
+        }
+      },
+      "description": {
+        "en": "Few bridges in Amsterdam are as beloved as the Magere Brug — the Skinny Bridge. The first crossing at this spot was built in 1691, and the name tells the story: the bridge was so narrow that two pedestrians could barely pass each other. Some say the name comes from the width; others claim it honours two sisters with the surname Mager who lived on opposite banks and paid for the original crossing.\n\nThe current bridge dates from 1934, but it faithfully replicates the classic double-leaf bascule design of its predecessors. After dark, it is lit by twelve hundred light bulbs — making it one of the most photographed sights in the city, especially when reflected in the calm water of the Amstel.\n\nThe bridge still opens for passing boats, just as it has done for more than three centuries. Watch for a moment — you may be lucky enough to see it in action.",
+        "nl": "Weinig bruggen in Amsterdam zijn zo geliefd als de Magere Brug. De eerste oversteek op deze plek werd in 1691 gebouwd, en de naam vertelt het verhaal: de brug was zo smal dat twee voetgangers elkaar nauwelijks konden passeren. Sommigen zeggen dat de naam verwijst naar de breedte; anderen beweren dat hij twee zusters met de achternaam Mager eert die op de tegenoverliggende oevers woonden en voor de oorspronkelijke oversteek hebben betaald.\n\nDe huidige brug dateert uit 1934, maar bootst trouw het klassieke dubbel-blad basculebrug-ontwerp na van zijn voorgangers. Na zonsondergang wordt hij verlicht door twaalfhonderd lichtbolletjes — waardoor het een van de meest gefotografeerde bezienswaardigheden van de stad is, vooral wanneer het licht weerkaatst in het stille water van de Amstel.\n\nDe brug gaat nog steeds open voor passerende boten, zoals ze al meer dan drie eeuwen doet. Wacht even — misschien heeft u geluk en ziet u haar in actie.",
+        "de": "Wenige Brücken in Amsterdam sind so beliebt wie die Magere Brug — die Schmale Brücke. Die erste Überquerung an dieser Stelle wurde 1691 gebaut, und der Name erzählt die Geschichte: Die Brücke war so schmal, dass zwei Fußgänger kaum aneinander vorbeikommen konnten. Manche sagen, der Name bezieht sich auf die Breite; andere behaupten, er ehrt zwei Schwestern mit dem Nachnamen Mager, die auf gegenüberliegenden Ufern lebten und für die ursprüngliche Überquerung bezahlten.\n\nDie heutige Brücke stammt aus dem Jahr 1934, repliziert aber getreu das klassische Doppelblatt-Klappbrückendesign ihrer Vorgänger. Nach Einbruch der Dunkelheit wird sie von zwölfhundert Glühbirnen beleuchtet — was sie zu einer der meistfotografierten Sehenswürdigkeiten der Stadt macht, besonders wenn sie sich im ruhigen Wasser der Amstel spiegelt.\n\nDie Brücke öffnet sich noch immer für vorbeifahrende Boote, wie sie es seit mehr als drei Jahrhunderten tut. Warten Sie einen Moment — vielleicht haben Sie das Glück, sie in Aktion zu sehen."
+      },
+      "images": [
+        "amsterdam-city-walk/magere-brug.jpg"
+      ],
+      "tags": ["bridge", "amstel", "landmark", "architecture", "canal"]
+    },
+    {
+      "id": "muiderpoort",
+      "order": 8,
+      "name": {
+        "en": "Muiderpoort",
+        "nl": "Muiderpoort",
+        "de": "Muiderpoort"
+      },
+      "subtitle": {
+        "en": "1770 · The last city gate · Napoleon's triumphal entry",
+        "nl": "1770 · De laatste stadspoort · Napoleons triomfantelijke intrede",
+        "de": "1770 · Das letzte Stadttor · Napoleons triumphaler Einzug"
+      },
+      "location": {
+        "latitude": 52.36371923742525,
+        "longitude": 4.919303221203186,
+        "directions": {
+          "en": "Walk east along Plantage Middenlaan or Sarphatistraat until you reach the large neoclassical gate straddling the road at Alexanderplein.",
+          "nl": "Loop oostwaarts langs de Plantage Middenlaan of de Sarphatistraat totdat u de grote neoklassieke poort bereikt die de weg overspant op het Alexanderplein.",
+          "de": "Gehen Sie östlich entlang der Plantage Middenlaan oder der Sarphatistraat, bis Sie das große neoklassische Tor erreichen, das die Straße am Alexanderplein überspannt."
+        }
+      },
+      "description": {
+        "en": "The grand gate in front of you is the Muiderpoort — the only surviving city gate from Amsterdam's historic ring of fortifications, and one of the finest examples of Louis XVI neoclassical architecture in the Netherlands.\n\nA first gate was built here in 1663 as part of Amsterdam's great seventeenth-century expansion. That gate collapsed in 1769, sinking into the soft Amsterdam soil. The replacement, designed by city architect Cornelis Rauws, was completed in 1770. Its octagonal dome and sandstone detail give it an elegant severity.\n\nBut the Muiderpoort is best known for a single day in 1811, when Napoleon Bonaparte rode through it in a carriage drawn by eight white horses, entering Amsterdam as Emperor of the French. The city's residents lined the streets — though accounts differ on whether they were cheering or simply watching.",
+        "nl": "De imposante poort voor u is de Muiderpoort — de enige overgebleven stadspoort uit Amsterdam's historische ring van versterkingen, en een van de fraaiste voorbeelden van Lodewijk XVI-neoklassicisme in Nederland.\n\nEen eerste poort werd hier in 1663 gebouwd als onderdeel van Amsterdam's grote zeventiende-eeuwse uitbreiding. Die poort stortte in 1769 in, weggezakt in de zachte Amsterdamse bodem. De vervanger, ontworpen door stadsarchitect Cornelis Rauws, werd voltooid in 1770. De achthoekige koepel en zandstenen detaillering geven hem een elegante strengheid.\n\nMaar de Muiderpoort is het bekendst om één dag in 1811, toen Napoleon Bonaparte er doorheen reed in een koets met acht witte paarden, Amsterdam binnenrijdend als keizer van de Fransen. De stadsbewoners stonden langs de straten — al verschillen de berichten over de vraag of ze juichten of gewoon stonden te kijken.",
+        "de": "Das prächtige Tor vor Ihnen ist die Muiderpoort — das einzige erhaltene Stadttor aus Amsterdams historischem Befestigungsring und eines der schönsten Beispiele Louis-XVI-neoklassizistischer Architektur in den Niederlanden.\n\nEin erstes Tor wurde hier 1663 als Teil von Amsterdams großer Erweiterung im siebzehnten Jahrhundert erbaut. Dieses Tor kollabierte 1769 und versank im weichen Amsterdamer Boden. Der Ersatz, entworfen vom Stadtarchitekten Cornelis Rauws, wurde 1770 fertiggestellt. Seine achteckige Kuppel und die Sandsteindetails verleihen ihm eine elegante Strenge.\n\nDoch die Muiderpoort ist vor allem für einen einzigen Tag im Jahr 1811 bekannt, als Napoleon Bonaparte in einer von acht weißen Pferden gezogenen Kutsche hindurchfuhr und Amsterdam als Kaiser der Franzosen betrat. Die Stadtbewohner säumten die Straßen — wobei die Berichte darüber, ob sie jubelten oder einfach nur zuschauten, auseinandergehen."
+      },
+      "images": [
+        "amsterdam-city-walk/muiderpoort.jpg"
+      ],
+      "tags": ["history", "architecture", "city-gate", "napoleon", "neoclassical"]
+    },
+    {
+      "id": "rembrandthuis",
+      "order": 9,
+      "name": {
+        "en": "Museum Het Rembrandthuis",
+        "nl": "Museum Het Rembrandthuis",
+        "de": "Museum Het Rembrandthuis"
+      },
+      "subtitle": {
+        "en": "1639–1658 · Rembrandt's home and studio",
+        "nl": "1639–1658 · Rembrandts woon- en werkhuis",
+        "de": "1639–1658 · Rembrandts Wohn- und Atelierhaus"
+      },
+      "location": {
+        "latitude": 52.36946571278521,
+        "longitude": 4.901299103970901,
+        "directions": {
+          "en": "Walk west from Muiderpoort along Nieuwe Herengracht or Waterlooplein to Jodenbreestraat. The Rembrandthuis is the large brick canal house at number four.",
+          "nl": "Loop westwaarts van de Muiderpoort via de Nieuwe Herengracht of het Waterlooplein naar de Jodenbreestraat. Het Rembrandthuis is het grote bakstenen grachtenpand op nummer vier.",
+          "de": "Gehen Sie westlich von der Muiderpoort entlang der Nieuwe Herengracht oder dem Waterlooplein zur Jodenbreestraat. Das Rembrandthuis ist das große Backsteingebäude an der Nummer vier."
+        }
+      },
+      "description": {
+        "en": "This is the house where Rembrandt van Rijn lived and worked at the height of his career. He purchased it in January 1639 for thirteen thousand guilders — an enormous sum that would eventually contribute to his financial ruin. Here, in these rooms, he painted some of the greatest works in Western art, trained dozens of apprentices, and assembled a vast collection of curiosities, costumes, and art objects that inspired his work.\n\nIn 1658, facing bankruptcy, Rembrandt was forced to sell the house at auction. He received only eleven thousand guilders for it — less than he had paid. He spent the remainder of his life in rented rooms.\n\nThe museum, opened in 1911, has been meticulously restored based on the detailed inventory drawn up during his bankruptcy proceedings. Inside, you can explore his studio, see original copper etching plates, and understand the world from which his art emerged.",
+        "nl": "Dit is het huis waar Rembrandt van Rijn leefde en werkte op het hoogtepunt van zijn carrière. Hij kocht het in januari 1639 voor dertienduizend gulden — een enorm bedrag dat uiteindelijk zou bijdragen aan zijn financiële ondergang. Hier, in deze kamers, schilderde hij enkele van de grootste werken in de westerse kunst, leidde hij tientallen leerlingen op, en verzamelde hij een uitgebreide collectie curiosa, kostuums en kunstobjecten die zijn werk inspireerden.\n\nIn 1658, geconfronteerd met faillissement, werd Rembrandt gedwongen het huis via een veiling te verkopen. Hij ontving er slechts elfduizend gulden voor — minder dan hij had betaald. De rest van zijn leven bracht hij door in gehuurde kamers.\n\nHet museum, geopend in 1911, is nauwgezet gerestaureerd op basis van de gedetailleerde inventaris die tijdens zijn faillissementsprocedure werd opgesteld. Binnen kunt u zijn atelier verkennen, originele koperen etsplaten bekijken en de wereld begrijpen waaruit zijn kunst voortkwam.",
+        "de": "Dies ist das Haus, in dem Rembrandt van Rijn auf dem Höhepunkt seiner Karriere lebte und arbeitete. Er kaufte es im Januar 1639 für dreizehntausend Gulden — eine enorme Summe, die letztendlich zu seinem finanziellen Ruin beitragen sollte. Hier, in diesen Räumen, malte er einige der größten Werke der westlichen Kunst, bildete Dutzende von Lehrlingen aus und sammelte eine umfangreiche Sammlung von Kuriositäten, Kostümen und Kunstobjekten, die seine Arbeit inspirierten.\n\nIm Jahr 1658, angesichts des Bankrotts, war Rembrandt gezwungen, das Haus zu versteigern. Er erhielt dafür nur elftausend Gulden — weniger als er bezahlt hatte. Den Rest seines Lebens verbrachte er in Mieträumen.\n\nDas 1911 eröffnete Museum wurde sorgfältig auf der Grundlage des detaillierten Inventars restauriert, das während seines Insolvenzverfahrens erstellt wurde. Im Inneren können Sie sein Atelier erkunden, originale Kupfer-Etzplatten sehen und die Welt verstehen, aus der seine Kunst entstand."
+      },
+      "images": [
+        "amsterdam-city-walk/rembrandthuis.jpg"
+      ],
+      "tags": ["art", "history", "museum", "rembrandt", "golden-age"]
+    },
+    {
+      "id": "begijnhof",
+      "order": 10,
+      "name": {
+        "en": "Begijnhof",
+        "nl": "Begijnhof",
+        "de": "Begijnhof"
+      },
+      "subtitle": {
+        "en": "est. 1346 · Amsterdam's hidden sanctuary",
+        "nl": "gevestigd 1346 · Amsterdams verborgen heiligdom",
+        "de": "gegr. 1346 · Amsterdams verborgenes Heiligtum"
+      },
+      "location": {
+        "latitude": 52.36943366004211,
+        "longitude": 4.890422912870701,
+        "directions": {
+          "en": "Walk west from the Rembrandthuis through the city centre. Enter the Begijnhof through the small doorway off Gedempte Begijnensloot, near the Spui square. It is easily missed — look for the low arched gate.",
+          "nl": "Loop westwaarts van het Rembrandthuis door het stadscentrum. Betreed het Begijnhof via de kleine doorgang aan de Gedempte Begijnensloot, bij het Spuiplein. Het is makkelijk te missen — let op de lage boogpoort.",
+          "de": "Gehen Sie westlich vom Rembrandthuis durch das Stadtzentrum. Betreten Sie den Begijnhof durch die kleine Durchfahrt an der Gedempte Begijnensloot, nahe dem Spuiplein. Er ist leicht zu übersehen — achten Sie auf das niedrige Bogentor."
+        }
+      },
+      "description": {
+        "en": "Step through the gateway and the city falls away. The Begijnhof is one of Amsterdam's most serene and unexpected spaces — a hidden courtyard of historic houses clustered around a garden and two small churches, right in the heart of the busy city.\n\nThe community here dates back to at least 1346. It was founded for Beguines — devout women who chose to live a religious life without taking formal convent vows. They could own property, work, and leave whenever they wished. The Begijnhof was, in its time, a remarkable space of female independence and quiet piety.\n\nThe oldest wooden house in Amsterdam, dating from around 1528, stands here. After the Protestant Reformation of 1578, the Begijnhof was the only Catholic institution permitted to remain. The last Beguine died in 1971; today the courtyard houses are still home to women only. Please walk quietly — people live here.",
+        "nl": "Stap door de poort en de stad verdwijnt. Het Begijnhof is een van Amsterdam's meest serene en onverwachte ruimtes — een verborgen binnenplaats van historische huizen rondom een tuin en twee kleine kerken, midden in het drukke stadscentrum.\n\nDe gemeenschap hier gaat terug tot minstens 1346. Het werd gesticht voor begijnen — vrome vrouwen die kozen voor een religieus leven zonder formele kloostergeloften. Ze mochten bezittingen hebben, werken en vertrekken wanneer ze wilden. Het Begijnhof was, in zijn tijd, een opmerkelijke ruimte van vrouwelijke onafhankelijkheid en stille vroomheid.\n\nHet oudste houten huis van Amsterdam, daterend uit omstreeks 1528, staat hier. Na de protestantse reformatie van 1578 was het Begijnhof de enige katholieke instelling die mocht blijven. De laatste begijn stierf in 1971; de hofjeshuizen zijn nog steeds uitsluitend voor vrouwen. Loop rustig — hier wonen mensen.",
+        "de": "Treten Sie durch das Tor und die Stadt fällt weg. Der Begijnhof ist einer der ruhigsten und unerwartetsten Orte Amsterdams — ein versteckter Innenhof historischer Häuser rund um einen Garten und zwei kleine Kirchen, mitten im Herzen der geschäftigen Stadt.\n\nDie Gemeinschaft hier geht auf mindestens 1346 zurück. Sie wurde für Beginen gegründet — fromme Frauen, die sich für ein religiöses Leben ohne formale Klostergelübde entschieden. Sie konnten Eigentum besitzen, arbeiten und gehen, wann immer sie wollten. Der Begijnhof war zu seiner Zeit ein bemerkenswerter Ort weiblicher Unabhängigkeit und stiller Frömmigkeit.\n\nDas älteste Holzhaus Amsterdams aus der Zeit um 1528 steht hier. Nach der protestantischen Reformation von 1578 war der Begijnhof die einzige katholische Einrichtung, die bleiben durfte. Die letzte Begine starb 1971; die Hofhäuser sind noch immer ausschließlich für Frauen. Bitte gehen Sie leise — hier wohnen Menschen."
+      },
+      "images": [
+        "amsterdam-city-walk/begijnhof.jpg"
+      ],
+      "tags": ["history", "religion", "architecture", "hidden-gem", "women"]
+    },
+    {
+      "id": "negen-straatjes",
+      "order": 11,
+      "name": {
+        "en": "Negen Straatjes",
+        "nl": "Negen Straatjes",
+        "de": "Negen Straatjes"
+      },
+      "subtitle": {
+        "en": "17th century · Nine streets, four canals, one neighbourhood",
+        "nl": "17e eeuw · Negen straatjes, vier grachten, één buurt",
+        "de": "17. Jahrhundert · Neun Straßen, vier Grachten, ein Viertel"
+      },
+      "location": {
+        "latitude": 52.37036413704014,
+        "longitude": 4.886467780572815,
+        "directions": {
+          "en": "Walk north from the Begijnhof toward the canal belt. The Negen Straatjes lie between the Singel, Herengracht, Keizersgracht, and Prinsengracht canals. Enter via Reestraat or Hartenstraat.",
+          "nl": "Loop noordwaarts van het Begijnhof naar de grachtengordel. De Negen Straatjes liggen tussen de Singel, Herengracht, Keizersgracht en Prinsengracht. Ga naar binnen via de Reestraat of de Hartenstraat.",
+          "de": "Gehen Sie nördlich vom Begijnhof in Richtung Grachtengürtel. Die Negen Straatjes liegen zwischen Singel, Herengracht, Keizersgracht und Prinsengracht. Betreten Sie das Viertel über die Reestraat oder die Hartenstraat."
+        }
+      },
+      "description": {
+        "en": "The nine short streets connecting Amsterdam's four great canals have been here since the seventeenth century, when this area was built as part of the famous canal ring. For most of their history they were unremarkable — home to tanners, coopers, and small tradespeople whose names survive in the street names: Reestraat means Deer Street, Berenstraat means Bear Street, Wolvenstraat means Wolf Street.\n\nIn the nineteen nineties, the area was rebranded as the Negen Straatjes and reinvented as a destination for independent boutiques, vintage shops, design studios, and neighbourhood cafes. Today more than two hundred and fifty businesses operate here, drawing visitors from around the world.\n\nThe canal belt in which these streets sit is a UNESCO World Heritage Site. Stroll slowly, look up at the stepped gable facades, and choose a canal-side bench to rest before our final stop.",
+        "nl": "De negen korte straatjes die Amsterdam's vier grote grachten verbinden, bestaan al sinds de zeventiende eeuw, toen dit gebied werd aangelegd als onderdeel van de beroemde grachtengordel. Het grootste deel van hun geschiedenis waren ze alledaags — thuisbasis van leerlooiers, kuipers en kleine handelaars wier namen overleven in de straatnamen: Reestraat, Berenstraat, Wolvenstraat.\n\nIn de jaren negentig werd het gebied omgedoopt tot de Negen Straatjes en herontdekt als bestemming voor onafhankelijke boetieks, vintage winkels, designstudio's en buurtcafés. Vandaag de dag zijn er meer dan tweehonderdvijftig bedrijven gevestigd, die bezoekers van over de hele wereld trekken.\n\nDe grachtengordel waarvan deze straatjes deel uitmaken, is UNESCO-Werelderfgoed. Slenter rustig, kijk omhoog naar de trapgevels en kies een bankje aan de gracht om uit te rusten voor onze laatste stop.",
+        "de": "Die neun kurzen Straßen, die Amsterdams vier große Grachten verbinden, existieren seit dem siebzehnten Jahrhundert, als dieses Gebiet als Teil des berühmten Grachtengürtels angelegt wurde. Den größten Teil ihrer Geschichte waren sie unscheinbar — Heimat von Gerbern, Küfern und kleinen Händlern, deren Namen in den Straßennamen weiterleben: Reestraat bedeutet Hirschstraße, Berenstraat Bärenstraße, Wolvenstraat Wolfsstraße.\n\nIn den neunziger Jahren wurde das Gebiet als Negen Straatjes neu erfunden und als Ziel für unabhängige Boutiquen, Vintage-Läden, Designstudios und Nachbarschaftscafés neu entdeckt. Heute sind hier mehr als zweihundertfünfzig Geschäfte ansässig, die Besucher aus aller Welt anziehen.\n\nDer Grachtengürtel, in dem diese Straßen liegen, ist UNESCO-Weltkulturerbe. Schlendern Sie gemächlich, schauen Sie zu den Treppengiebelfassaden hinauf, und wählen Sie eine Grachtenbank zum Ausruhen vor unserem letzten Stopp."
+      },
+      "images": [
+        "amsterdam-city-walk/negen-straatjes.jpg"
+      ],
+      "tags": ["shopping", "canal", "architecture", "17th-century", "unesco"]
+    },
+    {
+      "id": "tehuis-voor-arbeiders",
+      "order": 12,
+      "name": {
+        "en": "Amsterdams Tehuis voor Arbeiders",
+        "nl": "Amsterdams Tehuis voor Arbeiders",
+        "de": "Amsterdams Tehuis voor Arbeiders"
+      },
+      "subtitle": {
+        "en": "1918 · Workers' Home · Housing as social justice",
+        "nl": "1918 · Arbeiderstehuis · Wonen als sociale rechtvaardigheid",
+        "de": "1918 · Arbeiterheim · Wohnen als soziale Gerechtigkeit"
+      },
+      "location": {
+        "latitude": 52.36781287330085,
+        "longitude": 4.878681731510861,
+        "directions": {
+          "en": "Walk south from Negen Straatjes toward Marnixstraat. The large building complex at Marnixstraat 266 is the former Amsterdams Tehuis voor Arbeiders.",
+          "nl": "Loop zuidwaarts van de Negen Straatjes richting de Marnixstraat. Het grote gebouwencomplex op Marnixstraat 266 is het voormalige Amsterdams Tehuis voor Arbeiders.",
+          "de": "Gehen Sie südlich von den Negen Straatjes in Richtung Marnixstraat. Der große Gebäudekomplex in der Marnixstraat 266 ist das ehemalige Amsterdams Tehuis voor Arbeiders."
+        }
+      },
+      "description": {
+        "en": "Our final stop before returning to Leidseplein is a building that addressed a problem every growing city faces: how to house working people who cannot afford the open market.\n\nThe Amsterdams Tehuis voor Arbeiders — the Amsterdam Workers' Home — was opened in September 1918, designed by architect J.E. van der Pek and initiated by the social reformer Louise Went. It provided three hundred and sixty single rooms for unmarried workers, each measuring just two point two by two point nine metres, but each with its own washbasin. Shared spaces included a reading room, dining room, and coffee lounge.\n\nThe project was approved in 1913 but delayed by the First World War. It opened just as the war ended — a statement of confidence that a better, more just city was possible. The building has since been converted into housing for elderly residents. From here, Leidseplein is a short walk south.",
+        "nl": "Onze laatste stop voor de terugkeer naar het Leidseplein is een gebouw dat een probleem aanpakt waarmee elke groeiende stad wordt geconfronteerd: hoe huisvest je werkende mensen die de vrije markt niet kunnen betalen.\n\nHet Amsterdams Tehuis voor Arbeiders werd in september 1918 geopend, ontworpen door architect J.E. van der Pek en geïnitieerd door de sociaal-hervormer Louise Went. Het bood driehonderdzestig eenkamerappartementen voor ongehuwde arbeiders, elk slechts twee komma twee bij twee komma negen meter groot, maar elk met een eigen wastafel. Gedeelde ruimtes waren onder meer een leeskamer, eetzaal en koffiekamer.\n\nHet project werd goedgekeurd in 1913, maar vertraagd door de Eerste Wereldoorlog. Het opende net toen de oorlog eindigde — een statement van vertrouwen dat een betere, rechtvaardigere stad mogelijk was. Het gebouw is inmiddels omgebouwd tot woonruimte voor ouderen. Van hier is het Leidseplein een korte wandeling naar het zuiden.",
+        "de": "Unser letzter Stopp vor der Rückkehr zum Leidseplein ist ein Gebäude, das ein Problem angeht, mit dem jede wachsende Stadt konfrontiert ist: Wie beherbergt man Arbeitnehmer, die sich den freien Markt nicht leisten können.\n\nDas Amsterdams Tehuis voor Arbeiders — das Amsterdamer Arbeiterheim — wurde im September 1918 eröffnet, entworfen vom Architekten J.E. van der Pek und initiiert von der Sozialreformerin Louise Went. Es bot dreihundertsechzig Einzelzimmer für unverheiratete Arbeiter, jedes nur zwei Komma zwei mal zwei Komma neun Meter groß, aber jedes mit eigenem Waschbecken. Gemeinsame Räume umfassten einen Lesesaal, Speisesaal und einen Kaffeeraum.\n\nDas Projekt wurde 1913 genehmigt, aber durch den Ersten Weltkrieg verzögert. Es eröffnete gerade als der Krieg endete — ein Bekenntnis, dass eine bessere, gerechtere Stadt möglich sei. Das Gebäude wurde inzwischen in Wohnraum für ältere Bewohner umgewandelt. Von hier aus ist das Leidseplein ein kurzer Spaziergang nach Süden."
+      },
+      "images": [
+        "amsterdam-city-walk/tehuis-voor-arbeiders.jpg"
+      ],
+      "tags": ["social-history", "architecture", "housing", "1920s"]
+    }
+  ]
+}
