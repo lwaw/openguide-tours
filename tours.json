@@ -11,7 +11,8 @@
       "country": "Netherlands",
       "thumbnail": "rijksmuseum-highlights/thumbnail.jpg",
       "duration": 60,
-      "stopCount": 3
+      "stopCount": 3,
+      "startLocation": { "latitude": 52.359945, "longitude": 4.885321 }
     },
     {
       "id": "van-gogh-masterpieces",
@@ -24,7 +25,8 @@
       "country": "Netherlands",
       "thumbnail": "van-gogh-masterpieces/thumbnail.jpg",
       "duration": 45,
-      "stopCount": 3
+      "stopCount": 3,
+      "startLocation": { "latitude": 52.358432, "longitude": 4.881123 }
     },
     {
       "id": "louvre-must-see",
@@ -38,7 +40,8 @@
       "country": "France",
       "thumbnail": "louvre-must-see/thumbnail.jpg",
       "duration": 90,
-      "stopCount": 3
+      "stopCount": 3,
+      "startLocation": { "latitude": 48.860611, "longitude": 2.337644 }
     },
     {
       "id": "stedelijk-museum-breda",
@@ -53,7 +56,8 @@
       "country": "Netherlands",
       "thumbnail": "stedelijk-museum-breda/thumbnail.jpg",
       "duration": 75,
-      "stopCount": 10
+      "stopCount": 10,
+      "startLocation": { "latitude": 51.589414, "longitude": 4.781228 }
     },
     {
       "id": "amsterdam-canal-walk",
@@ -66,7 +70,8 @@
       "country": "Netherlands",
       "thumbnail": "amsterdam-canal-walk/thumbnail.jpg",
       "duration": 90,
-      "stopCount": 3
+      "stopCount": 3,
+      "startLocation": { "latitude": 52.3731, "longitude": 4.8932 }
     }
   ]
 }
