@@ -47,6 +47,21 @@
       "startLocation": { "latitude": 51.589414, "longitude": 4.781228 }
     },
     {
+      "id": "breda-city-walk",
+      "name": {
+        "en": "Breda City Walk",
+        "nl": "Breda Stadswandeling",
+        "de": "Breda Stadtspaziergang"
+      },
+      "type": "city",
+      "city": "Breda",
+      "country": "Netherlands",
+      "thumbnail": "breda-city-walk/thumbnail.jpg",
+      "duration": 180,
+      "stopCount": 12,
+      "startLocation": { "latitude": 51.59059805308745, "longitude": 4.772733808656848 }
+    },
+    {
       "id": "utrecht-city-walk",
       "name": {
         "en": "Utrecht City Walk",

@@ -1,0 +1,392 @@
+{
+  "id": "breda-city-walk",
+  "name": {
+    "en": "Breda City Walk",
+    "nl": "Breda Stadswandeling",
+    "de": "Breda Stadtspaziergang"
+  },
+  "description": {
+    "en": "Discover the rich history of Breda on this guided city walk through the heart of the city. From a daring wartime infiltration at the Spanjaardsgat to the famous Surrender of Breda immortalized by Velázquez, from a medieval beguinage to a panopticon prison, and from the mausoleum of the ancestors of the Dutch royal family to the monuments honoring the Polish liberators of World War Two — Breda has it all. This walk covers roughly three and a half kilometers through the historic city center and Wilhelminapark.",
+    "nl": "Ontdek de rijke geschiedenis van Breda op deze begeleide stadswandeling door het hart van de stad. Van een gedurfde militaire infiltratie bij het Spanjaardsgat tot de beroemde Overgave van Breda onsterfelijk gemaakt door Velázquez, van een middeleeuws begijnhof tot een panopticon-gevangenis, en van het mausoleum van de voorvaders van het Nederlandse koningshuis tot de monumenten voor de Poolse bevrijders uit de Tweede Wereldoorlog — Breda heeft het allemaal. Deze wandeling beslaat ongeveer drieënhalve kilometer door het historische stadscentrum en het Wilhelminapark.",
+    "de": "Entdecken Sie die reiche Geschichte von Breda auf diesem geführten Stadtspaziergang durch das Herz der Stadt. Von einer kühnen militärischen Infiltration am Spanjaardsgat bis zur berühmten Übergabe von Breda, verewigt durch Velázquez, von einem mittelalterlichen Beginenhof bis zu einem Panoptikon-Gefängnis, und vom Mausoleum der Vorfahren des niederländischen Königshauses bis zu den Denkmälern für die polnischen Befreier des Zweiten Weltkriegs — Breda hat alles. Dieser Spaziergang erstreckt sich über etwa dreieinhalb Kilometer durch das historische Stadtzentrum und den Wilhelminapark."
+  },
+  "type": "city",
+  "duration": 180,
+  "distance": 3.5,
+  "startPoint": {
+    "name": {
+      "en": "Spanjaardsgat",
+      "nl": "Spanjaardsgat",
+      "de": "Spanjaardsgat"
+    },
+    "address": "Kasteelplein, 4811 XC Breda",
+    "location": {
+      "latitude": 51.59059805308745,
+      "longitude": 4.772733808656848
+    }
+  },
+  "supportedLanguages": ["en", "nl", "de"],
+  "defaultLanguage": "nl",
+  "stops": [
+    {
+      "id": "spanjaardsgat",
+      "order": 1,
+      "name": {
+        "en": "Spanjaardsgat",
+        "nl": "Spanjaardsgat",
+        "de": "Spanjaardsgat"
+      },
+      "subtitle": {
+        "en": "The Daring Peat Boat Infiltration, 1590",
+        "nl": "De Gedurfde Turfschipinfiltratie, 1590",
+        "de": "Die mutige Torfboot-Infiltration, 1590"
+      },
+      "location": {
+        "latitude": 51.59059805308745,
+        "longitude": 4.772733808656848,
+        "directions": {
+          "en": "You are standing at the Spanjaardsgat water gate, between the Granaattoren on the left and the Duiventoren on the right. Look towards the water to see the historic entrance where one of the most daring military operations in Dutch history took place.",
+          "nl": "U staat bij de waterpoort het Spanjaardsgat, tussen de Granaattoren links en de Duiventoren rechts. Kijk richting het water om de historische doorgang te zien waar een van de gedurfste militaire operaties in de Nederlandse geschiedenis plaatsvond.",
+          "de": "Sie stehen am Wassertor Spanjaardsgat, zwischen dem Granaattoren links und dem Duiventoren rechts. Schauen Sie in Richtung des Wassers, um den historischen Durchgang zu sehen, wo eine der kühnsten Militäroperationen der niederländischen Geschichte stattfand."
+        }
+      },
+      "description": {
+        "en": "Welcome to the starting point of our Breda city walk — the Spanjaardsgat, which translates to the Spaniards' Hole. This water gate between the two towers is one of the most evocative spots in all of Breda, tied to a tale of extraordinary cunning.\n\nIn March 1590, Breda was occupied by Spanish forces during the Eighty Years' War. A Dutch commander named Adriaan van Bergen devised a bold plan. He arranged for sixty-eight soldiers to hide beneath a layer of peat in a cargo boat — a peat boat, known locally as a turfschip — that regularly supplied the city. The soldiers lay hidden for two days while the boat slowly sailed up the river Mark and through this very gate. Once inside the city walls, they emerged in the night, overwhelmed the Spanish garrison, and recaptured Breda for the Dutch Republic without a major battle.\n\nThe two towers framing this gate were built around 1530 by Count Henry the Third of Nassau. The left tower, the Granaattoren, or Grenade Tower, is named for its cannonball-shaped battlements. The right tower is called the Duiventoren — the Dovecote Tower — because homing pigeons were once kept there as messengers for William of Orange.\n\nThis remarkable episode of Dutch ingenuity was later captured in paint by the artist Joachim Ottensz Hoefnagel. Today the Spanjaardsgat marks both the start of our walk and a gateway into the long, layered history of this city.",
+        "nl": "Welkom bij het startpunt van onze Bredase stadswandeling — het Spanjaardsgat. Deze waterpoort tussen de twee torens is een van de meest indrukwekkende plekken van Breda, verbonden met een verhaal van buitengewone sluwheid.\n\nIn maart 1590 was Breda bezet door Spaanse troepen tijdens de Tachtigjarige Oorlog. De Nederlandse commandant Adriaan van Bergen bedacht een gewaagd plan. Hij regelde dat achtenzestig soldaten zich verstopten onder een laag turf in een vrachtschip — een turfschip — dat de stad regelmatig bevoorraadde. De soldaten lagen twee dagen verborgen terwijl het schip langzaam over de rivier de Mark voer en door deze doorgang de stad binnenvoer. Eenmaal binnen de stadsmuren kwamen ze 's nachts tevoorschijn, overweldigden het Spaanse garnizoen en heroverde Breda voor de Republiek zonder grote veldslag.\n\nDe twee torens die deze poort omlijsten werden rond 1530 gebouwd door graaf Hendrik III van Nassau. De linkertoren, de Granaattoren, is vernoemd naar zijn kanonskogelvormige kantelen. De rechtertoren heet de Duiventoren, omdat er ooit postduiven werden gehouden als boodschappers voor Willem van Oranje.\n\nDit bijzondere staaltje Nederlandse vindingrijkheid werd later geschilderd door kunstenaar Joachim Ottensz Hoefnagel. Het Spanjaardsgat markeert vandaag zowel het beginpunt van onze wandeling als een toegangspoort tot de rijke, gelaagde geschiedenis van deze stad.",
+        "de": "Willkommen am Ausgangspunkt unseres Breda-Stadtspaziergangs — dem Spanjaardsgat, was übersetzt 'Spaniersloch' bedeutet. Dieses Wassertor zwischen den beiden Türmen ist einer der eindrucksvollsten Orte in ganz Breda und ist mit einer Geschichte außergewöhnlicher List verbunden.\n\nIm März 1590 war Breda während des Achtzigjährigen Krieges von spanischen Truppen besetzt. Ein niederländischer Kommandant namens Adriaan van Bergen ersann einen kühnen Plan. Er arrangierte, dass achtundsechzig Soldaten unter einer Torfschicht in einem Lastboot — einem Torfboot — versteckt wurden, das die Stadt regelmäßig belieferte. Die Soldaten lagen zwei Tage verborgen, während das Boot langsam den Fluss Mark hinaufsegelte und durch eben dieses Tor in die Stadt fuhr. Einmal innerhalb der Stadtmauern tauchten sie in der Nacht auf, überwältigten die spanische Garnison und eroberten Breda für die Niederländische Republik zurück — ohne große Schlacht.\n\nDie beiden Türme, die dieses Tor einrahmen, wurden um 1530 von Graf Heinrich dem Dritten von Nassau errichtet. Der linke Turm, der Granaattoren, ist nach seinen kanonenkugelförmigen Zinnen benannt. Der rechte Turm heißt Duiventoren — Taubenturm — weil dort einst Brieftauben als Boten für Wilhelm von Oranien gehalten wurden.\n\nDiese bemerkenswerte Episode niederländischer Schläue wurde später vom Künstler Joachim Ottensz Hoefnagel gemalt. Heute markiert das Spanjaardsgat sowohl den Beginn unseres Spaziergangs als auch ein Tor zur langen, vielschichtigen Geschichte dieser Stadt."
+      },
+      "images": ["breda-city-walk/spanjaardsgat.jpg"],
+      "tags": ["kasteel", "waterpoort", "tachtigjarige-oorlog", "nassau", "start"]
+    },
+    {
+      "id": "spinola",
+      "order": 2,
+      "name": {
+        "en": "Spinola – The Surrender of Breda",
+        "nl": "Spinola – De Overgave van Breda",
+        "de": "Spinola – Die Übergabe von Breda"
+      },
+      "subtitle": {
+        "en": "The Siege of 1624–1625, immortalized by Velázquez",
+        "nl": "Het Beleg van 1624–1625, onsterfelijk gemaakt door Velázquez",
+        "de": "Die Belagerung von 1624–1625, verewigt von Velázquez"
+      },
+      "location": {
+        "latitude": 51.59020811541926,
+        "longitude": 4.772733808630214,
+        "directions": {
+          "en": "Walk a short distance along the castle walls from the Spanjaardsgat. You are now near the spot that commemorates the most famous military event in Breda's history — the Surrender of Breda in 1625.",
+          "nl": "Loop een korte afstand langs de kasteelmuren van het Spanjaardsgat. U bevindt zich nu in de buurt van de plek die de beroemdste militaire gebeurtenis in de geschiedenis van Breda herdenkt — de Overgave van Breda in 1625.",
+          "de": "Gehen Sie ein kurzes Stück entlang der Burgmauern vom Spanjaardsgat. Sie befinden sich nun in der Nähe des Ortes, der an das berühmteste Militärereignis in der Geschichte Bredas erinnert — die Übergabe von Breda im Jahr 1625."
+        }
+      },
+      "description": {
+        "en": "The story of the Spanjaardsgat ended in Dutch triumph — but that triumph did not last forever. Just thirty-four years later, in 1624, Spanish forces returned and laid siege to Breda once more. This time their general was Ambrogio Spinola, a Genoese military genius in the service of Spain.\n\nThe siege lasted nine grueling months. Spinola encircled the city with an elaborate network of trenches and fortifications, cutting off all supplies. By June 1625, the population was starving and the garrison exhausted. Governor Justinus van Nassau — a man we will meet more closely at our next stop — negotiated an honorable surrender. On the fifth of June 1625, he handed the keys of the city to Spinola.\n\nWhat could have been a humiliating defeat became something altogether different, thanks to an extraordinary act of chivalry. Spinola welcomed Justinus with warmth and respect, refusing to let him kneel. He is reported to have said: a brave defence deserves an honorable surrender.\n\nThis moment of magnanimity captured the imagination of Diego Velázquez, who painted it between 1634 and 1635. His monumental work, known as Las Lanzas — the Lances — or simply The Surrender of Breda, hangs today in the Museo del Prado in Madrid. It is considered one of the greatest history paintings in all of Western art. Breda's surrender became world-famous not as a defeat, but as a lesson in dignity.",
+        "nl": "Het verhaal van het Spanjaardsgat eindigde in Nederlandse triomf — maar die triomf duurde niet eeuwig. Slechts vierendertig jaar later, in 1624, keerden de Spaanse troepen terug en belegerde Breda opnieuw. Deze keer was hun generaal Ambrogio Spinola, een Genuees militair genie in dienst van Spanje.\n\nHet beleg duurde negen zware maanden. Spinola omsingelde de stad met een uitgebreid netwerk van loopgraven en vestingwerken, waardoor alle bevoorrading werd afgesneden. In juni 1625 stierf de bevolking van honger en was het garnizoen uitgeput. Gouverneur Justinus van Nassau — een man die we bij onze volgende stop nader zullen leren kennen — onderhandelde over een eervolle overgave. Op de vijfde juni 1625 overhandigde hij de sleutels van de stad aan Spinola.\n\nWat een vernederende nederlaag had kunnen zijn, werd iets heel anders, dankzij een buitengewone ridderlijke daad. Spinola ontving Justinus met warmte en respect en weigerde hem te laten knielen. Hij zou gezegd hebben: een dappere verdediging verdient een eervolle overgave.\n\nDit moment van grootmoedigheid wekte de verbeelding van Diego Velázquez, die het tussen 1634 en 1635 schilderde. Zijn monumentale werk, bekend als Las Lanzas — de Lansen — of simpelweg De Overgave van Breda, hangt vandaag in het Museo del Prado in Madrid. Het wordt beschouwd als een van de grootste historieschilderijen in de westerse kunst. De overgave van Breda werd wereldberoemd, niet als een nederlaag, maar als een les in waardigheid.",
+        "de": "Die Geschichte des Spanjaardsgat endete in niederländischem Triumph — aber dieser Triumph hielt nicht ewig an. Nur vierunddreißig Jahre später, im Jahr 1624, kehrten die spanischen Truppen zurück und belagerten Breda erneut. Diesmal war ihr General Ambrogio Spinola, ein genuesisches Militärgenie im Dienst Spaniens.\n\nDie Belagerung dauerte neun zermürbende Monate. Spinola umzingelte die Stadt mit einem ausgeklügelten Netz aus Gräben und Befestigungen und unterbrach alle Versorgung. Im Juni 1625 verhungerte die Bevölkerung und die Garnison war erschöpft. Gouverneur Justinus van Nassau — ein Mann, dem wir bei unserem nächsten Halt näher begegnen werden — handelte eine ehrenwerte Kapitulation aus. Am fünften Juni 1625 übergab er Spinola die Schlüssel der Stadt.\n\nWas eine erniedrigende Niederlage hätte sein können, wurde durch einen außergewöhnlichen Akt der Ritterlichkeit zu etwas ganz anderem. Spinola empfing Justinus mit Wärme und Respekt und weigerte sich, ihn knien zu lassen. Er soll gesagt haben: Eine tapfere Verteidigung verdient eine ehrenwerte Kapitulation.\n\nDieser Moment der Großmut beflügelte die Fantasie von Diego Velázquez, der ihn zwischen 1634 und 1635 malte. Sein monumentales Werk, bekannt als Las Lanzas — die Lanzen — oder einfach Die Übergabe von Breda, hängt heute im Museo del Prado in Madrid. Es gilt als eines der größten Historiengemälde der westlichen Kunst. Bredas Kapitulation wurde weltberühmt — nicht als Niederlage, sondern als Lektion der Würde."
+      },
+      "images": ["breda-city-walk/spinola.jpg"],
+      "tags": ["tachtigjarige-oorlog", "beleg", "spinola", "velazquez", "geschiedenis"]
+    },
+    {
+      "id": "hofhuis-justinus-van-nassau",
+      "order": 3,
+      "name": {
+        "en": "Hofhuis Justinus van Nassau",
+        "nl": "Hofhuis Justinus van Nassau",
+        "de": "Hofhaus Justinus van Nassau"
+      },
+      "subtitle": {
+        "en": "Governor's Residence, built after 1606",
+        "nl": "Gouverneurshuis, gebouwd na 1606",
+        "de": "Gouverneurshaus, erbaut nach 1606"
+      },
+      "location": {
+        "latitude": 51.590179136744155,
+        "longitude": 4.7760123184205465,
+        "directions": {
+          "en": "Walk along the Cingelstraat from the castle area until you reach the corner of Kasteelplein and Cingelstraat. The Hofhuis — the former governor's residence — is the historic building on your right.",
+          "nl": "Loop langs de Cingelstraat vanuit het kasteelgebied totdat u de hoek van het Kasteelplein en de Cingelstraat bereikt. Het Hofhuis — de voormalige residentie van de gouverneur — is het historische gebouw aan uw rechterkant.",
+          "de": "Gehen Sie entlang der Cingelstraat aus dem Burgbereich, bis Sie die Ecke Kasteelplein und Cingelstraat erreichen. Das Hofhuis — die ehemalige Gouverneursresidenz — ist das historische Gebäude auf Ihrer rechten Seite."
+        }
+      },
+      "description": {
+        "en": "The elegant building before you is the Hofhuis — the Court House — residence of Justinus van Nassau, the very governor who handed Breda's keys to Spinola in 1625. Built shortly after 1606, this three-winged mansion arranged around an inner courtyard is one of the finest examples of early seventeenth-century palace architecture in the region.\n\nJustinus van Nassau led a remarkable life. He was born in 1559 as the illegitimate son of William of Orange — the founder of the Dutch Republic — and a woman named Eva Elincx. Despite his irregular birth, Justinus rose to become a respected military commander and governor of Breda. He defended the city heroically during Spinola's nine-month siege before finally capitulating in 1625.\n\nThe building you see today has served many purposes over the centuries. From 1959 to 1993 it housed the Royal Museum of Ethnology dedicated to Justinus van Nassau, displaying artifacts from cultures around the world. The building has since been converted into apartments, but its dignified facade and central staircase tower remain as testimony to the architectural ambitions of Breda's governing elite in the age of the Nassau dynasty.\n\nAs you look at this building, consider the weight of history its walls have absorbed — the negotiations, the preparations for siege, and perhaps the quiet moments of a man caught between duty and inevitable defeat.",
+        "nl": "Het elegante gebouw voor u is het Hofhuis — de voormalige residentie van Justinus van Nassau, de gouverneur die in 1625 de sleutels van Breda aan Spinola overhandigde. Gebouwd kort na 1606 is dit drievleugelig herenhuis rond een binnenplaats een van de mooiste voorbeelden van vroeg-zeventiende-eeuwse paleisarchitectuur in de regio.\n\nJustinus van Nassau leidde een opmerkelijk leven. Hij werd geboren in 1559 als bastaardzoon van Willem van Oranje — de grondlegger van de Nederlandse Republiek — en een vrouw genaamd Eva Elincx. Ondanks zijn onregelmatige geboorte groeide Justinus uit tot een gerespecteerd militair commandant en gouverneur van Breda. Hij verdedigde de stad heldhaftig tijdens het negen maanden durende beleg van Spinola voordat hij in 1625 uiteindelijk capituleerde.\n\nHet gebouw dat u vandaag ziet heeft door de eeuwen heen vele functies gehad. Van 1959 tot 1993 herbergde het het Koninklijk Museum voor Volkenkunde gewijd aan Justinus van Nassau, met artefacten uit culturen over de hele wereld. Het gebouw is sindsdien omgebouwd tot appartementen, maar de waardige gevel en de centrale traptoren blijven als getuigenis van de architectonische ambities van Breda's bestuurlijke elite in het tijdperk van de nassaudynastie.\n\nTerwijl u naar dit gebouw kijkt, overweeg dan het gewicht van de geschiedenis die de muren hebben opgeslokt — de onderhandelingen, de voorbereidingen op het beleg en misschien de stille momenten van een man gevangen tussen plicht en onvermijdelijke nederlaag.",
+        "de": "Das elegante Gebäude vor Ihnen ist das Hofhuis — das Hofhaus — die Residenz von Justinus van Nassau, dem Gouverneur, der Breda 1625 die Schlüssel an Spinola übergab. Kurz nach 1606 erbaut, ist dieses dreiflügelige Herrenhaus um einen Innenhof eines der schönsten Beispiele frühbarocker Palastarchitektur der Region.\n\nJustinus van Nassau führte ein bemerkenswertes Leben. Er wurde 1559 als unehelicher Sohn von Wilhelm von Oranien — dem Gründer der niederländischen Republik — und einer Frau namens Eva Elincx geboren. Trotz seiner unregelmäßigen Geburt stieg Justinus zu einem angesehenen Militärkommandanten und Gouverneur von Breda auf. Er verteidigte die Stadt heldenhaft während Spinolas neunmonatiger Belagerung, bevor er 1625 schließlich kapitulierte.\n\nDas Gebäude, das Sie heute sehen, hat im Laufe der Jahrhunderte viele Zwecke erfüllt. Von 1959 bis 1993 beherbergte es das Königliche Ethnologiemuseum Justinus van Nassau, das Artefakte aus Kulturen auf der ganzen Welt ausstellte. Das Gebäude wurde seitdem in Wohnungen umgebaut, aber seine würdevolle Fassade und der zentrale Treppenturm bleiben als Zeugnis der architektonischen Ambitionen von Bredas Regierungselite im Zeitalter der Nassau-Dynastie.\n\nWenn Sie dieses Gebäude betrachten, bedenken Sie das Gewicht der Geschichte, das seine Mauern aufgesogen haben — die Verhandlungen, die Vorbereitungen für die Belagerung und vielleicht die stillen Momente eines Mannes, der zwischen Pflicht und unvermeidlicher Niederlage gefangen war."
+      },
+      "images": ["breda-city-walk/hofhuis-justinus-van-nassau.jpg"],
+      "tags": ["nassau", "gouverneurshuis", "architectuur", "tachtigjarige-oorlog", "renaissance"]
+    },
+    {
+      "id": "begijnhof",
+      "order": 4,
+      "name": {
+        "en": "Begijnhof",
+        "nl": "Begijnhof",
+        "de": "Beginenhof"
+      },
+      "subtitle": {
+        "en": "Founded 1267 – One of the Oldest Institutions in the Netherlands",
+        "nl": "Gesticht 1267 – Een van de oudste instellingen van Nederland",
+        "de": "Gegründet 1267 – Eine der ältesten Institutionen der Niederlande"
+      },
+      "location": {
+        "latitude": 51.590344760632846,
+        "longitude": 4.778554202128724,
+        "directions": {
+          "en": "From the Hofhuis, walk east along the Cingelstraat and turn into the quiet entrance of the Begijnhof. Pass through the gate into the enclosed courtyard — a world apart from the bustle of the surrounding city.",
+          "nl": "Lloop vanuit het Hofhuis oostwaarts langs de Cingelstraat en sla de stille ingang van het Begijnhof in. Loop door de poort naar de omsloten binnenplaats — een wereld apart van de drukte van de omliggende stad.",
+          "de": "Gehen Sie vom Hofhuis ostwärts entlang der Cingelstraat und biegen Sie in den ruhigen Eingang des Beginenhofs ein. Gehen Sie durch das Tor in den geschlossenen Innenhof — eine Welt für sich, abseits des Trubels der umliegenden Stadt."
+        }
+      },
+      "description": {
+        "en": "Step inside and take a moment to breathe. You have entered the Begijnhof — one of the oldest continuously functioning charitable institutions in the Netherlands, founded in 1267. That makes it nearly seven hundred and sixty years old.\n\nBeguines were an extraordinary category of religious women. They were not nuns — they took no permanent vows, kept their own property, and could leave the community whenever they chose. They supported themselves through teaching, nursing, and manual crafts, and they prayed for the souls of the deceased in exchange for donations. They occupied a unique position in medieval society: deeply religious, yet fiercely independent.\n\nThe Begijnhof was originally located elsewhere in the city. In 1534 and 1535, Count Henry the Third of Nassau needed space for his castle gardens and ordered the community to move to its present location — which they did, taking their chapel stones with them.\n\nDuring the Reformation in the sixteenth century, when Protestant forces took control of Breda, the beguines were allowed to continue their Catholic practice under the protection of the Nassau lords. This religious tolerance was unusual for the time and speaks to the pragmatic spirit of the Nassau rulers.\n\nThe last beguine, Sister Frijters, died in 1990. Yet the tradition lives on. To this day, the houses of the Begijnhof are still reserved for single women — a quiet continuity linking the twenty-first century to the Middle Ages.",
+        "nl": "Stap naar binnen en neem even de tijd om adem te halen. U bent het Begijnhof binnengegaan — een van de oudste nog altijd functionerende liefdadigheidsinstellingen van Nederland, opgericht in 1267. Dat maakt het bijna zevenhonderd zestig jaar oud.\n\nBegijnen waren een buitengewone categorie religieuze vrouwen. Het waren geen nonnen — ze legden geen permanente geloften af, behielden hun eigen bezittingen en konden de gemeenschap verlaten wanneer ze maar wilden. Ze onderhielden zichzelf door te lesgeven, te verplegen en ambachten te beoefenen, en ze baden voor de zielen van de overledenen in ruil voor donaties. Ze bekleedden een unieke positie in de middeleeuwse samenleving: diep religieus, maar ook vurig onafhankelijk.\n\nHet Begijnhof was oorspronkelijk elders in de stad gelegen. In 1534 en 1535 had graaf Hendrik III van Nassau ruimte nodig voor zijn kasteeltuinen en gaf hij de gemeenschap opdracht te verhuizen naar haar huidige locatie — wat ze deden, waarbij ze de stenen van hun kapel meenamen.\n\nTijdens de Reformatie in de zestiende eeuw, toen protestantse krachten de controle over Breda overnamen, mochten de begijnen hun katholieke praktijk voortzetten onder de bescherming van de nassauheren. Deze religieuze tolerantie was ongebruikelijk voor die tijd en getuigt van de pragmatische geest van de nassauheersers.\n\nDe laatste begijn, Zuster Frijters, overleed in 1990. Toch leeft de traditie voort. Tot op de dag van vandaag zijn de huizen van het Begijnhof nog steeds gereserveerd voor alleenstaande vrouwen — een stille continuïteit die de eenentwintigste eeuw verbindt met de Middeleeuwen.",
+        "de": "Treten Sie ein und nehmen Sie sich einen Moment zum Durchatmen. Sie haben den Beginenhof betreten — eine der ältesten noch aktiven gemeinnützigen Einrichtungen der Niederlande, gegründet im Jahr 1267. Das macht ihn fast siebenhundertsechzig Jahre alt.\n\nBeguinen waren eine außergewöhnliche Kategorie religiöser Frauen. Sie waren keine Nonnen — sie legten keine dauerhaften Gelübde ab, behielten ihr eigenes Eigentum und konnten die Gemeinschaft verlassen, wann immer sie wollten. Sie verdienten ihren Lebensunterhalt durch Unterrichten, Pflegen und Handwerken und beteten für die Seelen der Verstorbenen im Austausch für Spenden. Sie nahmen eine einzigartige Position in der mittelalterlichen Gesellschaft ein: zutiefst religiös und doch leidenschaftlich unabhängig.\n\nDer Beginenhof befand sich ursprünglich an einem anderen Ort in der Stadt. In den Jahren 1534 und 1535 benötigte Graf Heinrich der Dritte von Nassau Platz für seine Schlossgärten und ordnete an, dass die Gemeinschaft an ihren heutigen Standort umzieht — was sie auch tat und dabei die Steine ihrer Kapelle mitnahm.\n\nWährend der Reformation im sechzehnten Jahrhundert, als protestantische Kräfte die Kontrolle über Breda übernahmen, durften die Beguinen ihre katholische Praxis unter dem Schutz der Nassau-Herren fortsetzen. Diese religiöse Toleranz war für die damalige Zeit ungewöhnlich und zeugt vom pragmatischen Geist der Nassau-Herrscher.\n\nDie letzte Beguine, Schwester Frijters, starb 1990. Dennoch lebt die Tradition weiter. Noch heute sind die Häuser des Beginenhofs ausschließlich für alleinstehende Frauen reserviert — eine stille Kontinuität, die das einundzwanzigste Jahrhundert mit dem Mittelalter verbindet."
+      },
+      "images": ["breda-city-walk/begijnhof.jpg"],
+      "tags": ["begijnhof", "middeleeuwen", "religie", "vrouwen", "monument"]
+    },
+    {
+      "id": "nassau-baronie-monument",
+      "order": 5,
+      "name": {
+        "en": "Nassau-Baronie Monument",
+        "nl": "Nassau-Baronie Monument",
+        "de": "Nassau-Baronien-Monument"
+      },
+      "subtitle": {
+        "en": "Commemorating the Union of Nassau and Breda, 1404",
+        "nl": "Herdenking van de Unie van Nassau en Breda, 1404",
+        "de": "Zur Erinnerung an die Vereinigung von Nassau und Breda, 1404"
+      },
+      "location": {
+        "latitude": 51.59254826184504,
+        "longitude": 4.779773812801848,
+        "directions": {
+          "en": "Continue north into Park Valkenberg. The Nassau-Baronie Monument rises prominently in the park — a tower-like structure crowned with the Lion of Nassau. Walk up to it to read the relief panels at the base.",
+          "nl": "Ga noordwaarts het Valkenberg park in. Het Nassau-Baroniemonument rijst prominent op in het park — een towerachtige structuur gekroond met de Nassause leeuw. Loop ernaartoe om de reliëfpanelen aan de voet te lezen.",
+          "de": "Gehen Sie nördlich in den Park Valkenberg. Das Nassau-Baronien-Monument ragt prominent im Park auf — eine turmähnliche Struktur, die vom Löwen von Nassau gekrönt wird. Gehen Sie darauf zu, um die Relieftafeln am Sockel zu lesen."
+        }
+      },
+      "description": {
+        "en": "You are standing before the Nassau-Baronie Monument in Park Valkenberg — one of the most significant dynastic memorials in the Netherlands. This tower-like structure, crowned with the Lion of Nassau bearing a royal crown, tells the story of how Breda became the cradle of the Dutch royal family.\n\nThe monument commemorates a marriage that took place in 1404: the union of Count Engelbrecht the First of Nassau and Johanna van Polanen, the Lady of Breda. Through this marriage, the Barony of Breda — a vast territory in the south of what is now the Netherlands — passed to the House of Nassau. It was the beginning of a dynasty that would eventually produce William of Orange, founding father of the Dutch Republic, and ultimately the modern royal House of Orange-Nassau.\n\nJohanna van Polanen was only eleven years old at the time of the marriage. Yet this child bride's union set in motion five centuries of history.\n\nThe monument was erected in 1905 to mark the five hundredth anniversary of this event. It was designed by Pierre Cuypers, the legendary architect also responsible for Amsterdam's Rijksmuseum and Central Station. Queen Wilhelmina herself unveiled the monument, emphasizing the enduring royal bond between the crown and the city of Breda.\n\nThe relief panels at the base depict the inauguration of Engelbrecht and the young Johanna as Lord and Lady of Breda. The surrounding coats of arms represent twenty municipalities that once formed the Barony.",
+        "nl": "U staat voor het Nassau-Baroniemonument in Park Valkenberg — een van de belangrijkste dynastieke herdenkingsmonumenten van Nederland. Deze towerachtige structuur, gekroond met de Nassause leeuw met een koninklijke kroon, vertelt het verhaal van hoe Breda de wieg werd van de Nederlandse koninklijke familie.\n\nHet monument herdenkt een huwelijk dat plaatsvond in 1404: de verbintenis van graaf Engelbrecht I van Nassau en Johanna van Polanen, de vrouwe van Breda. Door dit huwelijk ging de Baronie van Breda — een uitgestrekt grondgebied in het zuiden van het huidige Nederland — over op het Huis van Nassau. Het was het begin van een dynastie die uiteindelijk Willem van Oranje zou voortbrengen, grondlegger van de Nederlandse Republiek, en uiteindelijk het moderne koninklijke Huis van Oranje-Nassau.\n\nJohanna van Polanen was slechts elf jaar oud ten tijde van het huwelijk. Toch bracht het huwelijk van deze kindbruid vijf eeuwen geschiedenis in beweging.\n\nHet monument werd in 1905 opgericht ter gelegenheid van de vijfhonderdste verjaardag van deze gebeurtenis. Het werd ontworpen door Pierre Cuypers, de legendarische architect die ook verantwoordelijk was voor het Rijksmuseum en het Centraal Station van Amsterdam. Koningin Wilhelmina zelf onthulde het monument, waarmee ze de blijvende koninklijke band tussen de kroon en de stad Breda benadrukte.\n\nDe reliëfpanelen aan de voet tonen de inhuldiging van Engelbrecht en de jonge Johanna als heer en vrouwe van Breda. De omringende wapenschilden vertegenwoordigen twintig gemeenten die ooit de Baronie vormden.",
+        "de": "Sie stehen vor dem Nassau-Baronien-Monument im Park Valkenberg — einem der bedeutendsten dynastischen Gedenkstätten der Niederlande. Diese turmähnliche Struktur, die vom Löwen von Nassau mit einer Königskrone gekrönt wird, erzählt die Geschichte, wie Breda zur Wiege der niederländischen Königsfamilie wurde.\n\nDas Denkmal erinnert an eine Heirat, die im Jahr 1404 stattfand: die Verbindung von Graf Engelbrecht dem Ersten von Nassau und Johanna van Polanen, der Herrin von Breda. Durch diese Heirat ging die Baronie Breda — ein weites Gebiet im Süden des heutigen Niederlande — in das Haus Nassau über. Es war der Beginn einer Dynastie, die schließlich Wilhelm von Oranien hervorbringen sollte, den Gründervater der niederländischen Republik, und letztendlich das moderne königliche Haus Orange-Nassau.\n\nJohanna van Polanen war zum Zeitpunkt der Heirat erst elf Jahre alt. Dennoch setzte die Heirat dieser Kindsbraut fünf Jahrhunderte Geschichte in Bewegung.\n\nDas Denkmal wurde 1905 zum fünfhundertsten Jahrestag dieses Ereignisses errichtet. Es wurde von Pierre Cuypers entworfen, dem legendären Architekten, der auch für das Rijksmuseum und den Hauptbahnhof in Amsterdam verantwortlich ist. Königin Wilhelmina selbst enthüllte das Denkmal und betonte damit die dauerhafte königliche Verbindung zwischen der Krone und der Stadt Breda.\n\nDie Relieftafeln am Sockel zeigen die Amtseinsetzung von Engelbrecht und der jungen Johanna als Herrn und Herrin von Breda. Die umliegenden Wappen repräsentieren zwanzig Gemeinden, die einst die Baronie bildeten."
+      },
+      "images": ["breda-city-walk/nassau-baronie-monument.jpg"],
+      "tags": ["nassau", "monument", "koninklijk", "geschiedenis", "cuypers", "park-valkenberg"]
+    },
+    {
+      "id": "wilhelminafontein",
+      "order": 6,
+      "name": {
+        "en": "Wilhelminafontein",
+        "nl": "Wilhelminafontein",
+        "de": "Wilhelminabrunnen"
+      },
+      "subtitle": {
+        "en": "Art Nouveau fountain, 1898",
+        "nl": "Art Nouveau-fontein, 1898",
+        "de": "Jugendstilbrunnen, 1898"
+      },
+      "location": {
+        "latitude": 51.591868448236696,
+        "longitude": 4.783852141795492,
+        "directions": {
+          "en": "From the Nassau monument, walk south towards the intersection of Sophiastraat and Mauritsstraat. The Wilhelminafontein stands at this crossroads — an elegant Art Nouveau fountain crowned with a royal insignia.",
+          "nl": "Loop vanuit het Nassaumonument zuidwaarts in de richting van het kruispunt van de Sophiastraat en de Mauritsstraat. De Wilhelminafontein staat op dit kruispunt — een elegante Art Nouveau-fontein bekroond met een koninklijk insigne.",
+          "de": "Gehen Sie vom Nassau-Denkmal südwärts in Richtung der Kreuzung Sophiastraat und Mauritsstraat. Der Wilhelminabrunnen steht an diesem Kreuzungspunkt — ein eleganter Jugendstilbrunnen, der mit einem königlichen Wappen gekrönt ist."
+        }
+      },
+      "description": {
+        "en": "The graceful fountain before you is the Wilhelminafontein — the Wilhelmina Fountain — one of Breda's most charming pieces of public art. It was built in 1898 to celebrate the coronation of Queen Wilhelmina, who at eighteen years old became the youngest queen in Dutch history at that time.\n\nThe fountain was designed by J. Gips and constructed in the Art Nouveau style then sweeping through European design. Its central motif is water as a life-giving force, from which plants and creatures emerge and flourish. The delicate ironwork was crafted by the company Vincent and Co., while the stone basin was supplied by stonecutter J.B. Petit. Together these craftsmen created something that was both a functional public water feature and a declaration of civic loyalty to the new queen.\n\nOriginally the fountain stood on the Grote Markt — Breda's main square — where it presided over the heart of the city's public life. Around 1928, as the city's layout evolved, it was relocated to its current position at the intersection of Sophiastraat and Mauritsstraat. Two street names, incidentally, that also carry royal associations: Sophia and Maurits were both members of the Nassau dynasty.\n\nCrowned at the top with a royal insignia, the Wilhelminafontein is a reminder that Breda's ties to the Dutch monarchy are not merely historical — they are woven into the very streets and squares of everyday city life.",
+        "nl": "De sierlijke fontein voor u is de Wilhelminafontein — een van Breda's meest charmante stukken openbare kunst. Ze werd in 1898 gebouwd ter viering van de kroning van koningin Wilhelmina, die op achttienjarige leeftijd de jongste koningin in de Nederlandse geschiedenis werd.\n\nDe fontein werd ontworpen door J. Gips en gebouwd in de Art Nouveau-stijl die toen door het Europese ontwerp raasde. Het centrale motief is water als levensgevende kracht, waaruit planten en wezens opkomen en gedijen. Het delicate ijzerwerk werd vervaardigd door het bedrijf Vincent en Co., terwijl het stenen bassin werd geleverd door steenkapper J.B. Petit. Samen creëerden deze ambachtslieden iets dat zowel een functioneel openbaar waterobject als een verklaring van burgertrouw aan de nieuwe koningin was.\n\nOorspronkelijk stond de fontein op de Grote Markt — Breda's hoofdplein — waar ze presideerde over het hart van het openbare leven van de stad. Rond 1928, naarmate de indeling van de stad evolueerde, werd ze verplaatst naar haar huidige positie op het kruispunt van de Sophiastraat en de Mauritsstraat. Twee straatnamen die overigens ook koninklijke associaties dragen: Sophia en Maurits waren allebei leden van de Nassaudynastie.\n\nGekroond met een koninklijk insigne is de Wilhelminafontein een herinnering dat de banden van Breda met het Nederlandse koningshuis niet alleen historisch zijn — ze zijn geweven in de straten en pleinen van het dagelijkse stadsleven.",
+        "de": "Der anmutige Brunnen vor Ihnen ist der Wilhelminabrunnen — eines von Bredas charmantesten Werken öffentlicher Kunst. Er wurde 1898 zur Feier der Krönung von Königin Wilhelmina erbaut, die mit achtzehn Jahren zur jüngsten Königin in der niederländischen Geschichte wurde.\n\nDer Brunnen wurde von J. Gips entworfen und im damals durch das europäische Design fegenden Jugendstil erbaut. Sein zentrales Motiv ist Wasser als lebensgebende Kraft, aus der Pflanzen und Lebewesen aufsteigen und gedeihen. Das feine Eisenwerk wurde von der Firma Vincent und Co. gefertigt, während das Steinbecken vom Steinhauer J.B. Petit geliefert wurde. Gemeinsam schufen diese Handwerker etwas, das sowohl eine funktionale öffentliche Wasseranlage als auch eine Erklärung der bürgerlichen Loyalität gegenüber der neuen Königin war.\n\nUrsprünglich stand der Brunnen auf dem Grote Markt — Bredas Hauptplatz — wo er über das Herz des öffentlichen Lebens der Stadt präsidierte. Um 1928, als sich das Stadtbild weiterentwickelte, wurde er an seinen heutigen Standort an der Kreuzung Sophiastraat und Mauritsstraat verlegt. Zwei Straßennamen, die übrigens ebenfalls königliche Assoziationen tragen: Sophia und Maurits waren beide Mitglieder der Nassau-Dynastie.\n\nMit einem königlichen Wappen gekrönt, ist der Wilhelminabrunnen eine Erinnerung daran, dass Bredas Verbindungen zur niederländischen Monarchie nicht nur historisch sind — sie sind in die Straßen und Plätze des alltäglichen Stadtlebens eingewoben."
+      },
+      "images": ["breda-city-walk/wilhelminafontein.jpg"],
+      "tags": ["monument", "wilhelmina", "art-nouveau", "koninklijk", "fontein"]
+    },
+    {
+      "id": "de-koepel",
+      "order": 7,
+      "name": {
+        "en": "De Koepel",
+        "nl": "De Koepel",
+        "de": "De Koepel"
+      },
+      "subtitle": {
+        "en": "Panopticon Dome Prison, 1882–1886",
+        "nl": "Panopticon Koepelgevangenis, 1882–1886",
+        "de": "Panoptikon-Kuppelgefängnis, 1882–1886"
+      },
+      "location": {
+        "latitude": 51.5901166918755,
+        "longitude": 4.78834340327566,
+        "directions": {
+          "en": "Walk east along the Nassaustraat or Sophiastraat until the massive dome structure comes into view. De Koepel is unmistakable — a vast circular prison building whose dome rises over thirty meters above the street.",
+          "nl": "Loop oostwaarts langs de Nassaustraat of Sophiastraat totdat de enorme koepelstructuur in zicht komt. De Koepel is onmiskenbaar — een enorm cirkelvormig gevangenisgebouw waarvan de koepel meer dan dertig meter boven de straat uittorent.",
+          "de": "Gehen Sie ostwärts entlang der Nassaustraat oder Sophiastraat, bis die massive Kuppelstruktur in Sicht kommt. De Koepel ist unverkennbar — ein riesiges kreisförmiges Gefängnisgebäude, dessen Kuppel über dreißig Meter über der Straße aufragt."
+        }
+      },
+      "description": {
+        "en": "Before you stands De Koepel — the Dome — one of only three panopticon prisons ever built in the Netherlands, and one of the most architecturally striking buildings in Breda. Its massive iron-truss dome measures fifty-three meters in diameter and once enclosed a circular space where over a hundred and ninety-eight prison cells radiated outward from a central observation point.\n\nThe building was designed by architect Johan Frederik Metzelaar and constructed between 1882 and 1886. Its design was based on the panopticon philosophy of the English philosopher Jeremy Bentham, who proposed that a prison could be most efficiently managed if a single guard standing in the center could observe every prisoner at any moment. The psychological effect of constant potential observation was meant to encourage good behavior — prisoners would behave as if watched, even when they were not.\n\nDe Koepel functioned as a prison for over one hundred and thirty years. It was designated a national monument in 2001 and finally closed its gates in 2016. Since then, the building has been undergoing a remarkable transformation into what is now called the Koepelkwartier — the Dome District. Plans include housing, cultural venues, restaurants, and green public space within and around the historic structure.\n\nOther dome prisons of this type exist in Haarlem and Arnhem, but Breda's Koepel is considered particularly fine. It is a rare case of a building whose most oppressive feature — its all-seeing design — is also its most awe-inspiring architectural achievement.",
+        "nl": "Voor u staat De Koepel — een van slechts drie panopticon-gevangenissen die ooit in Nederland zijn gebouwd, en een van de architectonisch meest indrukwekkende gebouwen van Breda. De enorme ijzeren koepel meet drieënvijftig meter in diameter en omsloot ooit een cirkelvormige ruimte waar meer dan honderdachtennegentig gevangeniscellen uitstraalden vanuit een centraal observatiepunt.\n\nHet gebouw werd ontworpen door architect Johan Frederik Metzelaar en gebouwd tussen 1882 en 1886. Het ontwerp was gebaseerd op de panopticon-filosofie van de Engelse filosoof Jeremy Bentham, die voorstelde dat een gevangenis het meest efficiënt beheerd kon worden als één bewaker die in het midden stond elke gevangene op elk moment kon observeren. Het psychologische effect van constante potentiële observatie was bedoeld om goed gedrag aan te moedigen — gevangenen zouden zich gedragen alsof ze werden bekeken, zelfs als dat niet zo was.\n\nDe Koepel functioneerde meer dan honderddertig jaar als gevangenis. Het werd in 2001 aangewezen als rijksmonument en sloot in 2016 definitief zijn deuren. Sindsdien ondergaat het gebouw een opmerkelijke transformatie tot wat nu het Koepelkwartier wordt genoemd. De plannen omvatten woningen, culturele voorzieningen, restaurants en groene openbare ruimte binnen en rondom de historische structuur.\n\nAndere koepelgevangenissen van dit type bestaan in Haarlem en Arnhem, maar Breda's Koepel wordt als bijzonder fraai beschouwd. Het is een zeldzaam geval van een gebouw waarvan het meest beklemmende kenmerk — het alziende ontwerp — ook zijn meest ontzagwekkende architectonische prestatie is.",
+        "de": "Vor Ihnen steht De Koepel — die Kuppel — eines von nur drei Panoptikon-Gefängnissen, die je in den Niederlanden gebaut wurden, und eines der architektonisch beeindruckendsten Gebäude Bredas. Seine massive eiserne Kuppel misst dreiundfünfzig Meter im Durchmesser und umschloss einst einen kreisförmigen Raum, von dem aus über hundertachtundneunzig Gefängniszellen von einem zentralen Beobachtungspunkt ausstrahlten.\n\nDas Gebäude wurde vom Architekten Johan Frederik Metzelaar entworfen und zwischen 1882 und 1886 erbaut. Sein Design basierte auf der Panoptikon-Philosophie des englischen Philosophen Jeremy Bentham, der vorschlug, dass ein Gefängnis am effizientesten verwaltet werden könnte, wenn ein einzelner Wächter in der Mitte jeden Gefangenen jederzeit beobachten könnte. Der psychologische Effekt ständiger potenzieller Beobachtung sollte gutes Verhalten fördern — Gefangene würden sich so verhalten, als würden sie beobachtet, auch wenn sie es nicht wurden.\n\nDe Koepel funktionierte über hundertdreißig Jahre als Gefängnis. Es wurde 2001 als nationales Denkmal ausgewiesen und schloss 2016 seine Tore endgültig. Seitdem wird das Gebäude in das sogenannte Koepelkwartier umgewandelt. Die Pläne umfassen Wohnungen, Kultureinrichtungen, Restaurants und grüne öffentliche Räume innerhalb und rund um das historische Gebäude.\n\nAndere Kuppelgefängnisse dieser Art gibt es in Haarlem und Arnhem, aber Bredas Koepel gilt als besonders schön. Es ist ein seltener Fall eines Gebäudes, dessen bedrückendstes Merkmal — sein allsehendes Design — auch seine beeindruckendste architektonische Leistung ist."
+      },
+      "images": ["breda-city-walk/de-koepel.jpg"],
+      "tags": ["gevangenis", "architectuur", "monument", "panopticon", "koepel"]
+    },
+    {
+      "id": "duitse-panther-tank",
+      "order": 8,
+      "name": {
+        "en": "German Panther Tank",
+        "nl": "Duitse Panther Tank",
+        "de": "Deutscher Panther-Panzer"
+      },
+      "subtitle": {
+        "en": "World War II Monument – Liberation of Breda, 29 October 1944",
+        "nl": "Tweede Wereldoorlog Monument – Bevrijding van Breda, 29 oktober 1944",
+        "de": "Zweiter Weltkrieg Denkmal – Befreiung von Breda, 29. Oktober 1944"
+      },
+      "location": {
+        "latitude": 51.581028236795134,
+        "longitude": 4.784515052154403,
+        "directions": {
+          "en": "Walk south through the city towards Wilhelminapark. The German Panther Tank stands on a pedestal at the intersection of Wilhelminapark and Paul Windhausenweg. It is impossible to miss — a forty-three-ton steel giant on a concrete plinth.",
+          "nl": "Loop zuidwaarts door de stad richting het Wilhelminapark. De Duitse Panther Tank staat op een sokkel op het kruispunt van het Wilhelminapark en de Paul Windhausenweg. Het is onmogelijk te missen — een drieënveertig ton zware stalen reus op een betonnen plint.",
+          "de": "Gehen Sie südwärts durch die Stadt in Richtung Wilhelminapark. Der deutsche Panther-Panzer steht auf einem Sockel an der Kreuzung Wilhelminapark und Paul Windhausenweg. Er ist unmöglich zu übersehen — ein dreiundvierzig Tonnen schwerer Stahlriese auf einem Betonpodest."
+        }
+      },
+      "description": {
+        "en": "Standing before you is a German Panther tank — forty-three tons of steel built in 1943, now frozen in place as a monument to liberation. This is not a replica. It is a genuine Panzer V Ausführung D — and it holds the distinction of being the only surviving example of this specific variant anywhere in the world.\n\nThe story of how it came to be here begins on October 29, 1944, when the First Polish Armoured Division liberated Breda from Nazi occupation. The Polish soldiers who freed this city discovered the tank among other military vehicles at a testing ground near Meppen in Germany. In 1945, as a gift and gesture of lasting friendship, they presented the tank to the people of Breda. It was unveiled as a monument on October 29, 1945 — exactly one year after the liberation.\n\nIn December 2003 the tank was removed for a major restoration. It was brought back to life by British tank restoration expert Kevin Wheatcroft, who restored the exterior to its original wartime camouflage colors in exchange for the engine and gearbox. The fully intact interior — a rare survival — was preserved in the process.\n\nThe tank was returned to its pedestal on October 28, 2004. Today it stands as a powerful symbol: a weapon of war transformed into an emblem of gratitude, remembrance, and the enduring bond between Breda and Poland. At our next stop, we will hear more about the Polish soldiers who gave this city its freedom.",
+        "nl": "Voor u staat een Duitse Panther-tank — drieënveertig ton staal gebouwd in 1943, nu bevroren als monument voor de bevrijding. Dit is geen replica. Het is een echte Panzer V Ausführung D — en het heeft de onderscheiding om het enige overgebleven exemplaar van dit specifieke type te zijn, waar ook ter wereld.\n\nHet verhaal van hoe het hier terechtkwam begint op 29 oktober 1944, toen de Eerste Poolse Pantserdivisie Breda bevrijdde van de nazi-bezetting. De Poolse soldaten die deze stad bevrijdden, ontdekten de tank bij andere militaire voertuigen op een testterrein bij Meppen in Duitsland. In 1945 schonken ze, als geschenk en gebaar van blijvende vriendschap, de tank aan de mensen van Breda. Het werd onthuld als monument op 29 oktober 1945 — precies een jaar na de bevrijding.\n\nIn december 2003 werd de tank verwijderd voor een ingrijpende restauratie. Hij werd weer tot leven gewekt door de Britse tankrestauratie-expert Kevin Wheatcroft, die het exterieur in de originele camouflagekleuren uit de oorlogstijd restaureerde in ruil voor de motor en de versnellingsbak. Het volledig intacte interieur — een zeldzame overlevende — werd in het proces bewaard.\n\nDe tank werd op 28 oktober 2004 teruggezet op zijn sokkel. Vandaag staat hij als een krachtig symbool: een wapen van oorlog getransformeerd tot een embleem van dankbaarheid, herdenking en de duurzame band tussen Breda en Polen. Bij onze volgende stop horen we meer over de Poolse soldaten die deze stad haar vrijheid gaven.",
+        "de": "Vor Ihnen steht ein deutscher Panther-Panzer — dreiundvierzig Tonnen Stahl, gebaut im Jahr 1943, jetzt als Denkmal der Befreiung eingefroren. Dies ist kein Nachbau. Es handelt sich um einen echten Panzer V Ausführung D — und er hat die Auszeichnung, das einzige überlebende Exemplar dieser spezifischen Variante weltweit zu sein.\n\nDie Geschichte, wie er hierher kam, beginnt am 29. Oktober 1944, als die Erste Polnische Panzerdivision Breda von der NS-Besatzung befreite. Die polnischen Soldaten, die diese Stadt befreiten, entdeckten den Panzer unter anderen Militärfahrzeugen auf einem Testgelände bei Meppen in Deutschland. Im Jahr 1945 schenkten sie ihn als Geschenk und Geste dauerhafter Freundschaft den Menschen in Breda. Er wurde am 29. Oktober 1945 als Denkmal enthüllt — genau ein Jahr nach der Befreiung.\n\nIm Dezember 2003 wurde der Panzer zur umfassenden Restaurierung entfernt. Er wurde vom britischen Panzerrestaurierungsexperten Kevin Wheatcroft wieder zum Leben erweckt, der das Äußere in den ursprünglichen Kriegstarnanstrich restaurierte, im Austausch für Motor und Getriebe. Das vollständig intakte Innere — ein seltener Überlebender — wurde dabei bewahrt.\n\nDer Panzer wurde am 28. Oktober 2004 auf seinen Sockel zurückgebracht. Heute steht er als mächtiges Symbol: eine Kriegswaffe, die in ein Emblem der Dankbarkeit, des Gedenkens und der dauerhaften Verbindung zwischen Breda und Polen verwandelt wurde. Bei unserem nächsten Halt werden wir mehr über die polnischen Soldaten hören, die dieser Stadt ihre Freiheit schenkten."
+      },
+      "images": ["breda-city-walk/duitse-panther-tank.jpg"],
+      "tags": ["tweede-wereldoorlog", "bevrijding", "monument", "tank", "pools", "wilhelminapark"]
+    },
+    {
+      "id": "pools-monument",
+      "order": 9,
+      "name": {
+        "en": "Polish Monument",
+        "nl": "Pools Monument",
+        "de": "Polnisches Denkmal"
+      },
+      "subtitle": {
+        "en": "1st Polish Armoured Division – Liberators of Breda",
+        "nl": "1e Poolse Pantserdivisie – Bevrijders van Breda",
+        "de": "1. Polnische Panzerdivision – Befreier von Breda"
+      },
+      "location": {
+        "latitude": 51.58098823491972,
+        "longitude": 4.783206134216434,
+        "directions": {
+          "en": "The Polish Monument stands just a short walk from the Panther Tank, also within Wilhelminapark. Look for the memorial stone or sculpture commemorating the First Polish Armoured Division.",
+          "nl": "Het Poolse Monument staat op een korte loopafstand van de Panther Tank, eveneens in het Wilhelminapark. Zoek naar de herdenkingssteen of sculptuur ter nagedachtenis aan de Eerste Poolse Pantserdivisie.",
+          "de": "Das Polnische Denkmal steht nur einen kurzen Fußweg vom Panther-Panzer entfernt, ebenfalls im Wilhelminapark. Suchen Sie nach dem Gedenkstein oder der Skulptur, die der Ersten Polnischen Panzerdivision gedenkt."
+        }
+      },
+      "description": {
+        "en": "On October 29, 1944, the people of Breda woke up free. The liberators were Polish.\n\nGeneral Stanisław Maczek commanded the First Polish Armoured Division, a unit that had fought its way across Europe as part of the First Canadian Army under Field Marshal Bernard Montgomery. Maczek's soldiers were not fighting only for military objectives — many had lost their homes, their families, and their country to Nazi occupation. They fought with everything they had.\n\nWhen Maczek's division approached Breda, he made a decision that would earn him eternal gratitude from the city's population. Traditional military doctrine called for an artillery bombardment before an urban assault — a tactic that would have devastated Breda's historic buildings and risked civilian lives. Maczek chose a different approach: through skillful maneuvering and flanking movements, his division liberated the entire city with almost no artillery fire. Breda was freed with minimal damage to its buildings and, crucially, minimal loss of civilian life.\n\nMore than one hundred and sixty Polish soldiers died in the battle for Breda and are buried at the Polish Military Cemetery on the Ettensebaan. General Maczek himself is buried among his men — an almost unparalleled gesture of solidarity with the soldiers who served under him.\n\nBreda never forgot. The Polish Monument here in Wilhelminapark, the Maczek Memorial museum, and the annual Liberation Day commemorations on October 29 are enduring expressions of a bond forged in sacrifice. When you visit Poland or meet a Polish person, mention Breda — you may be surprised by the response.",
+        "nl": "Op 29 oktober 1944 werden de inwoners van Breda vrij wakker. De bevrijders waren Polen.\n\nGeneraal Stanisław Maczek commandeerde de Eerste Poolse Pantserdivisie, een eenheid die zijn weg door Europa had gevochten als onderdeel van het Eerste Canadese Leger onder veldmaarschalk Bernard Montgomery. De soldaten van Maczek vochten niet alleen voor militaire doelstellingen — velen hadden hun thuis, hun families en hun land verloren aan de nazibezetters. Ze vochten met alles wat ze hadden.\n\nToen de divisie van Maczek Breda naderde, nam hij een beslissing die hem eeuwige dankbaarheid van de bevolking zou opleveren. De traditionele militaire doctrine vereiste een artilleriebombardement voor een stedelijke aanval — een tactiek die de historische gebouwen van Breda zou hebben verwoest en burgerlevens in gevaar zou hebben gebracht. Maczek koos een andere aanpak: door middel van vakkundige manoeuvres en flankerende bewegingen bevrijdde zijn divisie de hele stad met bijna geen artillerievuur. Breda werd bevrijd met minimale schade aan de gebouwen en, cruciaal, minimaal verlies van burgerleven.\n\nMeer dan honderd zestig Poolse soldaten stierven in de strijd om Breda en zijn begraven op het Pools Militair Ereveld aan de Ettensebaan. Generaal Maczek zelf is begraven bij zijn mannen — een vrijwel ongeëvenaard gebaar van solidariteit met de soldaten die onder hem dienden.\n\nBreda heeft het nooit vergeten. Het Poolse Monument hier in het Wilhelminapark, het Maczek Memorial museum en de jaarlijkse herdenkingen op 29 oktober zijn blijvende uitingen van een band gesmeed in offer. Wanneer u Polen bezoekt of een Poolse persoon ontmoet, noem dan Breda — u zult misschien verrast zijn door de reactie.",
+        "de": "Am 29. Oktober 1944 erwachten die Menschen in Breda frei. Die Befreier waren Polen.\n\nGeneral Stanisław Maczek befehligte die Erste Polnische Panzerdivision, eine Einheit, die sich ihren Weg durch Europa als Teil der Ersten Kanadischen Armee unter Feldmarschall Bernard Montgomery erkämpft hatte. Maczeks Soldaten kämpften nicht nur für militärische Ziele — viele hatten ihre Heimat, ihre Familien und ihr Land durch die NS-Besatzung verloren. Sie kämpften mit allem, was sie hatten.\n\nAls Maczeks Division Breda näherte, traf er eine Entscheidung, die ihm ewige Dankbarkeit der Stadtbevölkerung einbringen sollte. Die traditionelle Militärdoktrin sah einen Artilleriebeschuss vor einem städtischen Angriff vor — eine Taktik, die Bredas historische Gebäude verwüstet und Zivilleben gefährdet hätte. Maczek wählte einen anderen Ansatz: Durch geschickte Manöver und Flankenbewegungen befreite seine Division die gesamte Stadt mit fast keinem Artilleriefeuer. Breda wurde mit minimalen Schäden an den Gebäuden und, entscheidend, minimalem Verlust von Zivilenleben befreit.\n\nMehr als hundertsechzig polnische Soldaten starben im Kampf um Breda und sind auf dem Polnischen Militärfriedhof an der Ettensebaan begraben. General Maczek selbst ist unter seinen Männern begraben — eine fast beispiellose Geste der Solidarität mit den Soldaten, die unter ihm dienten.\n\nBreda hat nie vergessen. Das Polnische Denkmal hier im Wilhelminapark, das Maczek-Gedenkmuseum und die jährlichen Befreiungsfeierlichkeiten am 29. Oktober sind dauerhafter Ausdruck einer im Opfer geschmiedeten Verbindung. Wenn Sie Polen besuchen oder einem Polen begegnen, erwähnen Sie Breda — Sie werden vielleicht von der Reaktion überrascht sein."
+      },
+      "images": ["breda-city-walk/pools-monument.jpg"],
+      "tags": ["tweede-wereldoorlog", "bevrijding", "monument", "pools", "maczek", "wilhelminapark"]
+    },
+    {
+      "id": "sint-joost-kapel",
+      "order": 10,
+      "name": {
+        "en": "Sint Joost Kapel",
+        "nl": "Sint Joost Kapel",
+        "de": "Sankt-Joost-Kapelle"
+      },
+      "subtitle": {
+        "en": "Breda's Oldest Chapel, built around 1436",
+        "nl": "Breda's oudste kapel, gebouwd rond 1436",
+        "de": "Bredas älteste Kapelle, erbaut um 1436"
+      },
+      "location": {
+        "latitude": 51.58528052067747,
+        "longitude": 4.7767154917949135,
+        "directions": {
+          "en": "Walk north from Wilhelminapark back into the city center. The Sint Joost Kapel is located at number 23 on the Ginnekenstraat, one of Breda's main shopping streets. Look for the small Gothic facade set between the shops.",
+          "nl": "Loop noordwaarts vanuit het Wilhelminapark terug naar het stadscentrum. De Sint Joost Kapel bevindt zich op nummer 23 van de Ginnekenstraat, een van Breda's belangrijkste winkelstraten. Zoek naar de kleine gotische gevel tussen de winkels.",
+          "de": "Gehen Sie nördlich vom Wilhelminapark zurück in die Innenstadt. Die Sankt-Joost-Kapelle befindet sich in der Ginnekenstraat Nummer 23, einer der Haupteinkaufsstraßen Bredas. Suchen Sie nach der kleinen gotischen Fassade zwischen den Geschäften."
+        }
+      },
+      "description": {
+        "en": "Tucked between shops on the busy Ginnekenstraat, the Sint Joost Kapel is the oldest chapel in Breda, built around the year 1436. Its modest Brabantine Gothic facade belies the extraordinary history within.\n\nThe chapel is dedicated to Saint Judoc — also known as Sint Joost — a seventh-century Breton hermit who became a patron saint of pilgrims and of those seeking protection from contagious disease. In the Middle Ages, when plague and pestilence were constant companions of city life, such a patron was urgently needed.\n\nIn 1518 a cemetery was consecrated alongside the chapel. Over time, it became the burial ground for those excluded from ordinary churchyards: the poor, people who had taken their own lives, executed criminals, and others pushed to the margins of medieval society. It was a place of last resort — but also, perhaps, of final mercy.\n\nThe chapel's most recent transformation came during the Second World War. In 1943, as Allied bombs fell across the Netherlands and the future of Breda was uncertain, the Bishop of Breda made a vow: if the city were spared from major destruction, he would dedicate a chapel to the Virgin Mary. Breda was indeed spared — largely thanks to General Maczek's tactics, which we have just discussed. True to his word, on May 3, 1947, the Bishop consecrated this ancient chapel as a Marian Chapel.\n\nToday, candles burn inside throughout the year. Locals and visitors alike stop here to light a flame, say a prayer, or simply sit in silence — a living continuity of devotion in the middle of everyday commerce.",
+        "nl": "Ingeklemd tussen winkels op de drukke Ginnekenstraat is de Sint Joost Kapel de oudste kapel van Breda, gebouwd rond het jaar 1436. De bescheiden Brabants-gotische gevel verhult de buitengewone geschiedenis binnenin.\n\nDe kapel is gewijd aan Sint Judocus — ook bekend als Sint Joost — een zevende-eeuwse Bretonse kluizenaar die uitgroeide tot beschermheilige van pelgrims en van degenen die bescherming zochten tegen besmettelijke ziekten. In de Middeleeuwen, toen pest en ellende vaste metgezellen waren van het stadsleven, was zo'n beschermheilige dringend nodig.\n\nIn 1518 werd er een begraafplaats naast de kapel gewijd. In de loop der tijd werd het de begraafplaats voor degenen die waren uitgesloten van gewone kerkhoven: de armen, mensen die zichzelf het leven hadden benomen, ter dood veroordeelde misdadigers en anderen die naar de marges van de middeleeuwse samenleving waren gedruwd. Het was een plek van laatste toevlucht — maar misschien ook van ultieme barmhartigheid.\n\nDe meest recente transformatie van de kapel vond plaats tijdens de Tweede Wereldoorlog. In 1943, terwijl geallieerde bommen neervielen op Nederland en de toekomst van Breda onzeker was, deed de bisschop van Breda een gelofte: als de stad gespaard zou blijven van grote verwoesting, zou hij een kapel toewijden aan de Maagd Maria. Breda werd inderdaad gespaard — grotendeels dankzij de tactiek van generaal Maczek, die we zojuist hebben besproken. Getrouw aan zijn woord wijdde de bisschop op 3 mei 1947 deze oude kapel als Mariakapel.\n\nVandaag branden er het hele jaar door kaarsen. Inwoners en bezoekers stoppen hier om een kaarsje aan te steken, een gebed te zeggen of gewoon in stilte te zitten — een levende continuïteit van devotie midden in het alledaagse winkelgeweld.",
+        "de": "Eingeklemmt zwischen Geschäften in der belebten Ginnekenstraat ist die Sankt-Joost-Kapelle die älteste Kapelle Bredas, erbaut um das Jahr 1436. Ihre bescheidene brabantoschgotische Fassade verbirgt die außergewöhnliche Geschichte dahinter.\n\nDie Kapelle ist dem Heiligen Judocus gewidmet — auch bekannt als Sint Joost — einem bretonischen Einsiedler aus dem siebten Jahrhundert, der zum Schutzpatron von Pilgern und denen wurde, die Schutz vor ansteckenden Krankheiten suchten. Im Mittelalter, als Pest und Seuchen ständige Begleiter des Stadtlebens waren, war ein solcher Schutzpatron dringend nötig.\n\nIm Jahr 1518 wurde neben der Kapelle ein Friedhof geweiht. Mit der Zeit wurde er zur Begräbnisstätte für diejenigen, die von gewöhnlichen Kirchhöfen ausgeschlossen waren: die Armen, Menschen, die sich das Leben genommen hatten, hingerichtete Kriminelle und andere, die an den Rand der mittelalterlichen Gesellschaft gedrängt worden waren. Es war ein Ort der letzten Zuflucht — aber vielleicht auch der endgültigen Barmherzigkeit.\n\nDie jüngste Umwandlung der Kapelle fand während des Zweiten Weltkriegs statt. Im Jahr 1943, als Bomben der Alliierten über den Niederlanden fielen und die Zukunft Bredas ungewiss war, legte der Bischof von Breda ein Gelübde ab: Wenn die Stadt von größerer Zerstörung verschont bliebe, würde er eine Kapelle der Jungfrau Maria widmen. Breda blieb tatsächlich verschont — größtenteils dank General Maczeks Taktik, die wir gerade besprochen haben. Seinem Wort treu, weihte der Bischof am 3. Mai 1947 diese alte Kapelle als Marienkapelle.\n\nHeute brennen das ganze Jahr über Kerzen darin. Einheimische und Besucher gleichermaßen halten hier inne, um eine Kerze anzuzünden, ein Gebet zu sprechen oder einfach in Stille zu sitzen — eine lebendige Kontinuität der Andacht inmitten des alltäglichen Handels."
+      },
+      "images": ["breda-city-walk/sint-joost-kapel.jpg"],
+      "tags": ["kapel", "middeleeuwen", "religie", "gotisch", "maria"]
+    },
+    {
+      "id": "grote-kerk",
+      "order": 11,
+      "name": {
+        "en": "Grote Kerk",
+        "nl": "Grote Kerk",
+        "de": "Grote Kerk"
+      },
+      "subtitle": {
+        "en": "Onze-Lieve-Vrouwekerk – Gothic Cathedral, 97 meters",
+        "nl": "Onze-Lieve-Vrouwekerk – Gotische Kathedraal, 97 meter",
+        "de": "Onze-Lieve-Vrouwekerk – Gotische Kathedrale, 97 Meter"
+      },
+      "location": {
+        "latitude": 51.58878713317314,
+        "longitude": 4.77499878491839,
+        "directions": {
+          "en": "Continue north along the Ginnekenstraat towards the city center. The tower of the Grote Kerk — ninety-seven meters of Brabantine Gothic stone — is visible from a great distance. Enter the church square and stand before the main entrance on the south side.",
+          "nl": "Loop verder noordwaarts langs de Ginnekenstraat richting het stadscentrum. De toren van de Grote Kerk — zevenennegentig meter Brabants-gotisch steen — is van ver zichtbaar. Betreed het kerkplein en sta voor de hoofdingang aan de zuidkant.",
+          "de": "Gehen Sie weiter nördlich entlang der Ginnekenstraat in Richtung Stadtzentrum. Der Turm der Grote Kerk — siebenundneunzig Meter brabantoschgotischer Stein — ist aus großer Entfernung sichtbar. Betreten Sie den Kirchplatz und stellen Sie sich vor dem Haupteingang auf der Südseite auf."
+        }
+      },
+      "description": {
+        "en": "You are standing before the Grote Kerk — the Great Church — officially the Onze-Lieve-Vrouwekerk, the Church of Our Lady. At ninety-seven meters, its tower is the tallest structure in Breda and has been a landmark on the flat Brabant plain for over five centuries.\n\nThe first stone church on this site was mentioned in records as early as 1269. Construction of the current building began in 1410, when Engelbrecht the First of Nassau — the same man commemorated by the monument in Park Valkenberg — commissioned a grand new church to celebrate the birth of his son. The tower you see today was built between 1468 and 1509, after the original tower collapsed in 1457. The church reached its current form around 1547.\n\nInside the church you will find the Prinsenkapel — the Prince's Chapel — built between 1520 and 1525 as the mausoleum of the Nassau-Breda dynasty. Here lie the ancestors of the modern Dutch royal family: Engelbrecht the First, Engelbrecht the Second, Count Henry the Third, and others. The richly carved tomb monuments are among the finest examples of Renaissance sculpture in the Netherlands.\n\nLike all major Dutch churches, the Grote Kerk underwent profound change during the Reformation. In 1566 and again in 1637 it became Protestant. The Catholic altar paintings and statuary were removed, but the building's magnificent architecture survived.\n\nToday the church also houses one of the largest organs in the Netherlands. Standing beneath its vaulted ceiling, it is easy to feel the weight of six hundred years pressing gently down.",
+        "nl": "U staat voor de Grote Kerk — officieel de Onze-Lieve-Vrouwekerk. Met zevenennegentig meter is de toren de hoogste structuur van Breda en al meer dan vijf eeuwen een baken op de vlakke Brabantse vlakte.\n\nDe eerste stenen kerk op deze plek werd al vermeld in documenten uit 1269. De bouw van het huidige gebouw begon in 1410, toen Engelbrecht I van Nassau — dezelfde man die herdacht wordt door het monument in het Valkenbergpark — opdracht gaf voor een grote nieuwe kerk ter viering van de geboorte van zijn zoon. De toren die u vandaag ziet werd gebouwd tussen 1468 en 1509, nadat de oorspronkelijke toren in 1457 instortte. De kerk bereikte zijn huidige vorm rond 1547.\n\nBinnen de kerk vindt u de Prinsenkapel — gebouwd tussen 1520 en 1525 als mausoleum van de Nassau-Bredase dynastie. Hier liggen de voorvaders van de moderne Nederlandse koninklijke familie: Engelbrecht I, Engelbrecht II, graaf Hendrik III en anderen. De rijkelijk gebeeldhouwde grafmonumenten behoren tot de mooiste voorbeelden van renaissancesculptuur in Nederland.\n\nNet als alle grote Nederlandse kerken onderging de Grote Kerk ingrijpende veranderingen tijdens de Reformatie. In 1566 en opnieuw in 1637 werd ze protestants. De katholieke altaarschilderijen en beeldhouwwerken werden verwijderd, maar de prachtige architectuur van het gebouw overleefde.\n\nVandaag herbergt de kerk ook een van de grootste orgels van Nederland. Staande onder het gewelfde plafond is het gemakkelijk het gewicht van zeshonderd jaar zachtjes voelen drukken.",
+        "de": "Sie stehen vor der Grote Kerk — der Großen Kirche — offiziell die Onze-Lieve-Vrouwekerk, die Kirche Unserer Lieben Frau. Mit siebenundneunzig Metern ist ihr Turm das höchste Bauwerk in Breda und seit über fünf Jahrhunderten ein Wahrzeichen auf der flachen Brabanter Ebene.\n\nDie erste Steinkirche an diesem Ort wurde bereits 1269 in Aufzeichnungen erwähnt. Der Bau des heutigen Gebäudes begann im Jahr 1410, als Engelbrecht der Erste von Nassau — derselbe Mann, der durch das Denkmal im Park Valkenberg geehrt wird — eine große neue Kirche zur Feier der Geburt seines Sohnes in Auftrag gab. Der Turm, den Sie heute sehen, wurde zwischen 1468 und 1509 erbaut, nachdem der ursprüngliche Turm 1457 einstürzte. Die Kirche erreichte ihre heutige Form um 1547.\n\nIm Inneren der Kirche finden Sie die Prinsenkapel — die Prinzenkapelle — die zwischen 1520 und 1525 als Mausoleum der Nassauer-Breda-Dynastie erbaut wurde. Hier liegen die Vorfahren der modernen niederländischen Königsfamilie: Engelbrecht der Erste, Engelbrecht der Zweite, Graf Heinrich der Dritte und andere. Die reich geschnitzten Grabdenkmäler sind einige der schönsten Beispiele der Renaissanceskulptur in den Niederlanden.\n\nWie alle großen niederländischen Kirchen erfuhr die Grote Kerk während der Reformation tiefgreifende Veränderungen. 1566 und erneut 1637 wurde sie protestantisch. Die katholischen Altargemälde und Skulpturen wurden entfernt, aber die prächtige Architektur des Gebäudes überlebte.\n\nHeute beherbergt die Kirche auch eine der größten Orgeln der Niederlande. Unter ihrem Gewölbe stehend, ist es leicht, das Gewicht von sechshundert Jahren sanft auf sich drücken zu spüren."
+      },
+      "images": ["breda-city-walk/grote-kerk.jpg"],
+      "tags": ["kerk", "gotisch", "nassau", "architectuur", "koninklijk", "mausoleum"]
+    },
+    {
+      "id": "einde-spanjaardsgat",
+      "order": 12,
+      "name": {
+        "en": "End of the Walk – Spanjaardsgat",
+        "nl": "Einde van de Wandeling – Spanjaardsgat",
+        "de": "Ende des Spaziergangs – Spanjaardsgat"
+      },
+      "subtitle": {
+        "en": "Return to the starting point",
+        "nl": "Terugkeer naar het beginpunt",
+        "de": "Rückkehr zum Ausgangspunkt"
+      },
+      "location": {
+        "latitude": 51.59059805308745,
+        "longitude": 4.772733808656848,
+        "directions": {
+          "en": "Walk north along the Kasteelplein back to the Spanjaardsgat water gate where we began. You have completed the full Breda city walk.",
+          "nl": "Loop noordwaarts langs het Kasteelplein terug naar de waterpoort het Spanjaardsgat waar we begonnen zijn. U heeft de volledige Bredase stadswandeling voltooid.",
+          "de": "Gehen Sie nördlich entlang dem Kasteelplein zurück zum Spanjaardsgat-Wassertor, wo wir begonnen haben. Sie haben den vollständigen Breda-Stadtspaziergang abgeschlossen."
+        }
+      },
+      "description": {
+        "en": "You have returned to the Spanjaardsgat — the place where our walk began, and perhaps the most fitting place to end it.\n\nIn just a few kilometers, Breda has shown you an extraordinary range of history. You started here with a tale of soldiers hiding in a peat boat, a story so improbable it became legendary. You walked past the site where one of the most famous paintings in Western history was set. You stood in a beguinage founded before the United States, France, or any modern nation state existed. You visited a panopticon prison where philosophy was turned into stone and iron. You touched the era of World War Two — a genuine tank, a Polish monument, a promise made by a bishop.\n\nAnd through it all, you have followed the thread of the Nassau family — the dynasty that shaped this city more than any other force, whose ambitions are carved into the Grote Kerk, whose politics shaped the Begijnhof, and whose descendants still sit on the Dutch throne today.\n\nBreda is not a city that announces itself loudly. It does not overwhelm you with scale the way Amsterdam does, or dazzle you with canals the way Utrecht does. But layer by layer, street by street, Breda reveals itself as a city of extraordinary depth — where every alley, every courtyard, every monument carries the echo of something larger.\n\nWe hope you enjoyed the walk. Thank you for listening.",
+        "nl": "U bent terug bij het Spanjaardsgat — de plek waar onze wandeling begon, en misschien de meest passende plek om haar te eindigen.\n\nIn slechts een paar kilometer heeft Breda u een buitengewone variatie aan geschiedenis getoond. U begon hier met een verhaal over soldaten die zich verstopten in een turfschip, een verhaal zo onwaarschijnlijk dat het legendarisch werd. U liep voorbij de plek waar een van de beroemdste schilderijen in de westerse geschiedenis werd neergezet. U stond in een begijnhof gesticht vóór de Verenigde Staten, Frankrijk of welke moderne natiestaat dan ook bestond. U bezocht een panopticongevangenis waar filosofie werd omgezet in steen en ijzer. U raakte het tijdperk van de Tweede Wereldoorlog aan — een echte tank, een Pools monument, een belofte gedaan door een bisschop.\n\nEn door dit alles heeft u de rode draad van de Nassaufamilie gevolgd — de dynastie die deze stad meer dan enige andere kracht heeft gevormd, waarvan de ambities zijn uitgehouwen in de Grote Kerk, waarvan de politiek het Begijnhof heeft gevormd, en waarvan de nakomelingen vandaag nog steeds op de Nederlandse troon zitten.\n\nBreda is geen stad die zichzelf luidruchtig aankondigt. Ze overweldigt u niet met schaal zoals Amsterdam doet, of verblindt u met grachten zoals Utrecht doet. Maar laag voor laag, straat voor straat, openbaart Breda zich als een stad van buitengewone diepgang — waar elke steeg, elke binnenplaats, elk monument de echo draagt van iets groters.\n\nWe hopen dat u de wandeling heeft genoten. Bedankt voor het luisteren.",
+        "de": "Sie sind zum Spanjaardsgat zurückgekehrt — dem Ort, an dem unser Spaziergang begann, und vielleicht dem passendsten Ort, um ihn zu beenden.\n\nAuf nur wenigen Kilometern hat Breda Ihnen eine außergewöhnliche Bandbreite an Geschichte gezeigt. Sie begannen hier mit einer Geschichte von Soldaten, die sich in einem Torfboot versteckten — eine Geschichte so unwahrscheinlich, dass sie zur Legende wurde. Sie gingen an dem Ort vorbei, an dem eines der berühmtesten Gemälde der westlichen Geschichte angesiedelt wurde. Sie standen in einem Beginenhof, der gegründet wurde, bevor die Vereinigten Staaten, Frankreich oder irgendein moderner Nationalstaat existierten. Sie besuchten ein Panoptikon-Gefängnis, wo Philosophie in Stein und Eisen umgewandelt wurde. Sie berührten die Ära des Zweiten Weltkriegs — ein echter Panzer, ein polnisches Denkmal, ein Versprechen eines Bischofs.\n\nUnd durch all das haben Sie den Faden der Nassau-Familie verfolgt — der Dynastie, die diese Stadt mehr als jede andere Kraft geprägt hat, deren Ambitionen in die Grote Kerk gemeißelt sind, deren Politik den Beginenhof geprägt hat und deren Nachkommen noch heute auf dem niederländischen Thron sitzen.\n\nBreda ist keine Stadt, die sich lautstark ankündigt. Sie überwältigt Sie nicht mit Ausmaß wie Amsterdam, oder blendet Sie mit Kanälen wie Utrecht. Aber Schicht für Schicht, Straße für Straße offenbart sich Breda als eine Stadt von außergewöhnlicher Tiefe — wo jede Gasse, jeder Innenhof, jedes Denkmal das Echo von etwas Größerem trägt.\n\nWir hoffen, dass Ihnen der Spaziergang gefallen hat. Vielen Dank fürs Zuhören."
+      },
+      "images": ["breda-city-walk/spanjaardsgat.jpg"],
+      "tags": ["einde", "terugkeer", "spanjaardsgat"]
+    }
+  ]
+}
