@@ -414,6 +414,38 @@
         "amsterdam-city-walk/tehuis-voor-arbeiders.jpg"
       ],
       "tags": ["social-history", "architecture", "housing", "1920s"]
+    },
+    {
+      "id": "einde-leidseplein",
+      "order": 13,
+      "name": {
+        "en": "End of the Walk – Leidseplein",
+        "nl": "Einde van de Wandeling – Leidseplein",
+        "de": "Ende des Spaziergangs – Leidseplein"
+      },
+      "subtitle": {
+        "en": "Return to the starting point",
+        "nl": "Terugkeer naar het beginpunt",
+        "de": "Rückkehr zum Ausgangspunkt"
+      },
+      "location": {
+        "latitude": 52.36412863610362,
+        "longitude": 4.883057400497297,
+        "directions": {
+          "en": "Walk five minutes south along Marnixstraat until you reach Leidseplein. You are back where the walk began — in front of the Hirschgebouw, at the edge of the square.",
+          "nl": "Loop vijf minuten zuidwaarts langs de Marnixstraat tot u het Leidseplein bereikt. U bent terug waar de wandeling begon — voor het Hirschgebouw, aan de rand van het plein.",
+          "de": "Gehen Sie fünf Minuten südwärts entlang der Marnixstraat, bis Sie das Leidseplein erreichen. Sie sind wieder dort, wo der Spaziergang begann — vor dem Hirschgebouw, am Rand des Platzes."
+        }
+      },
+      "description": {
+        "en": "You have made it back to Leidseplein — the same square, the same Hirschgebouw facade, the same trams grinding past. But you are carrying something you did not have when you set out.\n\nThis walk has taken you through several overlapping stories. You began at a department store that survived the Second World War only to be confiscated and returned, its history compressed into a sandstone facade. You passed through the Vondelpark, where the counterculture of the 1970s briefly made Amsterdam the freest city in the world. You stood at the market where generations of immigrants — Surinamese, Turkish, Moroccan, Indonesian — transformed what had been a poor workers' district into one of the most vibrant neighborhoods in Europe. You saw where Rembrandt lost everything and painted his greatest works in the aftermath.\n\nAnd you ended, a few minutes ago, at a building that housed three hundred and sixty men who had no one to house them — a quiet monument to the idea that a city owes something to the people who make it run.\n\nAmsterdam is often described through its Golden Age: the canals, the merchant houses, the paintings. That story is real and worth knowing. But the city is also the sum of the people who did not make it into the paintings — the market traders, the workers, the refugees, the artists who could not pay their rent. This walk has tried to hold both versions at once.\n\nLeidseplein will fill up again this evening with tourists and street musicians and people deciding where to eat. The city moves on, as it always has. Thank you for walking with us.",
+        "nl": "U bent terug op het Leidseplein — hetzelfde plein, dezelfde gevel van het Hirschgebouw, dezelfde trams die voorbijrijden. Maar u draagt iets wat u niet had toen u vertrok.\n\nDeze wandeling heeft u door verschillende overlappende verhalen geleid. U begon bij een warenhuis dat de Tweede Wereldoorlog overleefde, werd geconfisqueerd en teruggegeven, met zijn geschiedenis samengeperst in een zandstenen gevel. U liep door het Vondelpark, waar de tegencultuur van de jaren zeventig van Amsterdam kortstondig de vrieste stad ter wereld maakte. U stond op de markt waar generaties immigranten — Surinamers, Turken, Marokkanen, Indonesiërs — een arme arbeiderswijk transformeerden tot een van de levendigste buurten van Europa. U zag waar Rembrandt alles verloor en zijn grootste werken schilderde in de nasleep.\n\nEn u eindigde, een paar minuten geleden, bij een gebouw dat driehonderdzestig mannen huisvestte die niemand anders had om hen te huisvesten — een stil monument voor het idee dat een stad iets verschuldigd is aan de mensen die haar laten draaien.\n\nAmsterdam wordt vaak beschreven via zijn Gouden Eeuw: de grachten, de grachtenpanden, de schilderijen. Dat verhaal is echt en de moeite waard om te kennen. Maar de stad is ook de som van de mensen die het niet haalden in de schilderijen — de marktkooplieden, de arbeiders, de vluchtelingen, de kunstenaars die hun huur niet konden betalen. Deze wandeling heeft geprobeerd beide versies tegelijk vast te houden.\n\nHet Leidseplein loopt vanavond weer vol met toeristen, straatmuzikanten en mensen die beslissen waar ze gaan eten. De stad gaat verder, zoals altijd. Bedankt voor het meelopen.",
+        "de": "Sie sind zurück am Leidseplein — derselbe Platz, dieselbe Hirschgebouw-Fassade, dieselben Straßenbahnen, die vorbeifahren. Aber Sie tragen etwas, das Sie nicht hatten, als Sie aufbrachen.\n\nDieser Spaziergang hat Sie durch mehrere überlappende Geschichten geführt. Sie begannen bei einem Kaufhaus, das den Zweiten Weltkrieg überlebte, konfisziert und zurückgegeben wurde, seine Geschichte in eine Sandsteinfassade gepresst. Sie gingen durch den Vondelpark, wo die Gegenkultur der 1970er Jahre Amsterdam kurzzeitig zur freiesten Stadt der Welt machte. Sie standen auf dem Markt, wo Generationen von Einwanderern — Surinamesen, Türken, Marokkaner, Indonesier — ein armes Arbeiterviertel in eines der lebendigsten Viertel Europas verwandelten. Sie sahen, wo Rembrandt alles verlor und seine größten Werke im Nachgang schuf.\n\nUnd Sie endeten, vor wenigen Minuten, bei einem Gebäude, das dreihundertsechzig Männer beherbergte, die niemanden hatten, der sie beherbergte — ein stilles Denkmal für die Idee, dass eine Stadt den Menschen, die sie am Laufen halten, etwas schuldet.\n\nAmsterdam wird oft durch sein Goldenes Zeitalter beschrieben: die Kanäle, die Grachtenhäuser, die Gemälde. Diese Geschichte ist real und es lohnt sich, sie zu kennen. Aber die Stadt ist auch die Summe der Menschen, die es nicht in die Gemälde geschafft haben — die Markthändler, die Arbeiter, die Flüchtlinge, die Künstler, die ihre Miete nicht bezahlen konnten. Dieser Spaziergang hat versucht, beide Versionen gleichzeitig festzuhalten.\n\nDas Leidseplein wird sich heute Abend wieder mit Touristen, Straßenmusikanten und Menschen füllen, die entscheiden, wo sie essen gehen. Die Stadt macht weiter, wie immer. Vielen Dank fürs Mitgehen."
+      },
+      "images": [
+        "amsterdam-city-walk/hirschgebouw.jpg"
+      ],
+      "tags": ["einde", "terugkeer", "leidseplein"]
     }
   ]
 }
