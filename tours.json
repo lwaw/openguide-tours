@@ -16,21 +16,6 @@
       "startLocation": { "latitude": 52.36412863610362, "longitude": 4.883057400497297 }
     },
     {
-      "id": "louvre-must-see",
-      "name": {
-        "en": "Louvre Must-See",
-        "nl": "Louvre Hoogtepunten",
-        "fr": "Incontournables du Louvre"
-      },
-      "type": "museum",
-      "city": "Paris",
-      "country": "France",
-      "thumbnail": "louvre-must-see/thumbnail.jpg",
-      "duration": 90,
-      "stopCount": 3,
-      "startLocation": { "latitude": 48.860611, "longitude": 2.337644 }
-    },
-    {
       "id": "stedelijk-museum-breda",
       "name": {
         "nl": "Stedelijk Museum Breda",
