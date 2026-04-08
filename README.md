@@ -165,4 +165,4 @@ The `description` field is read aloud by text-to-speech. Write it as if you're a
 - Keep sentences clear and not too long
 - Avoid abbreviations (write "centimeters" not "cm")
 - Include context about the artist, period, or technique
-- Aim for 30-90 seconds of speaking time (roughly 75-225 words)
+- Aim for 3-4 minutes of speaking time (roughly 420-560 words). The exact length can vary depending on the available historical information for a stop — a rich historic site may warrant 500+ words, a transitional or closing stop may be shorter. Avoid going below 300 words or above 650 words.
