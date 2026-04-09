@@ -131,7 +131,22 @@ Multiple images per stop are supported by adding more entries to the array.
 
 ## Field Reference
 
-### Tour Fields
+### Tour Index Fields (tours.json)
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `id` | Yes | Unique identifier (URL-friendly) |
+| `name` | Yes | Localized tour name |
+| `type` | Yes | `"city"` or `"museum"` |
+| `city` | Yes | City where the tour takes place |
+| `country` | Yes | Country where the tour takes place |
+| `thumbnail` | Yes | Local relative path to tour card image |
+| `image` | No | Optional image: local relative path or Pexels photo page URL |
+| `duration` | Yes | Estimated duration in minutes |
+| `stopCount` | Yes | Number of stops (keep in sync with tour.json) |
+| `startLocation` | Yes | GPS coordinates of the tour's starting point |
+
+### Tour Fields (tour.json)
 
 | Field | Required | Description |
 |-------|----------|-------------|

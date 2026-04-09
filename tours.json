@@ -57,6 +57,7 @@
       "city": "Utrecht",
       "country": "Netherlands",
       "thumbnail": "utrecht-city-walk/thumbnail.jpg",
+      "image": "https://www.pexels.com/photo/utrecht-dom-tower-against-a-clear-blue-sky-32348114/",
       "duration": 180,
       "stopCount": 17,
       "startLocation": { "latitude": 52.09053558400775, "longitude": 5.111050943375483 }
