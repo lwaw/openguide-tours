@@ -1,137 +1,164 @@
-# Museum Audio Tour Data
+# Tour Data
 
-This folder contains all museum and exhibit data for the audio tour app.
+This folder contains all tour and stop data for the audio tour app.
 
 ## Folder Structure
 
 ```
 data/
-├── museums.json          # Index of all available museums
-├── README.md             # This documentation
-└── museums/
-    └── {museum-id}/
-        └── museum.json   # Museum details and exhibits
+├── tours.json          # Index of all available tours
+├── README.md           # This documentation
+└── tours/
+    └── {tour-id}/
+        ├── tour.json   # Full tour data including all stops
+        └── *.jpg       # Optional local images (referenced in stop data)
 ```
 
-## How to Add a New Museum
+## How to Add a New Tour
 
-### Step 1: Create the museum folder
+### Step 1: Create the tour folder
 
-Create a new folder in `/data/museums/` using a URL-friendly ID (lowercase, hyphens instead of spaces):
+Create a new folder in `/data/tours/` using a URL-friendly ID (lowercase, hyphens instead of spaces):
 
 ```
-/data/museums/your-museum-name/
+/data/tours/your-tour-name/
 ```
 
-### Step 2: Create museum.json
+### Step 2: Create tour.json
 
-Create `/data/museums/your-museum-name/museum.json` with this structure:
+Create `/data/tours/your-tour-name/tour.json` with this structure:
 
 ```json
 {
-  "id": "your-museum-name",
+  "id": "your-tour-name",
   "name": {
-    "en": "Your Museum Name",
-    "nl": "Je Museum Naam"
+    "en": "Your Tour Name",
+    "nl": "Je Tournaam"
   },
   "description": {
-    "en": "A brief description of the museum.",
-    "nl": "Een korte beschrijving van het museum."
+    "en": "A brief description of the tour.",
+    "nl": "Een korte beschrijving van de tour."
   },
-  "address": "Street Address, City",
-  "location": {
-    "latitude": 52.0000,
-    "longitude": 4.0000
+  "type": "city",
+  "duration": 90,
+  "distance": 3.5,
+  "startPoint": {
+    "name": { "en": "Starting location name", "nl": "Naam startlocatie" },
+    "address": "Street Address, City",
+    "location": { "latitude": 52.0000, "longitude": 4.0000 }
   },
   "supportedLanguages": ["en", "nl"],
   "defaultLanguage": "en",
-  "exhibits": []
+  "stops": []
 }
 ```
 
-### Step 3: Add to the museum index
+For museum tours, use `"type": "museum"` and replace `startPoint` with `venue` (which also includes `openingHours` and `ticketInfo`).
 
-Add an entry to `/data/museums.json`:
+### Step 3: Add to the tour index
+
+Add an entry to `/data/tours.json`:
 
 ```json
 {
-  "id": "your-museum-name",
-  "name": {
-    "en": "Your Museum Name",
-    "nl": "Je Museum Naam"
-  },
+  "id": "your-tour-name",
+  "name": { "en": "Your Tour Name", "nl": "Je Tournaam" },
+  "type": "city",
   "city": "Amsterdam",
   "country": "Netherlands",
-  "thumbnail": "your-museum-name/thumbnail.jpg",
-  "exhibitCount": 0
+  "thumbnail": "your-tour-name/thumbnail.jpg",
+  "duration": 90,
+  "stopCount": 0,
+  "startLocation": { "latitude": 52.0000, "longitude": 4.0000 }
 }
 ```
 
-## How to Add an Exhibit
+## How to Add a Stop
 
-Add an exhibit object to the `exhibits` array in the museum's `museum.json`:
+Add a stop object to the `stops` array in the tour's `tour.json`:
 
 ```json
 {
-  "id": "exhibit-id",
+  "id": "stop-id",
   "order": 1,
   "name": {
-    "en": "Exhibit Name",
-    "nl": "Tentoonstelling Naam"
+    "en": "Stop Name",
+    "nl": "Stopnaam"
   },
-  "artist": "Artist Name (optional)",
-  "year": "1642 (optional)",
+  "subtitle": {
+    "en": "Optional: year · short context",
+    "nl": "Optioneel: jaar · korte context"
+  },
   "location": {
     "latitude": 52.0000,
     "longitude": 4.0000,
-    "floor": 1,
-    "room": "Room Name",
     "directions": {
-      "en": "Directions to find the exhibit",
-      "nl": "Aanwijzingen om de tentoonstelling te vinden"
+      "en": "How to find this stop.",
+      "nl": "Hoe u deze stop vindt."
     }
   },
   "description": {
-    "en": "The full description that will be read aloud by text-to-speech. This should be informative and engaging, typically 2-4 paragraphs.",
-    "nl": "De volledige beschrijving die wordt voorgelezen door tekst-naar-spraak."
+    "en": "The full narration text, read aloud by text-to-speech.",
+    "nl": "De volledige tekst die wordt voorgelezen door tekst-naar-spraak."
   },
-  "images": [
-    "your-museum-name/exhibit-image.jpg"
-  ],
-  "tags": ["painting", "sculpture", "etc"]
+  "images": [],
+  "tags": ["architecture", "history"]
 }
 ```
 
-**Important:** After adding exhibits, update `exhibitCount` in `/data/museums.json`.
+After adding stops, update `stopCount` in `/data/tours.json`.
+
+## Images
+
+The `images` field accepts an array of zero or more image references. Two formats are supported:
+
+**Local file** — a relative path from the `data/` folder to an image in the tour folder:
+```json
+"images": ["your-tour-name/stop-name.jpg"]
+```
+
+**Pexels URL** — the full photo page URL from [pexels.com](https://www.pexels.com):
+```json
+"images": ["https://www.pexels.com/photo/description-of-photo-12345678/"]
+```
+
+**No image yet** — use an empty array:
+```json
+"images": []
+```
+
+Multiple images per stop are supported by adding more entries to the array.
 
 ## Field Reference
 
-### Museum Fields
+### Tour Fields
 
 | Field | Required | Description |
 |-------|----------|-------------|
 | `id` | Yes | Unique identifier (URL-friendly) |
-| `name` | Yes | Localized museum name |
-| `description` | Yes | Localized description |
-| `address` | Yes | Physical address |
-| `location` | Yes | GPS coordinates of the museum |
+| `name` | Yes | Localized tour name |
+| `description` | Yes | Localized tour description |
+| `type` | Yes | `"city"` or `"museum"` |
+| `duration` | Yes | Estimated duration in minutes |
+| `distance` | No | Walking distance in kilometres (city tours) |
+| `startPoint` | City tours | Localized name, address, and GPS location |
+| `venue` | Museum tours | Museum name, address, GPS, hours, tickets |
 | `supportedLanguages` | Yes | Array of ISO 639-1 language codes |
 | `defaultLanguage` | Yes | Fallback language code |
-| `exhibits` | Yes | Array of exhibit objects |
+| `stops` | Yes | Array of stop objects |
 
-### Exhibit Fields
+### Stop Fields
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `id` | Yes | Unique identifier within the museum |
-| `order` | Yes | Suggested tour order (1, 2, 3...) |
-| `name` | Yes | Localized exhibit name |
-| `artist` | No | Creator/artist name |
-| `year` | No | Year of creation |
-| `location` | Yes | GPS + indoor location |
-| `description` | Yes | Localized text for audio tour (TTS) |
-| `images` | No | Array of image paths |
-| `tags` | No | Categorization tags |
+| `id` | Yes | Unique identifier within the tour (URL-friendly) |
+| `order` | Yes | Tour sequence number (1, 2, 3...) |
+| `name` | Yes | Localized stop name |
+| `subtitle` | No | Short localized context line (dates, significance) |
+| `location` | Yes | GPS coordinates, optional indoor info, optional directions |
+| `description` | Yes | Localized narration text for audio tour (TTS) |
+| `images` | Yes | Array of image references (local paths or Pexels URLs); use `[]` if none |
+| `tags` | Yes | Categorization tags |
 
 ### Location Fields
 
@@ -139,8 +166,7 @@ Add an exhibit object to the `exhibits` array in the museum's `museum.json`:
 |-------|----------|-------------|
 | `latitude` | Yes | GPS latitude |
 | `longitude` | Yes | GPS longitude |
-| `floor` | Yes | Floor number or name |
-| `room` | Yes | Room name or number |
+| `indoor` | No | `{ "floor": 1, "room": "Room name" }` (museum stops) |
 | `directions` | No | Localized wayfinding text |
 
 ## Multi-Language Support
@@ -157,12 +183,6 @@ All user-facing text fields use localized objects:
 
 Use [ISO 639-1 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
-## Tips for Writing Descriptions
+## Writing Stop Descriptions
 
-The `description` field is read aloud by text-to-speech. Write it as if you're a tour guide speaking to visitors:
-
-- Start with the most interesting fact
-- Keep sentences clear and not too long
-- Avoid abbreviations (write "centimeters" not "cm")
-- Include context about the artist, period, or technique
-- Aim for 3-4 minutes of speaking time (roughly 420-560 words). The exact length can vary depending on the available historical information for a stop — a rich historic site may warrant 500+ words, a transitional or closing stop may be shorter. Avoid going below 300 words or above 650 words.
+The `description` field is read aloud by text-to-speech. See the TOUR CONTENT GUIDELINES section in `CLAUDE.md` for full narration style guidance, including target length (520–650 words), em dash avoidance, and tone.
