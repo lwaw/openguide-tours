@@ -3,17 +3,21 @@
     {
       "id": "amsterdam-city-walk",
       "name": {
-        "en": "Amsterdam City Walk",
-        "nl": "Amsterdam Stadswandeling",
-        "de": "Amsterdam Stadtrundgang"
+        "en": "Canals, Markets & Masters",
+        "nl": "Grachten, Markten & Meesters",
+        "de": "Grachten, Märkte & Meister"
       },
       "type": "city",
       "city": "Amsterdam",
       "country": "Netherlands",
       "thumbnail": "amsterdam-city-walk/thumbnail.jpg",
+      "image": "34217731",
       "duration": 180,
       "stopCount": 13,
-      "startLocation": { "latitude": 52.36412863610362, "longitude": 4.883057400497297 }
+      "startLocation": {
+        "latitude": 52.36412863610362,
+        "longitude": 4.883057400497297
+      }
     },
     {
       "id": "stedelijk-museum-breda",
@@ -29,29 +33,36 @@
       "thumbnail": "stedelijk-museum-breda/thumbnail.jpg",
       "duration": 75,
       "stopCount": 10,
-      "startLocation": { "latitude": 51.589414, "longitude": 4.781228 }
+      "startLocation": {
+        "latitude": 51.589414,
+        "longitude": 4.781228
+      }
     },
     {
       "id": "breda-city-walk",
       "name": {
-        "en": "Breda City Walk",
-        "nl": "Breda Stadswandeling",
-        "de": "Breda Stadtspaziergang"
+        "en": "From Siege to Liberation",
+        "nl": "Van Beleg tot Bevrijding",
+        "de": "Von der Belagerung zur Befreiung"
       },
       "type": "city",
       "city": "Breda",
       "country": "Netherlands",
       "thumbnail": "breda-city-walk/thumbnail.jpg",
+      "image": "11661781",
       "duration": 180,
       "stopCount": 12,
-      "startLocation": { "latitude": 51.59059805308745, "longitude": 4.772733808656848 }
+      "startLocation": {
+        "latitude": 51.59059805308745,
+        "longitude": 4.772733808656848
+      }
     },
     {
       "id": "utrecht-city-walk",
       "name": {
-        "en": "Utrecht City Walk",
-        "nl": "Utrecht Stadswandeling",
-        "de": "Utrecht Stadtrundgang"
+        "en": "Under the Dom & Past Miffy",
+        "nl": "Onder de Dom & Langs Nijntje",
+        "de": "Unterm Dom & an Miffy vorbei"
       },
       "type": "city",
       "city": "Utrecht",
@@ -60,7 +71,10 @@
       "image": "32348114",
       "duration": 180,
       "stopCount": 17,
-      "startLocation": { "latitude": 52.09053558400775, "longitude": 5.111050943375483 }
+      "startLocation": {
+        "latitude": 52.09053558400775,
+        "longitude": 5.111050943375483
+      }
     }
   ]
 }
