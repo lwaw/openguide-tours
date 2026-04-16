@@ -53,7 +53,7 @@ Create `/data/tours/your-tour-name/tour.json` with this structure:
 }
 ```
 
-For museum tours, use `"type": "museum"` and replace `startPoint` with `venue` (which also includes `openingHours` and `ticketInfo`).
+For museum tours, use `"type": "museum"` and replace `startPoint` with `venue` (containing `name`, `address`, and `location`).
 
 ### Step 3: Add to the tour index
 
@@ -158,10 +158,18 @@ Multiple images per stop are supported by adding more entries to the array.
 | `duration` | Yes | Estimated duration in minutes |
 | `distance` | No | Walking distance in kilometres (city tours) |
 | `startPoint` | City tours | Localized name, address, and GPS location |
-| `venue` | Museum tours | Museum name, address, GPS, hours, tickets |
+| `venue` | Museum tours | Museum name, address, and GPS location |
 | `supportedLanguages` | Yes | Array of ISO 639-1 language codes |
 | `defaultLanguage` | Yes | Fallback language code |
 | `stops` | Yes | Array of stop objects |
+
+### Venue Fields (museum tours)
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `name` | Yes | Localized museum name |
+| `address` | Yes | Street address |
+| `location` | Yes | GPS coordinates (`latitude`, `longitude`) |
 
 ### Stop Fields
 
