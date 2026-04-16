@@ -10,8 +10,7 @@ data/
 ├── README.md           # This documentation
 └── tours/
     └── {tour-id}/
-        ├── tour.json   # Full tour data including all stops
-        └── *.jpg       # Optional local images (referenced in stop data)
+        └── tour.json   # Full tour data including all stops
 ```
 
 ## How to Add a New Tour
@@ -110,25 +109,18 @@ After adding stops, update `stopCount` in `/data/tours.json`.
 
 ## Images
 
-The `images` field accepts an array of zero or more image references. Two formats are supported:
+The `images` field accepts an array with zero or one Pexels photo ID.
 
-**Local file** — a relative path from the `data/` folder to an image in the tour folder:
-```json
-"images": ["your-tour-name/stop-name.jpg"]
-```
-
-**Pexels photo ID** — the numeric ID from the end of the Pexels photo page URL.
+**With image** — use the numeric ID from the end of the Pexels photo page URL.
 For `https://www.pexels.com/photo/some-title-12345678/` the ID is `12345678`:
 ```json
 "images": ["12345678"]
 ```
 
-**No image yet** — use an empty array:
+**No image** — use an empty array:
 ```json
 "images": []
 ```
-
-Multiple images per stop are supported by adding more entries to the array.
 
 ## Field Reference
 
@@ -142,7 +134,7 @@ Multiple images per stop are supported by adding more entries to the array.
 | `city` | Yes | City where the tour takes place |
 | `country` | Yes | Country where the tour takes place |
 | `thumbnail` | Yes | Local relative path to tour card image |
-| `image` | No | Optional image: local relative path or Pexels photo ID (numeric) |
+| `image` | No | Optional Pexels photo ID (numeric string) |
 | `duration` | Yes | Estimated duration in minutes |
 | `stopCount` | Yes | Number of stops (keep in sync with tour.json) |
 | `startLocation` | Yes | GPS coordinates of the tour's starting point |
@@ -181,7 +173,7 @@ Multiple images per stop are supported by adding more entries to the array.
 | `subtitle` | No | Short localized context line (dates, significance) |
 | `location` | Yes | GPS coordinates, optional indoor info, optional directions |
 | `description` | Yes | Localized narration text for audio tour (TTS) |
-| `images` | Yes | Array of image references (local paths or Pexels photo IDs); use `[]` if none |
+| `images` | Yes | Array with zero or one Pexels photo ID; use `[]` if none |
 | `tags` | Yes | Categorization tags |
 
 ### Location Fields
