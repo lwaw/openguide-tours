@@ -75,6 +75,26 @@
         "latitude": 52.09053558400775,
         "longitude": 5.111050943375483
       }
+    },
+    {
+      "id": "nederlands-stoommachinemuseum",
+      "name": {
+        "nl": "Land van Water en Stoom",
+        "en": "Land of Water and Steam",
+        "de": "Land des Wassers und des Dampfes",
+        "fr": "Pays de l'Eau et de la Vapeur"
+      },
+      "type": "museum",
+      "city": "Medemblik",
+      "country": "Netherlands",
+      "thumbnail": "nederlands-stoommachinemuseum/thumbnail.jpg",
+      "image": "27358360",
+      "duration": 90,
+      "stopCount": 18,
+      "startLocation": {
+        "latitude": 52.759933,
+        "longitude": 5.117675
+      }
     }
   ]
 }
