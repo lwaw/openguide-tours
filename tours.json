@@ -36,6 +36,19 @@
       "startLocation": {
         "latitude": 51.589414,
         "longitude": 4.781228
+      },
+      "venue": {
+        "name": {
+          "nl": "Stedelijk Museum Breda",
+          "en": "Stedelijk Museum Breda",
+          "de": "Stedelijk Museum Breda",
+          "fr": "Musée Municipal de Breda"
+        },
+        "address": "Boschstraat 22, 4811 GH Breda",
+        "location": {
+          "latitude": 51.58963,
+          "longitude": 4.78098
+        }
       }
     },
     {
@@ -94,6 +107,19 @@
       "startLocation": {
         "latitude": 52.759933,
         "longitude": 5.117675
+      },
+      "venue": {
+        "name": {
+          "nl": "Nederlands Stoommachinemuseum",
+          "en": "Dutch Steam Engine Museum",
+          "de": "Niederländisches Dampfmaschinenmuseum",
+          "fr": "Musée Néerlandais de la Machine à Vapeur"
+        },
+        "address": "Oosterdijk 4, 1671 HJ Medemblik",
+        "location": {
+          "latitude": 52.759933,
+          "longitude": 5.117675
+        }
       }
     }
   ]
