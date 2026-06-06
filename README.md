@@ -52,7 +52,10 @@ Create `/data/tours/your-tour-name/tour.json` with this structure:
 }
 ```
 
-For museum tours, use `"type": "museum"` and replace `startPoint` with `venue` (containing `name`, `address`, and `location`).
+For museum tours, use `"type": "museum"` and omit `startPoint`. The venue does
+**not** go in `tour.json`; it lives in the tour index (`tours.json`) instead, so
+it can be searched and shown on the tour list (see Step 3). The app reads the
+venue from the index for the detail and map screens.
 
 ### Step 3: Add to the tour index
 
@@ -69,6 +72,29 @@ Add an entry to `/data/tours.json`:
   "duration": 90,
   "stopCount": 0,
   "startLocation": { "latitude": 52.0000, "longitude": 4.0000 }
+}
+```
+
+For **museum tours**, add a `venue` object to the same index entry (required for
+`"type": "museum"`). It holds the localized museum name, address, and GPS
+location, and powers venue search on the tour list:
+
+```json
+{
+  "id": "your-museum-tour",
+  "name": { "en": "Your Museum Tour", "nl": "Je Museumtour" },
+  "type": "museum",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "thumbnail": "your-museum-tour/thumbnail.jpg",
+  "duration": 75,
+  "stopCount": 0,
+  "startLocation": { "latitude": 52.0000, "longitude": 4.0000 },
+  "venue": {
+    "name": { "en": "Museum Name", "nl": "Museumnaam" },
+    "address": "Street Address, City",
+    "location": { "latitude": 52.0000, "longitude": 4.0000 }
+  }
 }
 ```
 
@@ -138,6 +164,7 @@ For `https://www.pexels.com/photo/some-title-12345678/` the ID is `12345678`:
 | `duration` | Yes | Estimated duration in minutes |
 | `stopCount` | Yes | Number of stops (keep in sync with tour.json) |
 | `startLocation` | Yes | GPS coordinates of the tour's starting point |
+| `venue` | Museum tours | Museum name, address, and GPS location (searchable from the tour list) |
 
 ### Tour Fields (tour.json)
 
@@ -150,12 +177,12 @@ For `https://www.pexels.com/photo/some-title-12345678/` the ID is `12345678`:
 | `duration` | Yes | Estimated duration in minutes |
 | `distance` | No | Walking distance in kilometres (city tours) |
 | `startPoint` | City tours | Localized name, address, and GPS location |
-| `venue` | Museum tours | Museum name, address, and GPS location |
+| `venue` | No (legacy) | Museum venue now lives in the index (`tours.json`). Optional here; if present it is validated, but new museum tours should set it in the index instead |
 | `supportedLanguages` | Yes | Array of ISO 639-1 language codes |
 | `defaultLanguage` | Yes | Fallback language code |
 | `stops` | Yes | Array of stop objects |
 
-### Venue Fields (museum tours)
+### Venue Fields (museum tours, in the `tours.json` index)
 
 | Field | Required | Description |
 |-------|----------|-------------|

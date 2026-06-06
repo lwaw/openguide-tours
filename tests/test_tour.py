@@ -193,11 +193,14 @@ def test_city_tour_has_start_point(tour):
         "'startPoint.location' must have 'latitude' and 'longitude'"
 
 
-def test_museum_tour_has_venue(tour):
+def test_museum_tour_venue_is_valid_if_present(tour):
     if tour["type"] != "museum":
         pytest.skip("Not a museum tour")
-    assert "venue" in tour, "Museum tours must have a 'venue' field"
-    venue = tour["venue"]
+    # Venue authoritatively lives in the index (tours.json); it may be omitted
+    # from the individual tour.json. Validate its structure only when present.
+    venue = tour.get("venue")
+    if venue is None:
+        pytest.skip("Venue not present in tour.json (lives in the index)")
     for field in ("name", "address", "location"):
         assert field in venue, f"'venue' missing field: {field!r}"
     loc = venue["location"]

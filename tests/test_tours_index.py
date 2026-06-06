@@ -183,6 +183,24 @@ def test_start_location_has_valid_coords(tour_summary):
         f"Tour {tour_summary['id']!r}: invalid longitude {lon!r}"
 
 
+def test_museum_summary_has_venue(tour_summary):
+    if tour_summary["type"] != "museum":
+        pytest.skip("Not a museum tour")
+    assert "venue" in tour_summary, (
+        f"Tour {tour_summary['id']!r}: museum tours must have a 'venue' in the index"
+    )
+    venue = tour_summary["venue"]
+    for field in ("name", "address", "location"):
+        assert field in venue, f"Tour {tour_summary['id']!r}: 'venue' missing field: {field!r}"
+    loc = venue["location"]
+    lat = loc.get("latitude")
+    lon = loc.get("longitude")
+    assert isinstance(lat, (int, float)) and -90 <= lat <= 90, \
+        f"Tour {tour_summary['id']!r}: invalid venue latitude {lat!r}"
+    assert isinstance(lon, (int, float)) and -180 <= lon <= 180, \
+        f"Tour {tour_summary['id']!r}: invalid venue longitude {lon!r}"
+
+
 def test_thumbnail_is_non_empty_string(tour_summary):
     thumb = tour_summary["thumbnail"]
     assert isinstance(thumb, str) and thumb, \
