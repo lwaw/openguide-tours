@@ -1,6 +1,39 @@
 {
   "tours": [
     {
+      "id": "stedelijk-museum-alkmaar",
+      "name": {
+        "nl": "Van Belegering tot Penseel",
+        "en": "From Siege to Brushstroke",
+        "de": "Von der Belagerung zum Pinsel",
+        "fr": "Du siège au pinceau"
+      },
+      "type": "museum",
+      "city": "Alkmaar",
+      "country": "Netherlands",
+      "thumbnail": "stedelijk-museum-alkmaar/thumbnail.jpg",
+      "image": "18250532",
+      "duration": 120,
+      "stopCount": 24,
+      "startLocation": {
+        "latitude": 52.633451,
+        "longitude": 4.743153
+      },
+      "venue": {
+        "name": {
+          "nl": "Stedelijk Museum Alkmaar",
+          "en": "Stedelijk Museum Alkmaar",
+          "de": "Stedelijk Museum Alkmaar",
+          "fr": "Stedelijk Museum Alkmaar"
+        },
+        "address": "Canadaplein 1, 1811 KE Alkmaar",
+        "location": {
+          "latitude": 52.633451,
+          "longitude": 4.743153
+        }
+      }
+    },
+    {
       "id": "amsterdam-city-walk",
       "name": {
         "en": "Canals, Markets & Masters",
