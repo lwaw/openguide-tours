@@ -154,6 +154,39 @@
           "longitude": 5.117675
         }
       }
+    },
+    {
+      "id": "rotes-haus-monschau",
+      "name": {
+        "nl": "Museum Rotes Haus: wonen en weven in Monschau",
+        "en": "Rotes Haus Museum: Living and Weaving in Monschau",
+        "de": "Museum Rotes Haus: Wohnen und Weben in Monschau",
+        "fr": "Musée Rotes Haus : vivre et tisser à Monschau"
+      },
+      "type": "museum",
+      "city": "Monschau",
+      "country": "Germany",
+      "thumbnail": "rotes-haus-monschau/thumbnail.jpg",
+      "image": "16847352",
+      "duration": 100,
+      "stopCount": 25,
+      "startLocation": {
+        "latitude": 50.5548569,
+        "longitude": 6.2409718
+      },
+      "venue": {
+        "name": {
+          "nl": "Museum Rotes Haus",
+          "en": "Rotes Haus Museum",
+          "de": "Museum Rotes Haus",
+          "fr": "Musée Rotes Haus"
+        },
+        "address": "Laufenstraße 10, 52156 Monschau",
+        "location": {
+          "latitude": 50.5548569,
+          "longitude": 6.2409718
+        }
+      }
     }
   ]
 }
